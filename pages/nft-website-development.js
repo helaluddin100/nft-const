@@ -538,18 +538,18 @@ function HiCoin() {
         {/* ===================development track ================== */}
         <section>
           <div className="development-track" id="nft-development">
-            <div class="container">
-              <div class="section-title">
-                <p class="sm-title">best services</p>
-                <h2 class="sec-title">NFT Development Tech Stack</h2>
-                <p class="sec-des">
+            <div className="container">
+              <div className="section-title">
+                <p className="sm-title">best services</p>
+                <h2 className="sec-title">NFT Development Tech Stack</h2>
+                <p className="sec-des">
                   SemiDot is a leading NFT marketplace development company. We
                   are highly innovative & work with advanced technologies.
                 </p>
               </div>
-              <div class="options">
+              <div className="options">
                 <div
-                  class={service === 1 ? "option active" : "option"}
+                  className={service === 1 ? "option active" : "option"}
                   onClick={() => {
                     setService(1);
                   }}
@@ -558,7 +558,7 @@ function HiCoin() {
                   <img
                     src="assets/imgs/triangle.png"
                     alt=""
-                    class="arrow-down"
+                    className="arrow-down"
                   />
                 </div>
                 <div>
@@ -566,7 +566,7 @@ function HiCoin() {
                   <img
                     src="assets/imgs/triangle.png"
                     alt=""
-                    class="arrow-down"
+                    className="arrow-down"
                   />
                 </div>
                 <div>
@@ -574,7 +574,7 @@ function HiCoin() {
                   <img
                     src="assets/imgs/triangle.png"
                     alt=""
-                    class="arrow-down"
+                    className="arrow-down"
                   />
                 </div>
                 <div>
@@ -582,7 +582,7 @@ function HiCoin() {
                   <img
                     src="assets/imgs/triangle.png"
                     alt=""
-                    class="arrow-down"
+                    className="arrow-down"
                   />
                 </div>
                 <div>
@@ -590,7 +590,7 @@ function HiCoin() {
                   <img
                     src="assets/imgs/triangle.png"
                     alt=""
-                    class="arrow-down"
+                    className="arrow-down"
                   />
                 </div>
                 <div>
@@ -598,12 +598,12 @@ function HiCoin() {
                   <img
                     src="assets/imgs/triangle.png"
                     alt=""
-                    class="arrow-down"
+                    className="arrow-down"
                   />
                 </div>
               </div>
 
-              <div class={service === 1 ? "coins active" : "coins"}>
+              <div className={service === 1 ? "coins active" : "coins"}>
                 <div>
                   <img src="assets/imgs/etherium.png" alt="Etherium" />
                   <p>Ethereum</p>
