@@ -746,7 +746,7 @@ function SmartContract() {
                 <h2 className="sec-title">Nft Developement</h2>
                 <p className="sec-des">
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry &apos'
+                  typesetting industry. Lorem Ipsum has been the industry &apos
                   s standard dummy text ever since the 1500s, when an unknown
                   printer took
                 </p>
