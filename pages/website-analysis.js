@@ -260,237 +260,105 @@ function Analysis() {
           </div>
         </section>
         {/* ===================demo request section end ================== */}
+
         {/* ===================service section ================== */}
         <section>
           <div className="service cpy-6">
             <div className="container">
               <div className="section-title">
-                <p className="sm-title">best service</p>
-                <h2 className="sec-title">Services</h2>
+                <p className="sm-title">OUR NON FUNGIBLE</p>
+                <h2 className="sec-title">
+                  What NFT Constructer does in a Website Analysis Service?
+                </h2>
                 <p className="sec-des">
-                  Get more software development information about exchange
-                  software wallet software derivate products and ETC
+                  At W3Era, we analyze the nature and behavior of each element
+                  of the Web pages and search engine’s algorithm, as well as
+                  their interactions. As being a purely intellectual process, we
+                  deal with the 5 most important areas in this section:-
                 </p>
               </div>
 
-              <div className="service-tab">
-                <ul className="tab-ul">
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 1 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(1);
-                      }}
-                    >
-                      All
+              <div className="service-grid cpt-7">
+                <div className="service-car">
+                  <div className="service-icon">
+                    <img src="assets/img/icon/8.png" alt="" />
+                  </div>
+                  <div className="service-content">
+                    <h3>Content</h3>
+                    <p>
+                      Does the language you have used is user-friendly? Does
+                      your website have a unique content? Since it is quite
+                      important to have a unique content, we do analyze the
+                      website content also.
                     </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 2 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(2);
-                      }}
-                    >
-                      Website
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 3 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(3);
-                      }}
-                    >
-                      Video Editing
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 4 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(4);
-                      }}
-                    >
-                      Smart Contract
-                    </p>
-                  </li>
-                </ul>
-              </div>
+                  </div>
+                </div>
 
-              <div
-                className={
-                  serviceActive == 1 ? "service-grid active" : "service-grid"
-                }
-              >
                 <div className="service-car">
                   <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
+                    <img src="assets/img/icon/9.png" alt="" />
                   </div>
                   <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
+                    <h3>SEO</h3>
+                    <p>
+                      Does your website have the target keywords? Does your
+                      website have alt tags on images? How old is your domain?
+                      Who is your true competitor and who is partial? There are
+                      number of factors which we analyze in this section and
+                      recommend the client to apply in their website, Just give
+                      a try to our Website Analysis Service now!
+                    </p>
+                  </div>
+                </div>
+
+                <div className="service-car">
+                  <div className="service-icon">
+                    <img src="assets/img/icon/10.png" alt="" />
+                  </div>
+                  <div className="service-content">
+                    <h3>Technical</h3>
+                    <p>
+                      How much time is your website taking for loading in search
+                      engines? Does your website have the high quality
+                      standards? Does your website have the competitive aspects?
+                      We analyze all these factors and tell the client what is
+                      missing from these technical issues on the website.
+                    </p>
                   </div>
                 </div>
                 <div className="service-car">
                   <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
+                    <img src="assets/img/icon/11.png" alt="" />
                   </div>
                   <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
+                    <h3>Design</h3>
+                    <p>
+                      In order to make a website SEO- friendly we should focus
+                      on the website design as well. Does the design deliver the
+                      appropriate level of effectiveness, sophistication and
+                      accessibility in the market area? We analyze the design
+                      responses of both the website and the user.The SEO’s
+                      approachable design can ensure royal customers and also
+                      excellent brand image of the business.
+                    </p>
                   </div>
                 </div>
                 <div className="service-car">
                   <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
+                    <img src="assets/img/icon/12.png" alt="" />
                   </div>
                   <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 2 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 3 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 4 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
+                    <h3>Usability</h3>
+                    <p>
+                      Can the website visitors find the same information on all
+                      the browsers? Does your website help the visitor to
+                      properly navigate place-to-place? Does the visitor
+                      properly interact with you by using forms or through
+                      emails? We analyze such important factors for your
+                      website. If a website is leading in the usability factor
+                      then it can surpass many other websites in the race of
+                      ranking
+                    </p>
                   </div>
                 </div>
               </div>
@@ -498,6 +366,7 @@ function Analysis() {
           </div>
         </section>
         {/* ===================service section end ================== */}
+
         {/* ===================Mentioned section ================== */}
         <section>
           <div className="mentioned-area">
