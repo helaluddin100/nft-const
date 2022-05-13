@@ -4,7 +4,7 @@ import { Navigation, A11y } from "swiper";
 import CountUp from "react-countup";
 import { Swiper, SwiperSlide } from "swiper/react";
 function SmartContract() {
-  const [serviceActive, setServiceActive] = useState(1);
+  const [service, setService] = useState(1);
 
   return (
     <>
@@ -274,247 +274,10 @@ function SmartContract() {
           </div>
         </section>
         {/* ===================demo request section end ================== */}
-        {/* ===================service section ================== */}
-        <section>
-          <div className="service cpy-6">
-            <div className="container">
-              <div className="section-title">
-                <p className="sm-title">best service</p>
-                <h2 className="sec-title">Services</h2>
-                <p className="sec-des">
-                  Get more software development information about exchange
-                  software wallet software derivate products and ETC
-                </p>
-              </div>
 
-              <div className="service-tab">
-                <ul className="tab-ul">
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 1 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(1);
-                      }}
-                    >
-                      All
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 2 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(2);
-                      }}
-                    >
-                      Website
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 3 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(3);
-                      }}
-                    >
-                      Video Editing
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 4 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(4);
-                      }}
-                    >
-                      Smart Contract
-                    </p>
-                  </li>
-                </ul>
-              </div>
-
-              <div
-                className={
-                  serviceActive == 1 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 2 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 3 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 4 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* ===================service section end ================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div className="mentioned-area cpt-6">
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Been Mentioned In....</h2>
@@ -643,6 +406,104 @@ function SmartContract() {
           </div>
         </section>
         {/* ===================ChainUP section end ================== */}
+        {/* ===================development track ================== */}
+        <section>
+          <div className="development-track cpb-6" id="nft-development">
+            <div className="container">
+              <div className="section-title">
+                <p className="sm-title">best services</p>
+                <h2 className="sec-title">NFT Development Tech Stack</h2>
+                <p className="sec-des">
+                  SemiDot is a leading NFT marketplace development company. We
+                  are highly innovative & work with advanced technologies.
+                </p>
+              </div>
+              <div className="options">
+                <div
+                  className={service === 1 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(1);
+                  }}
+                >
+                  <p>BlockChain Platform</p>
+                  <img
+                    src="assets/imgs/triangle.png"
+                    alt=""
+                    className="arrow-down"
+                  />
+                </div>
+                <div>
+                  <p>Storage Platform</p>
+                  <img
+                    src="assets/imgs/triangle.png"
+                    alt=""
+                    className="arrow-down"
+                  />
+                </div>
+                <div>
+                  <p>NFT Standards</p>
+                  <img
+                    src="assets/imgs/triangle.png"
+                    alt=""
+                    className="arrow-down"
+                  />
+                </div>
+                <div>
+                  <p>Front End Frameworks</p>
+                  <img
+                    src="assets/imgs/triangle.png"
+                    alt=""
+                    className="arrow-down"
+                  />
+                </div>
+                <div>
+                  <p>Programming Languages</p>
+                  <img
+                    src="assets/imgs/triangle.png"
+                    alt=""
+                    className="arrow-down"
+                  />
+                </div>
+                <div>
+                  <p>Cloud Platforms</p>
+                  <img
+                    src="assets/imgs/triangle.png"
+                    alt=""
+                    className="arrow-down"
+                  />
+                </div>
+              </div>
+
+              <div className={service === 1 ? "coins active" : "coins"}>
+                <div>
+                  <img src="assets/imgs/etherium.png" alt="Etherium" />
+                  <p>Ethereum</p>
+                </div>
+                <div>
+                  <img src="assets/imgs/tezos.png" alt="Etherium" />
+                  <p>Tezos</p>
+                </div>
+                <div>
+                  <img src="assets/imgs/wax.png" alt="Etherium" />
+                  <p>Wax</p>
+                </div>
+                <div>
+                  <img src="assets/imgs/cortana.png" alt="Etherium" />
+                  <p>Cortana</p>
+                </div>
+                <div>
+                  <img src="assets/imgs/hyperledger.png" alt="Etherium" />
+                  <p>Hyperledger</p>
+                </div>
+                <div>
+                  <img src="assets/imgs/multichain.png" alt="Etherium" />
+                  <p>Multichain</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* ===================development track end ================== */}
         {/* ===================MARKET REPORT section  ================== */}
         <section>
           <div className="market-report-area cpy-6">
@@ -696,6 +557,72 @@ function SmartContract() {
           </div>
         </section>
         {/* ===================MARKET REPORT section end  ================== */}
+        {/* ==================Features================== */}
+        <section>
+          <div id="inner-area">
+            <div className="features cpt-6">
+              <div className="services-decor">
+                <img src="assets/imgs/decor-ball-1.png" alt="" />
+                <img src="assets/imgs/decor-ball-2.png" alt="" />
+                <img src="assets/imgs/decor-ball-3.png" alt="" />
+                <img src="assets/imgs/decor-ball-4.png" alt="" />
+              </div>
+              <div className="container">
+                <div className="section-title">
+                  <p className="sm-title">FEATURES OF</p>
+                  <h2 className="sec-title"> NFT Development Services</h2>
+                </div>
+
+                <div className="services">
+                  <div className="services-container">
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/img/icon/1.png" alt="" />
+                        <img src="assets/img/icon/1-a.png" alt="" />
+                      </div>
+
+                      <p>Smart Contract Development</p>
+                      <p>
+                        We help you to build your unalterable smart contract on
+                        popular blockchain platforms including Ethereum, TRON,
+                        EOS, Bitcoins, Binance Chain, Polygon, Solana, etc.
+                      </p>
+                    </div>
+
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/img/icon/2.png" alt="" />
+                        <img src="assets/img/icon/2-a.png" alt="" />
+                      </div>
+
+                      <p>Smart Contract Audit</p>
+                      <p>
+                        Security is critical in the development of blockchain.
+                        Our comprehensive smart contract audit service helps
+                        startups and enterprises to launch and maintain their
+                        NFT platforms.
+                      </p>
+                    </div>
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/img/icon/3.png" alt="" />
+                        <img src="assets/img/icon/3-a.png" alt="" />
+                      </div>
+
+                      <p>NFT(ERC721 & ERC1155) Development</p>
+                      <p>
+                        With our NFT Development Services, you get end-to-end
+                        NFT solutions so you can create scalable NFT creation
+                        system and marketplaces for transactions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* ==================Features ================== */}
         {/* ===================Newsletter section  ================== */}
         <div className="newsletters">
           <div className="newsletter-content">
@@ -725,64 +652,163 @@ function SmartContract() {
           <img src="assets/imgs/banner-img.png" alt="" className="banner-img" />
         </div>
         {/* ===================Newsletter section end ================== */}
-        {/* =======================technologies===================== */}
-        <section className="cpy-6">
-          <div className="container">
-            <div className="tools-technologies">
-              <div className="tools-txt">
-                <div className="section-wrap">
-                  <div className="chainup-title">
-                    <p>best services</p>
-                    <h2>Tools And Technologies</h2>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry
-                    &apos; s standard dummy text ever since the 1500s, when an
-                    unknown printer took
-                  </p>
+        {/* ===============Benefits================== */}
+        <section>
+          <div id="inner-area">
+            <div className="benefits-area">
+              <div className="benefits-decor">
+                <img src="assets/imgs/decor-ball-5.png" alt="" />
+                <img src="assets/imgs/decor-ball-6.png" alt="" />
+                <img src="assets/imgs/decor-ball-7.png" alt="" />
+              </div>
+              <div className="container benefit-section">
+                <div className="title">
+                  <p className="colorful-txt">BENIFITS OF</p>
+                  <h2>NFT Development</h2>
+                  <div className="title-line"></div>
                 </div>
 
-                <ul className="tools-list">
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Creding System Style</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">HTML</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Java Script</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">MySQL</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">PHP</p>
-                  </li>
-                </ul>
+                <div className="spider">
+                  <img
+                    src="assets/imgs/center-nft.png"
+                    alt=""
+                    className="spider-center"
+                  />
 
-                <p className="raleway-grey-16">
+                  <div className="benefits">
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/liquidity.png" alt="" />
+                        <p>NFT Liquidity</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/gas.png" alt="" />
+                        <p>Lowest Gas Price</p>
+                      </div>
+                    </div>
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/marketplace.png" alt="" />
+                        <p>Multi-Chain NFT Marketplace</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/smart-contract.png" alt="" />
+                        <p>
+                          Smart contract <br /> Audited NFT
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/stakling.png" alt="" />
+                        <p>NFT Staking</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/lending.png" alt="" />
+                        <p>NFT Lending</p>
+                      </div>
+                    </div>
+
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/launchpad.png" alt="" />
+                        <p>NFT Launch Pad</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/auction.png" alt="" />
+                        <p>Bidding & Auction</p>
+                      </div>
+                    </div>
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/ownership.png" alt="" />
+                        <p>Fractional Ownership</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/minting.png" alt="" />
+                        <p>Lazy Minting</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* ===============Benefits end================== */}
+        {/* ==================benefit================== */}
+        <section>
+          <div className="bene cpy-6">
+            <div className="container">
+              <div className="section-title">
+                <p className="sm-title">BENIFITS OF</p>
+                <h2 className="sec-title">Nft Developement</h2>
+                <p className="sec-des">
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry &apos;
-                  s standard dummy text ever since the 1500s, when an unknown
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
                   printer took
                 </p>
               </div>
 
-              <img
-                src="assets/imgs/decor-1.png"
-                alt="Papers"
-                className="tools-img"
-              />
+              <div className="benefit-container cpt-7">
+                <div className="benefit-box">
+                  <div className="benefit-item">
+                    <div className="benefit-img">
+                      <img src="assets/img/icon/4.png" alt="" />
+                    </div>
+                    <div className="benefit-de">
+                      <h2>Secure & Safe</h2>
+                      <p>
+                        We offer highly secured protection against malicious
+                        activities and fraud in the NFT craze.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="benefit-item">
+                    <div className="benefit-de">
+                      <h2>Customized Solutions</h2>
+                      <p>
+                        Our NFT Marketplaces can be compatible with different
+                        devices (e.g. PCs, smartphones, tablets)
+                      </p>
+                    </div>
+                    <div className="benefit-img">
+                      <img src="assets/img/icon/5.png" alt="" />
+                    </div>
+                  </div>
+                  <div className="benefit-item">
+                    <div className="benefit-img">
+                      <img src="assets/img/icon/6.png" alt="" />
+                    </div>
+                    <div className="benefit-de">
+                      <h2>Highly Scalable</h2>
+                      <p>
+                        We will design a NFT Marketplace that can cope with
+                        newly added listings and an expanding pool of customers
+                      </p>
+                    </div>
+                  </div>
+                  <div className="benefit-item">
+                    <div className="benefit-de">
+                      <h2>Post-launch Support</h2>
+                      <p>
+                        TokenMinds believes in customer satisfaction and hence
+                        we provide ongoing support even after deployment.
+                      </p>
+                    </div>
+                    <div className="benefit-img">
+                      <img src="assets/img/icon/7.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
-        {/* =================================technologies========================= */}
+        {/* ==================benefit================== */}
         {/* =====================top project===================== */}
         <div className="projects">
           <div className="section-title">

@@ -4738,3 +4738,31 @@ button.back-home:hover {
         color: #ffffff;
     }
 }
+
+// =================benefits====================
+.benefit-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.benefit-item {
+    text-align: center;
+}
+
+.benefit-de {
+    margin: 20px;
+}
+
+.benefit-de h2 {
+    margin-bottom: 10px;
+    color: #323232;
+}
+
+.benefit-de p {
+    color: #969696;
+}
+
+.benefit-img img {
+    width: 135px;
+}

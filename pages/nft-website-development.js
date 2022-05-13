@@ -946,7 +946,7 @@ function HiCoin() {
               <div className="container benefit-section">
                 <div className="title">
                   <p className="colorful-txt">BENIFITS OF</p>
-                  <h2>NFT Developement</h2>
+                  <h2>NFT Development</h2>
                   <div className="title-line"></div>
                 </div>
 
