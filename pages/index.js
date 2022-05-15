@@ -4,62 +4,58 @@ import { Navigation, A11y } from "swiper";
 import CountUp from "react-countup";
 import { Swiper, SwiperSlide } from "swiper/react";
 function Home() {
-  const [serviceActive, setServiceActive] = useState(1);
-
   return (
     <>
       <div id="home1">
         <section className="hero">
           <div className="container">
             <div className="hero-wrapper">
-              <div className="hero-content">
-                <div className="widht-60">
-                  <h1 className="title">
-                    Full Stack Web Tech Services For NFT & Fintech Companies
-                  </h1>
-                </div>
-                <div className="widht-50">
-                  <p className="description">
-                    We provide Non-Fungible Development Services that can help
-                    you create NFTs for artworks, digital collectibles, gaming,
-                    sports, music, video, content Subscription, etc.
-                  </p>
-                </div>
-                <div className="input-box widht-40 ">
-                  <div className="input-area">
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="Type your email here"
-                    />
-                    <div className="icon">
-                      <i className="icofont-envelope"></i>
-                    </div>
-                    <div className="btn">
-                      <button className="singup-btn">Sign Up</button>
+              <div className="hero-content-wrapper">
+                <div className="hero-content">
+                  <div className="title-top-img">
+                    <img src="assets/img/inner/cr-1.png" alt="" />
+                  </div>
+                  <div className="widht-60">
+                    <h1 className="title">
+                      Full Stack Web Tech Services For NFT & Fintech Companies
+                    </h1>
+                  </div>
+                  <div className="widht-50">
+                    <p className="description">
+                      We provide Non-Fungible Development Services that can help
+                      you create NFTs for artworks, digital collectibles,
+                      gaming, sports, music, video, content Subscription, etc.
+                    </p>
+                  </div>
+                  <div className="input-box widht-40 ">
+                    <div className="input-area">
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Type your email here"
+                      />
+                      <div className="icon">
+                        <i className="icofont-envelope"></i>
+                      </div>
+                      <div className="btn">
+                        <button className="singup-btn">Sign Up</button>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="service">
-                  <ul>
-                    <li>
-                      <i className="icofont-check"></i> Task Management
-                    </li>
-                    <li>
-                      <i className="icofont-check"></i> 24/7 Great Service
-                    </li>
-                  </ul>
+                  <div className="service">
+                    <ul>
+                      <li>
+                        <i className="icofont-check"></i> Task Management
+                      </li>
+                      <li>
+                        <i className="icofont-check"></i> 24/7 Great Service
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div className="hero-img">
-                <img src="assets/img/inner/iPhone-12.png" alt="" />
-                <div className="hero-chart">
-                  <img src="assets/img/inner/40-3T.png" alt="" />
-                </div>
-
-                <div className="btc">
-                  <img src="assets/img/inner/btc.png" alt="" />
-                </div>
+                <img src="assets/img/hero/webdevlopment.gif" alt="" />
               </div>
             </div>
           </div>
@@ -67,65 +63,70 @@ function Home() {
           <div className="side-img-2">
             <img src="assets/img/inner/cr-3.png" alt="" />
           </div>
-          <div className="title-top-img">
-            <img src="assets/img/inner/cr-1.png" alt="" />
-          </div>
+
           <div className="input-arrow">
             <img src="assets/img/inner/input-arrow.png" alt="" />
-          </div>
-          <div className="mid-cr">
-            <img src="assets/img/inner/cr-2.png" alt="" />
           </div>
         </section>
       </div>
       {/* =============service card section ================== */}
       <section>
         <div className="service-card">
-          <div className="container">
-            <div className="row-4">
-              <div className="col-md-3">
-                <div className="service-show-card">
-                  <div className="service-name-img">
-                    <a href="" className="service-name">
-                      # Quick Start 1
-                    </a>
-                    <img src="assets/img/inner/timer.svg" alt="" />
-                  </div>
-                  <p>Start An exchange company In </p>
+          <div className="row-4">
+            <div className="col-md-3">
+              <div className="service-show-card">
+                <div className="service-name-img">
+                  <a href="" className="service-name">
+                    # FOCUSED ON DELIVERABLES
+                  </a>
+                  <img src="assets/img/inner/timer.svg" alt="" />
                 </div>
+                <p>
+                  Our developers know you need results, which you'll see in the
+                  first two sprints of the Agile process.
+                </p>
               </div>
-              <div className="col-md-3">
-                <div className="service-show-card">
-                  <div className="service-name-img">
-                    <a href="" className="service-name">
-                      # Recomended Cash Back
-                    </a>
-                    <img src="assets/img/inner/doller.svg" alt="" />
-                  </div>
-                  <p>Start An exchange company In </p>
+            </div>
+            <div className="col-md-3">
+              <div className="service-show-card">
+                <div className="service-name-img">
+                  <a href="" className="service-name">
+                    # COMMUNICATIVE
+                  </a>
+                  <img src="assets/img/inner/doller.svg" alt="" />
                 </div>
+                <p>
+                  Clients say the team feels like their employees, because our
+                  English-speaking developers respect their processes.
+                </p>
               </div>
-              <div className="col-md-3">
-                <div className="service-show-card">
-                  <div className="service-name-img">
-                    <a href="" className="service-name">
-                      # Promotion
-                    </a>
-                    <img src="assets/img/inner/notice.svg" alt="" />
-                  </div>
-                  <p>Start An exchange company In </p>
+            </div>
+            <div className="col-md-3">
+              <div className="service-show-card">
+                <div className="service-name-img">
+                  <a href="" className="service-name">
+                    # DESIGN STRATEGY
+                  </a>
+                  <img src="assets/img/inner/notice.svg" alt="" />
                 </div>
+                <p>
+                  We help you formulate a strategy specifically around the
+                  design and vision of your digital artworks and services.
+                </p>
               </div>
-              <div className="col-md-3">
-                <div className="service-show-card">
-                  <div className="service-name-img">
-                    <a href="" className="service-name">
-                      # VIP Customization
-                    </a>
-                    <img src="assets/img/inner/vip.svg" alt="" />
-                  </div>
-                  <p>Start An exchange company In </p>
+            </div>
+            <div className="col-md-3">
+              <div className="service-show-card">
+                <div className="service-name-img">
+                  <a href="" className="service-name">
+                    # WELL MANAGED
+                  </a>
+                  <img src="assets/img/inner/vip.svg" alt="" />
                 </div>
+                <p>
+                  Our Certified Project Managers have been leading development
+                  for years.
+                </p>
               </div>
             </div>
           </div>
@@ -138,11 +139,12 @@ function Home() {
         <section className="demo-request cpt-6">
           <div className="container">
             <div className="section-title">
-              <p className="sm-title">best service</p>
-              <h2 className="sec-title">Request A demo</h2>
+              <p className="sm-title">Interested</p>
+              <h2 className="sec-title">Get In Touch Now</h2>
               <p className="sec-des">
-                Get more software development information about exchange
-                software wallet software derivate products and ETC
+                We process all the assets on a blockchain with unique
+                identification codes and metadata that distinguish them from
+                each other.
               </p>
             </div>
 
@@ -235,249 +237,12 @@ function Home() {
           </div>
         </section>
         {/* ===================demo request section end ================== */}
-        {/* ===================service section ================== */}
-        <section>
-          <div className="service cpy-6">
-            <div className="container">
-              <div className="section-title">
-                <p className="sm-title">best service</p>
-                <h2 className="sec-title">Services</h2>
-                <p className="sec-des">
-                  Get more software development information about exchange
-                  software wallet software derivate products and ETC
-                </p>
-              </div>
 
-              <div className="service-tab">
-                <ul className="tab-ul">
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 1 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(1);
-                      }}
-                    >
-                      All
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 2 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(2);
-                      }}
-                    >
-                      Website
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 3 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(3);
-                      }}
-                    >
-                      Video Editing
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 4 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(4);
-                      }}
-                    >
-                      Smart Contract
-                    </p>
-                  </li>
-                </ul>
-              </div>
-
-              <div
-                className={
-                  serviceActive == 1 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 2 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 3 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 4 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* ===================service section end ================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div className="mentioned-area cpt-6">
             <div className="section-title">
-              <p className="sm-title">best service</p>
+              <p className="sm-title">best services</p>
               <h2 className="sec-title">We’ve Been Mentioned In....</h2>
             </div>
             <div className="mentioned-section ">
@@ -538,7 +303,7 @@ function Home() {
                         <h3>
                           <CountUp end={500} duration={5} /> +
                         </h3>
-                        <p>Data Center Worldwide</p>
+                        <p>Served Clients</p>
                       </div>
                     </div>
 
@@ -581,7 +346,7 @@ function Home() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={300} duration={5} /> +
+                          <CountUp end={250} duration={5} /> +
                         </h3>
                         <p>NFT Service Client</p>
                       </div>
@@ -663,7 +428,7 @@ function Home() {
             <div className="flex-col">
               <p className="urbanist-dark-42">Newsletters</p>
               <p className="raleway-white-18">
-                Most popular gaming digital nft Website
+                Get Updates About Our Latest Service Trends
               </p>
             </div>
 
@@ -686,66 +451,9 @@ function Home() {
           <img src="assets/imgs/banner-img.png" alt="" className="banner-img" />
         </div>
         {/* ===================Newsletter section end ================== */}
-        {/* =======================technologies===================== */}
-        <section className="cpy-6">
-          <div className="container">
-            <div className="tools-technologies">
-              <div className="tools-txt">
-                <div className="section-wrap">
-                  <div className="chainup-title">
-                    <p>best services</p>
-                    <h2>Tools And Technologies</h2>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry
-                    &apos; s standard dummy text ever since the 1500s, when an
-                    unknown printer took
-                  </p>
-                </div>
 
-                <ul className="tools-list">
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Creding System Style</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">HTML</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Java Script</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">MySQL</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">PHP</p>
-                  </li>
-                </ul>
-
-                <p className="raleway-grey-16">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry &apos;
-                  s standard dummy text ever since the 1500s, when an unknown
-                  printer took
-                </p>
-              </div>
-
-              <img
-                src="assets/imgs/decor-1.png"
-                alt="Papers"
-                className="tools-img"
-              />
-            </div>
-          </div>
-        </section>
-        {/* =================================technologies========================= */}
         {/* =====================top project===================== */}
-        <div className="projects">
+        <div className="projects cpt-6">
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>

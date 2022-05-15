@@ -1,25 +1,33 @@
 #home1 {
     .hero {
-        background: var(--bg-color);
         position: relative;
-        padding: 100px 0;
+        padding-bottom: 30px;
+        padding-top: 50px;
         @media screen and (max-width: 500px) {
             padding: 55px 0;
         }
+    }
+    .hero-content-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    .hero-content {
+        position: relative;
     }
     .hero-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
+        position: relative;
         @media screen and (max-width: 1100px) {
             grid-template-columns: 1fr;
         }
     }
     .title {
-        font-size: 70px;
+        font-size: 50px;
         font-weight: 900;
         color: var(--second-color);
-        line-height: 1.3;
+        line-height: 125%;
     }
     .description {
         font-weight: 400;
@@ -135,8 +143,8 @@
     }
     .title-top-img {
         position: absolute;
-        left: 150px;
-        top: 80px;
+        left: -12px;
+        top: -30px;
     }
     .input-arrow {
         position: absolute;
@@ -185,21 +193,6 @@
         }
         .side-img img {
             width: 80%;
-        }
-        .side-img-2 {
-            position: absolute;
-            top: 80px;
-            right: 0;
-        }
-        .title-top-img {
-            position: absolute;
-            left: 90px;
-            top: 80px;
-        }
-        .input-arrow {
-            position: absolute;
-            bottom: 140px;
-            left: 586px;
         }
         .mid-cr {
             position: absolute;
@@ -270,11 +263,6 @@
             right: 0;
             z-index: 0;
         }
-        .title-top-img {
-            position: absolute;
-            left: 90px;
-            top: 80px;
-        }
         .input-arrow {
             display: none;
         }
@@ -282,13 +270,6 @@
             position: absolute;
             bottom: 20px;
             left: 0px;
-        }
-    }
-    @media screen and (max-width: 500px) {
-        .title-top-img {
-            position: absolute;
-            left: 20px;
-            top: 11px;
         }
     }
 }
@@ -2043,6 +2024,7 @@
     border-radius: 20px;
     box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
     transition: 0.3s;
+    height: 100%;
 }
 
 .service-show-card:hover {
@@ -2050,8 +2032,8 @@
 }
 
 a.service-name {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 800;
     transition: 0.3s;
 }
 
@@ -2204,6 +2186,10 @@ ul.tab-ul {
     margin-bottom: -100px;
     z-index: 1;
     position: relative;
+    padding: 0 100px;
+    @media screen and (max-width: 1340px) {
+        padding: 0 10px;
+    }
 }
 
 section.about-us {
@@ -2348,7 +2334,7 @@ section.about-us {
 .chainup-inner-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 20px;
 }
 
 .chainup-inner-grid-item {
@@ -2358,7 +2344,7 @@ section.about-us {
     box-sizing: border-box;
     box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
-    padding: 20px;
+    padding: 20px 10px;
     background: var(--white-color);
 }
 
@@ -2373,7 +2359,7 @@ section.about-us {
 }
 
 .chainup-title {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     display: inline-block;
     text-transform: capitalize;
 }
@@ -3120,7 +3106,6 @@ img.recent-post-img {
     width: 100%;
     background: #6c54ea;
     position: relative;
-    margin-top: 154px;
 }
 
 .flex-col {
@@ -3255,7 +3240,12 @@ img.recent-post-img {
 }
 
 .projects {
-    padding: 0 52px;
+    padding-left: 50px;
+    padding-right: 50px;
+    @media screen and (max-width: 768px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 .project-content {
@@ -3635,9 +3625,6 @@ h6 {
     .project-table {
         padding: 0 20px;
     }
-    .projects {
-        padding: 0 32px;
-    }
     /*------------- fonts ----------------*/
     .urbanist-black-56 {
         font-size: 40px;
@@ -3969,9 +3956,6 @@ p.urbanist-white-13 {
     .service-car {
         padding: 50px 10px;
     }
-    .projects {
-        padding: 10px;
-    }
     .project-table {
         padding: 0 10px;
     }
@@ -3988,6 +3972,9 @@ p.urbanist-white-13 {
         line-height: 35px;
         color: var(--second-color);
         margin-bottom: 5px;
+        @media screen and (max-width: 768px) {
+            font-size: 25px;
+        }
     }
     .rating {
         margin: 5px 0;
@@ -4012,12 +3999,15 @@ p.urbanist-white-13 {
     .market-report-grid {
         grid-template-columns: 1fr;
         grid-gap: 25px;
-        margin-top: 50px;
+        margin-top: 0px;
     }
     .form-group-2 {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 15px;
+    }
+    section.demo-request {
+        padding-top: 100px;
     }
 }
 
