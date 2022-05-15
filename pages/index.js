@@ -82,8 +82,8 @@ function Home() {
                   <img src="assets/img/inner/timer.svg" alt="" />
                 </div>
                 <p>
-                  Our developers know you need results, which you'll see in the
-                  first two sprints of the Agile process.
+                  Our developers know you need results, which you&apos;ll see in
+                  the first two sprints of the Agile process.
                 </p>
               </div>
             </div>
