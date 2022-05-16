@@ -17,19 +17,17 @@ function HiCoin() {
         <div className="container">
           <section className="hero cpy-5">
             <div className="hero-content">
-              <h1>
-                HiCoin Recruiting <br /> Global <span> Business</span>
-                <br /> Partners
-              </h1>
+              <h1>Top Notch NFT Development Company</h1>
 
               <p className="raleway-black-16">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Get a unique and distinguishable non-fungible token platform
+                with integrated multiple security layers and rich features to
+                enhance users’ trading experiences.
               </p>
 
               <div className="hero-btns">
                 <button className="btn-hero-1">Get Started</button>
-                <button className="btn-hero-2">Learn More</button>
+                <button className="btn-hero-2">Watch Demo</button>
               </div>
 
               <div className="hero-checks">
@@ -83,7 +81,7 @@ function HiCoin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Quick Start 1
+                      # Reliable Platform
                     </a>
                     <img src="assets/img/inner/timer.svg" alt="" />
                   </div>
@@ -94,7 +92,7 @@ function HiCoin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Recomended Cash Back
+                      # Project&apos;s Confidentiality
                     </a>
                     <img src="assets/img/inner/doller.svg" alt="" />
                   </div>
@@ -105,7 +103,7 @@ function HiCoin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Promotion
+                      # Expertise in Blockchain Platforms
                     </a>
                     <img src="assets/img/inner/notice.svg" alt="" />
                   </div>
@@ -116,11 +114,11 @@ function HiCoin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # VIP Customization
+                      # 24/7 Support
                     </a>
                     <img src="assets/img/inner/vip.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Our developers are there to support you 24*7</p>
                 </div>
               </div>
             </div>
@@ -144,24 +142,20 @@ function HiCoin() {
                   <div className="about-content-inner">
                     <h2>description</h2>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry
-                      &apos; s standard dummy text ever since the 1500s, when an
-                      unknown printer tookLorem Ipsum is simply dummy text of
-                      the printing and typesetting industry. Lorem Ipsum has
-                      been the industry &apos; s standard dummy text ever since
-                      the 1500s, when an unknown printer took Lorem Ipsum is
-                      simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took unknown printer tookLorem Ipsum is simply
-                      dummy text of the printing and typesetting industry. Lorem
-                      Ipsum has been the industry &apos; s standard dummy text
-                      ever since the 1500s, when an unknown printer took Lorem
-                      Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took
+                      We help you launch your own NFT marketplace and attract
+                      the growing community of NFT users. NFT marketplaces built
+                      by us are feature-rich, decentralized, and facilitate
+                      tokenization of all kinds of assets, including artwork,
+                      gaming cards, software licenses, digital collectibles, and
+                      real-world assets. <br />
+                      We have expertise in NFT token development services, where
+                      you get to earn royalties every time a token is sold. Opt
+                      your non-fungible token development with us and sell over
+                      any platform worldwide without any intermediate authority.
+                      We provide NFT development services for digital content
+                      such as art, music and videos, domain names, gaming items,
+                      investment, land acquisition, and other physical items
+                      that are unique.
                     </p>
                   </div>
                 </div>
@@ -180,8 +174,8 @@ function HiCoin() {
               <p className="sm-title">best service</p>
               <h2 className="sec-title">Request A demo</h2>
               <p className="sec-des">
-                Get more software development information about exchange
-                software wallet software derivate products and ETC
+                Let’s take this growing relationship to the next level. We are
+                interested in a long-term partnership.
               </p>
             </div>
 
@@ -265,7 +259,7 @@ function HiCoin() {
                   </div>
                   <div className="form-group mt-3">
                     <button className="custom-btn" type="submit">
-                      Send
+                      Get A Demo
                     </button>
                   </div>
                 </form>

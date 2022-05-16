@@ -72,61 +72,63 @@ function Home() {
       {/* =============service card section ================== */}
       <section>
         <div className="service-card">
-          <div className="row-4">
-            <div className="col-md-3">
-              <div className="service-show-card">
-                <div className="service-name-img">
-                  <a href="" className="service-name">
-                    # FOCUSED ON DELIVERABLES
-                  </a>
-                  <img src="assets/img/inner/timer.svg" alt="" />
+          <div className="container">
+            <div className="row-4">
+              <div className="col-md-3">
+                <div className="service-show-card">
+                  <div className="service-name-img">
+                    <a href="" className="service-name">
+                      # FOCUSED ON DELIVERABLES
+                    </a>
+                    <img src="assets/img/inner/timer.svg" alt="" />
+                  </div>
+                  <p>
+                    Our developers know you need results, which you&apos;ll see
+                    in the first two sprints of the Agile process.
+                  </p>
                 </div>
-                <p>
-                  Our developers know you need results, which you&apos;ll see in
-                  the first two sprints of the Agile process.
-                </p>
               </div>
-            </div>
-            <div className="col-md-3">
-              <div className="service-show-card">
-                <div className="service-name-img">
-                  <a href="" className="service-name">
-                    # COMMUNICATIVE
-                  </a>
-                  <img src="assets/img/inner/doller.svg" alt="" />
+              <div className="col-md-3">
+                <div className="service-show-card">
+                  <div className="service-name-img">
+                    <a href="" className="service-name">
+                      # COMMUNICATIVE
+                    </a>
+                    <img src="assets/img/inner/doller.svg" alt="" />
+                  </div>
+                  <p>
+                    Clients say the team feels like their employees, because our
+                    English-speaking developers respect their processes.
+                  </p>
                 </div>
-                <p>
-                  Clients say the team feels like their employees, because our
-                  English-speaking developers respect their processes.
-                </p>
               </div>
-            </div>
-            <div className="col-md-3">
-              <div className="service-show-card">
-                <div className="service-name-img">
-                  <a href="" className="service-name">
-                    # DESIGN STRATEGY
-                  </a>
-                  <img src="assets/img/inner/notice.svg" alt="" />
+              <div className="col-md-3">
+                <div className="service-show-card">
+                  <div className="service-name-img">
+                    <a href="" className="service-name">
+                      # DESIGN STRATEGY
+                    </a>
+                    <img src="assets/img/inner/notice.svg" alt="" />
+                  </div>
+                  <p>
+                    We help you formulate a strategy specifically around the
+                    design and vision of your digital artworks and services.
+                  </p>
                 </div>
-                <p>
-                  We help you formulate a strategy specifically around the
-                  design and vision of your digital artworks and services.
-                </p>
               </div>
-            </div>
-            <div className="col-md-3">
-              <div className="service-show-card">
-                <div className="service-name-img">
-                  <a href="" className="service-name">
-                    # WELL MANAGED
-                  </a>
-                  <img src="assets/img/inner/vip.svg" alt="" />
+              <div className="col-md-3">
+                <div className="service-show-card">
+                  <div className="service-name-img">
+                    <a href="" className="service-name">
+                      # WELL MANAGED
+                    </a>
+                    <img src="assets/img/inner/vip.svg" alt="" />
+                  </div>
+                  <p>
+                    Our Certified Project Managers have been leading development
+                    for years.
+                  </p>
                 </div>
-                <p>
-                  Our Certified Project Managers have been leading development
-                  for years.
-                </p>
               </div>
             </div>
           </div>
