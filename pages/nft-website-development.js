@@ -531,7 +531,7 @@ function HiCoin() {
         {/* ===================Mentioned section end ================== */}
         {/* ===================development track ================== */}
         <section>
-          <div className="development-track" id="nft-development">
+          <div className="development-track cpt-6" id="nft-development">
             <div className="container">
               <div className="section-title">
                 <p className="sm-title">best services</p>
@@ -555,7 +555,12 @@ function HiCoin() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 2 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(2);
+                  }}
+                >
                   <p>Storage Platform</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -563,7 +568,12 @@ function HiCoin() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 3 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(3);
+                  }}
+                >
                   <p>NFT Standards</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -571,7 +581,12 @@ function HiCoin() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 4 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(4);
+                  }}
+                >
                   <p>Front End Frameworks</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -579,7 +594,12 @@ function HiCoin() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 5 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(5);
+                  }}
+                >
                   <p>Programming Languages</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -587,7 +607,12 @@ function HiCoin() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 6 ? "option active " : "option"}
+                  onClick={() => {
+                    setService(6);
+                  }}
+                >
                   <p>Cloud Platforms</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -598,29 +623,151 @@ function HiCoin() {
               </div>
 
               <div className={service === 1 ? "coins active" : "coins"}>
-                <div>
+                <div className="eth">
                   <img src="assets/imgs/etherium.png" alt="Etherium" />
                   <p>Ethereum</p>
                 </div>
-                <div>
+                <div className="tezos">
                   <img src="assets/imgs/tezos.png" alt="Etherium" />
                   <p>Tezos</p>
                 </div>
-                <div>
+                <div className="wax">
                   <img src="assets/imgs/wax.png" alt="Etherium" />
                   <p>Wax</p>
                 </div>
-                <div>
+                <div className="cortana">
                   <img src="assets/imgs/cortana.png" alt="Etherium" />
                   <p>Cortana</p>
                 </div>
-                <div>
+                <div className="hyperledger">
                   <img src="assets/imgs/hyperledger.png" alt="Etherium" />
                   <p>Hyperledger</p>
                 </div>
-                <div>
+                <div className="multichain">
                   <img src="assets/imgs/multichain.png" alt="Etherium" />
                   <p>Multichain</p>
+                </div>
+              </div>
+              <div className={service === 2 ? "coins active" : "coins"}>
+                <div className="ipfs">
+                  <img src="assets/img/icon/ipfs.png" alt="Etherium" />
+                  <p>IPFS</p>
+                </div>
+                <div className="filecoin">
+                  <img src="assets/img/icon/file-coin.png" alt="Etherium" />
+                  <p>File Coin</p>
+                </div>
+                <div className="mangodb">
+                  <img src="assets/img/icon/mangodb.png" alt="Etherium" />
+                  <p>MangoDB</p>
+                </div>
+                <div className="couchbd">
+                  <img src="assets/img/icon/couchbd.png" alt="Etherium" />
+                  <p>CouchDB</p>
+                </div>
+              </div>
+              <div className={service === 3 ? "coins active" : "coins"}>
+                <div className="eth">
+                  <img src="assets/imgs/etherium.png" alt="Etherium" />
+                  <p>ERC-721A</p>
+                </div>
+                <div className="eth">
+                  <img src="assets/imgs/etherium.png" alt="Etherium" />
+                  <p>ERC-1155</p>
+                </div>
+                <div className="tezos">
+                  <img src="assets/imgs/tezos.png" alt="Etherium" />
+                  <p>Tezos</p>
+                </div>
+
+                <div className="dgoods">
+                  <img src="assets/img/icon/dgoods.png" alt="Etherium" />
+                  <p>Dgoods</p>
+                </div>
+                <div className="trc">
+                  <img src="assets/img/icon/trc.png" alt="Etherium" />
+                  <p>Trc-721</p>
+                </div>
+                <div className="dgoods">
+                  <img src="assets/img/icon/bep.png" alt="Etherium" />
+                  <p>Bep-20</p>
+                </div>
+                <div className="rust">
+                  <img src="assets/img/icon/rust.png" alt="Etherium" />
+                  <p>Rust Programing</p>
+                </div>
+              </div>
+
+              <div className={service === 4 ? "coins active" : "coins"}>
+                <div className="vue">
+                  <img src="assets/img/icon/vuejs.png" alt="Etherium" />
+                  <p>Vue Js</p>
+                </div>
+                <div className="angular">
+                  <img src="assets/img/icon/angular.png" alt="Etherium" />
+                  <p>Angular</p>
+                </div>
+                <div className="react">
+                  <img src="assets/img/icon/react.png" alt="Etherium" />
+                  <p>React</p>
+                </div>
+                <div className="kafka">
+                  <img src="assets/img/icon/cafca.png" alt="Etherium" />
+                  <p>Kafka</p>
+                </div>
+                <div className="couchdb">
+                  <img src="assets/img/icon/couchdb.png" alt="Etherium" />
+                  <p>CouchDB</p>
+                </div>
+                <div className="couchdb2">
+                  <img src="assets/img/icon/couchdb-2.png" alt="Etherium" />
+                  <p>CouchDB</p>
+                </div>
+              </div>
+
+              <div className={service === 5 ? "coins active" : "coins"}>
+                <div className="kafka">
+                  <img src="assets/img/icon/solidity.png" alt="Etherium" />
+                  <p>Solidity</p>
+                </div>
+                <div className="angular1">
+                  <img src="assets/img/icon/angular1.png" alt="Etherium" />
+                  <p>Angular</p>
+                </div>
+                <div className="react">
+                  <img src="assets/img/icon/c++.png" alt="Etherium" />
+                  <p>C++</p>
+                </div>
+                <div className="react">
+                  <img src="assets/img/icon/c.png" alt="Etherium" />
+                  <p>C</p>
+                </div>
+                <div className="couchdb">
+                  <img src="assets/img/icon/couchdb.png" alt="Etherium" />
+                  <p>CouchDB</p>
+                </div>
+                <div className="php">
+                  <img src="assets/img/icon/php.png" alt="Etherium" />
+                  <p>PHP</p>
+                </div>
+              </div>
+
+              <div className={service === 6 ? "coins active" : "coins"}>
+                <div className="aws">
+                  <img src="assets/img/icon/aws.png" alt="Etherium" />
+                  <p>aws</p>
+                </div>
+                <div className="ibm">
+                  <img src="assets/img/icon/ibm.png" alt="Etherium" />
+                  <p>IBM BLUEMIX</p>
+                </div>
+                <div className="rass">
+                  <img src="assets/img/icon/rass.png" alt="Etherium" />
+                  <p>Eth rass</p>
+                </div>
+                <div className="kaleido">
+                  <img src="assets/img/icon/kaleido.png" alt="Etherium" />
+                  <p>Kaleido Insights</p>
                 </div>
               </div>
             </div>
@@ -905,7 +1052,7 @@ function HiCoin() {
             <div className="flex-col">
               <p className="urbanist-dark-42">Newsletters</p>
               <p className="raleway-white-18">
-                Most popular gaming digital nft Website
+                Get notified about our upcoming updates regularly.
               </p>
             </div>
 
@@ -1013,66 +1160,9 @@ function HiCoin() {
           </div>
         </section>
         {/* ===============Benefits end================== */}
-        {/* =======================technologies===================== */}
-        <section className="cpy-6">
-          <div className="container">
-            <div className="tools-technologies">
-              <div className="tools-txt">
-                <div className="section-wrap">
-                  <div className="chainup-title">
-                    <p>best services</p>
-                    <h2>Tools And Technologies</h2>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry
-                    &apos; s standard dummy text ever since the 1500s, when an
-                    unknown printer took
-                  </p>
-                </div>
 
-                <ul className="tools-list">
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Creding System Style</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">HTML</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Java Script</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">MySQL</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">PHP</p>
-                  </li>
-                </ul>
-
-                <p className="raleway-grey-16">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry &apos;
-                  s standard dummy text ever since the 1500s, when an unknown
-                  printer took
-                </p>
-              </div>
-
-              <img
-                src="assets/imgs/decor-1.png"
-                alt="Papers"
-                className="tools-img"
-              />
-            </div>
-          </div>
-        </section>
-        {/* =================================technologies========================= */}
         {/* =====================top project===================== */}
-        <div className="projects">
+        <div className="projects cpt-6">
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>
@@ -1114,182 +1204,10 @@ function HiCoin() {
         </div>
 
         {/* ===============top project end=============== */}
-        {/* ==============pricing==================== */}
-        <div className="container">
-          <div className="plans cpy-6">
-            <div className="section-title">
-              <p className="sm-title">pricing</p>
-              <h2 className="sec-title">Our Pricing Plan</h2>
-              <p className="sec-des">
-                Pay securely online and manage your projects by sitting in your
-                desk
-              </p>
-            </div>
 
-            <div className="plans-options">
-              <Swiper
-                // install Swiper modules
-                modules={[Navigation, A11y]}
-                spaceBetween={50}
-                slidesPerView={1}
-                navigation={{
-                  prevEl: ".prev",
-                  nextEl: ".next",
-                }}
-                loop="true"
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
-                breakpoints={{
-                  // when window width is >= 640px
-                  640: {
-                    slidesPerView: 1,
-                  },
-                  // when window width is >= 768px
-                  768: {
-                    slidesPerView: 2,
-                  },
-                  992: {
-                    slidesPerView: 3,
-                  },
-                }}
-              >
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">6$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Standard 🛵</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-none.svg" alt="Checked" />
-                        <p className="raleway-grey-16 lined">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-none.svg" alt="Checked" />
-                        <p className="raleway-grey-16 lined">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">12$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Extended 🚗</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">24$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Premium 🚛</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16 ">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-            </div>
-          </div>
-        </div>
-        {/* ===================================pricing end ===================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div className="mentioned-area cpt-6">
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Worked With</h2>
@@ -1330,23 +1248,7 @@ function HiCoin() {
           </div>
         </section>
         {/* ===================Mentioned section end ================== */}
-        {/* ===================Million Of people ================== */}
-        <section>
-          <div className="million-area cpy-6">
-            <div className="section-title">
-              <p className="sm-title">pricing</p>
-              <h2 className="sec-title">Million Of people Joining Us Daily</h2>
-              <p className="sec-des">
-                Pay securely online and manage the booking via <br /> desktop or
-                via the mobile app.
-              </p>
-            </div>
-            <div className="million-section ">
-              <img src="assets/img/inner/map.png" alt="" />
-            </div>
-          </div>
-        </section>
-        {/* ===================Million Of people end ================== */}
+
         {/* =====================happy clients======================= */}
         <section>
           <div className="happy-area cpy-6">

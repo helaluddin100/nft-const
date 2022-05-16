@@ -4645,12 +4645,15 @@ button.back-home:hover {
         color: #ffffff;
     }
     .coins {
-        display: grid;
+        display: none;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1058px;
         gap: 43px;
         margin: auto;
         padding: 0 40px;
+    }
+    .coins.active {
+        display: grid;
     }
     .coins div {
         display: grid;
@@ -4666,30 +4669,115 @@ button.back-home:hover {
         font-size: 24px;
         line-height: 29px;
     }
-    .coins div:nth-child(1) {
+    .coins .eth {
         background: linear-gradient(180deg, #3e4572 0%, #626890 100%);
         box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
         color: #ffffff;
     }
-    .coins div:nth-child(2) {
+    .coins .tezos {
         background: linear-gradient( 180deg, rgba(43, 124, 247, 0.1) 0%, rgba(43, 124, 247, 0.1) 100%);
         color: #2b7cf7;
     }
-    .coins div:nth-child(3) {
+    .coins .wax {
         background: rgba(255, 211, 97, 0.1);
         color: #f89524;
     }
-    .coins div:nth-child(4) {
+    .coins .cortana {
         background: rgba(85, 163, 255, 0.1);
         color: #1c9fe7;
     }
-    .coins div:nth-child(5) {
+    .coins .hyperledger {
         background: rgba(50, 50, 50, 0.1);
         color: #323232;
     }
-    .coins div:nth-child(6) {
+    .coins .multichain {
         background: linear-gradient( 180deg, rgba(246, 181, 62, 0.1) 0%, rgba(226, 28, 23, 0.1) 100%);
         color: #323232;
+    }
+    .coins .ipfs {
+        background: rgba(74, 158, 161, 0.24);
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+        color: #4a9ea1;
+    }
+    .coins .filecoin {
+        color: #0091ff;
+        background: #eaf2ff;
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+    }
+    .coins .mangodb {
+        background: #ebffeb;
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+        color: #4dae50;
+    }
+    .coins .couchbd {
+        background: #e3f7ff;
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+        color: #22a4dc;
+    }
+    .coins .dgoods {
+        color: #f5c362;
+        background: #fff7e8;
+    }
+    .coins .trc {
+        background: #ffeeee;
+        color: #ff060a;
+    }
+    .coins .rust {
+        color: #000;
+        background: linear-gradient( 180deg, rgba(246, 181, 62, 0.1) 0%, rgba(226, 28, 23, 0.1) 100%);
+    }
+    .vue {
+        background: #ebfff6;
+        color: #41b883;
+    }
+    .angular {
+        color: #fff;
+        background: #a6120d;
+    }
+    .react {
+        background: linear-gradient( 180deg, rgba(43, 124, 247, 0.1) 0%, rgba(43, 124, 247, 0.1) 100%);
+        color: #2b7cf7;
+    }
+    .couchdb {
+        color: #000;
+        background: #fffbd8;
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+    }
+    .kafka {
+        background: linear-gradient( 180deg, rgba(246, 181, 62, 0.1) 0%, rgba(226, 28, 23, 0.1) 100%);
+        color: #130f49;
+    }
+    .couchdb2 {
+        background: rgba(94, 70, 77, 0.17);
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+        color: #000000;
+    }
+    .angular1 {
+        background: #f0fdff;
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+        color: #6ad7e5;
+    }
+    .php {
+        color: #757ab3;
+        background: #eff0ff;
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+    }
+    .aws {
+        background: #ffeac2;
+        color: #383533;
+    }
+    .ibm {
+        background: #f0fdff;
+        box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
+        color: #6ad7e5;
+    }
+    .rass {
+        background: #ffe3d7;
+        color: #ff9c76;
+    }
+    .kaleido {
+        background: #c6ecff;
+        color: #134293;
     }
     @media only screen and (max-width: 1280px) {
         .coins {
