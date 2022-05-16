@@ -233,18 +233,58 @@ function Header() {
                   </div>
                   <ul className="nav-menu">
                     <li className="nav-list">
+                      <a href="/" className="nav-link">
+                        Home
+                      </a>
+                    </li>
+                    <li className="nav-list">
                       <a href="" className="nav-link">
                         Services <i className="icofont-rounded-down"></i>
                       </a>
+                      <div className="dp-menu">
+                        <ul className="dp-menu-ul">
+                          <li>
+                            <a
+                              href="/nft-website-development"
+                              className="dp-link"
+                            >
+                              NFT Website Development
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/website-design" className="dp-link">
+                              Website Design
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/website-analysis" className="dp-link">
+                              Website Analysis
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/website-testing" className="dp-link">
+                              Website Testing
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/smart-contract" className="dp-link">
+                              Smart Contract Development
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="/smart-contract-analysis"
+                              className="dp-link"
+                            >
+                              Smart Contract Analysis
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </li>
                     <li className="nav-list">
                       <a href="" className="nav-link">
                         Solution
-                      </a>
-                    </li>
-                    <li className="nav-list">
-                      <a href="" className="nav-link">
-                        Customer Case
                       </a>
                     </li>
                     <li className="nav-list">
@@ -255,11 +295,6 @@ function Header() {
                     <li className="nav-list">
                       <a href="" className="nav-link">
                         About Us
-                      </a>
-                    </li>
-                    <li className="nav-list">
-                      <a href="" className="nav-link">
-                        Case Study
                       </a>
                     </li>
                     <li className="nav-list">
