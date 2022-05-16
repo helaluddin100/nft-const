@@ -8,7 +8,7 @@ function Analysis() {
 
   return (
     <>
-      <div id="Analysis" className="cpy-5">
+      <div id="Analysis" className="cpt-5">
         <div className="decor-balls">
           <img src="assets/imgs/boll-1.png" alt="Ball" />
           <img src="assets/imgs/ball-2.png" alt="Ball" />
@@ -580,66 +580,9 @@ function Analysis() {
           <img src="assets/imgs/banner-img.png" alt="" className="banner-img" />
         </div>
         {/* ===================Newsletter section end ================== */}
-        {/* =======================technologies===================== */}
-        <section className="cpy-6">
-          <div className="container">
-            <div className="tools-technologies">
-              <div className="tools-txt">
-                <div className="section-wrap">
-                  <div className="chainup-title">
-                    <p>best services</p>
-                    <h2>Tools And Technologies</h2>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry
-                    &apos; s standard dummy text ever since the 1500s, when an
-                    unknown printer took
-                  </p>
-                </div>
 
-                <ul className="tools-list">
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Creding System Style</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">HTML</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Java Script</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">MySQL</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">PHP</p>
-                  </li>
-                </ul>
-
-                <p className="raleway-grey-16">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry &apos;
-                  s standard dummy text ever since the 1500s, when an unknown
-                  printer took
-                </p>
-              </div>
-
-              <img
-                src="assets/imgs/decor-1.png"
-                alt="Papers"
-                className="tools-img"
-              />
-            </div>
-          </div>
-        </section>
-        {/* =================================technologies========================= */}
         {/* =====================top project===================== */}
-        <div className="projects">
+        <div className="projects cpt-6">
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>
@@ -897,23 +840,7 @@ function Analysis() {
           </div>
         </section>
         {/* ===================Mentioned section end ================== */}
-        {/* ===================Million Of people ================== */}
-        <section>
-          <div className="million-area cpy-6">
-            <div className="section-title">
-              <p className="sm-title">pricing</p>
-              <h2 className="sec-title">Million Of people Joining Us Daily</h2>
-              <p className="sec-des">
-                Pay securely online and manage the booking via <br /> desktop or
-                via the mobile app.
-              </p>
-            </div>
-            <div className="million-section ">
-              <img src="assets/img/inner/map.png" alt="" />
-            </div>
-          </div>
-        </section>
-        {/* ===================Million Of people end ================== */}
+
         {/* =====================happy clients======================= */}
         <section>
           <div className="happy-area cpy-6">

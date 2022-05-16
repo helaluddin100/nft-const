@@ -3,12 +3,12 @@ import AppLayout from "../component/Layout/Layout";
 import { Navigation, A11y } from "swiper";
 import CountUp from "react-countup";
 import { Swiper, SwiperSlide } from "swiper/react";
-function Business() {
+function Coin() {
   const [serviceActive, setServiceActive] = useState(1);
 
   return (
     <>
-      <div id="home2" className="cpy-5">
+      <div id="Coin" className="cpy-5">
         <div className="container">
           <section className="hero">
             <div className="hero-content">
@@ -40,7 +40,11 @@ function Business() {
             </div>
 
             <div className="hero-img">
-              <img src="assets/imgs/hreo-img.png" alt="Hero IMG" />
+              <img
+                src="assets/img/inner/website-design.gif"
+                alt=""
+                className="he"
+              />
             </div>
           </section>
         </div>
@@ -245,247 +249,10 @@ function Business() {
           </div>
         </section>
         {/* ===================demo request section end ================== */}
-        {/* ===================service section ================== */}
-        <section>
-          <div className="service cpy-6">
-            <div className="container">
-              <div className="section-title">
-                <p className="sm-title">best service</p>
-                <h2 className="sec-title">Services</h2>
-                <p className="sec-des">
-                  Get more software development information about exchange
-                  software wallet software derivate products and ETC
-                </p>
-              </div>
 
-              <div className="service-tab">
-                <ul className="tab-ul">
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 1 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(1);
-                      }}
-                    >
-                      All
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 2 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(2);
-                      }}
-                    >
-                      Website
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 3 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(3);
-                      }}
-                    >
-                      Video Editing
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 4 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(4);
-                      }}
-                    >
-                      Smart Contract
-                    </p>
-                  </li>
-                </ul>
-              </div>
-
-              <div
-                className={
-                  serviceActive == 1 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 2 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 3 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 4 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* ===================service section end ================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div className="mentioned-area cpt-6">
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Been Mentioned In....</h2>
@@ -696,66 +463,320 @@ function Business() {
           <img src="assets/imgs/banner-img.png" alt="" className="banner-img" />
         </div>
         {/* ===================Newsletter section end ================== */}
-        {/* =======================technologies===================== */}
-        <section className="cpy-6">
-          <div className="container">
-            <div className="tools-technologies">
-              <div className="tools-txt">
-                <div className="section-wrap">
-                  <div className="chainup-title">
-                    <p>best services</p>
-                    <h2>Tools And Technologies</h2>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry
-                    &apos; s standard dummy text ever since the 1500s, when an
-                    unknown printer took
-                  </p>
-                </div>
-
-                <ul className="tools-list">
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Creding System Style</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">HTML</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">Java Script</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">MySQL</p>
-                  </li>
-                  <li>
-                    <img src="assets/imgs/check.png" alt="Checked" />
-                    <p className="raleway-grey-16">PHP</p>
-                  </li>
-                </ul>
-
-                <p className="raleway-grey-16">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry &apos;
-                  s standard dummy text ever since the 1500s, when an unknown
-                  printer took
+        {/* ===================service section ================== */}
+        <section>
+          <div className="service cpy-6">
+            <div className="container">
+              <div className="section-title">
+                <h2 className="sec-title">NFT Web Design Services</h2>
+                <p className="sec-des">
+                  Being a top NFT token development company, our non-fungible
+                  token development services facilitate the digital assets to be
+                  tokenized for collection. Majorly, we work on Ethereum NFTs,
+                  which are too popular in the market. SemiDot helps you to
+                  launch your NFT for all your business needs.
                 </p>
               </div>
 
-              <img
-                src="assets/imgs/decor-1.png"
-                alt="Papers"
-                className="tools-img"
-              />
+              <div className="service-grid cpt-7">
+                <div className="service-car">
+                  <div className="service-icon">
+                    <img src="assets/img/icon/innovative.png" alt="" />
+                  </div>
+                  <div className="service-content">
+                    <h3>Innovative Designs</h3>
+                    <p>
+                      Our UI/UX developers believe in simple, innovative, and
+                      immersive website and web app designing.
+                    </p>
+                  </div>
+                </div>
+                <div className="service-car">
+                  <div className="service-icon">
+                    <img src="assets/img/icon/effective.png" alt="" />
+                  </div>
+                  <div className="service-content">
+                    <h3>Effective Communication</h3>
+                    <p>
+                      To build a strong and long-term relationship with our
+                      clients, we will always keep you updated.
+                    </p>
+                  </div>
+                </div>
+                <div className="service-car">
+                  <div className="service-icon">
+                    <img src="assets/img/icon/time.png" alt="" />
+                  </div>
+                  <div className="service-content">
+                    <h3>On-Time Delivery</h3>
+                    <p>
+                      Nothing is more important than launching the website or
+                      web app on time, we ensure on-time delivery.
+                    </p>
+                  </div>
+                </div>
+                <div className="service-car">
+                  <div className="service-icon">
+                    <img src="assets/img/icon/creativity.png" alt="" />
+                  </div>
+                  <div className="service-content">
+                    <h3>Creativity</h3>
+                    <p>
+                      The websites or web apps designed by us are creative
+                      enough to draw the attention of your users.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="service-car">
+                  <div className="service-icon">
+                    <img src="assets/img/icon/flexible.png" alt="" />
+                  </div>
+                  <div className="service-content">
+                    <h3>Flexible Hiring Models</h3>
+                    <p>
+                      At SemiDot, we offer different business models, of which
+                      you can choose the one that fits your needs.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="service-car">
+                  <div className="service-icon">
+                    <img src="assets/img/icon/certified.png" alt="" />
+                  </div>
+                  <div className="service-content">
+                    <h3>Certified Designers</h3>
+                    <p>
+                      We have a team of certified UI/UX designers, that works
+                      round the clock to make your project unique.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
-        {/* =================================technologies========================= */}
+        {/* ===================service section end ================== */}
+        {/* ===============Benefits================== */}
+        <section>
+          <div id="inner-area">
+            <div className="benefits-area">
+              <div className="benefits-decor">
+                <img src="assets/imgs/decor-ball-5.png" alt="" />
+                <img src="assets/imgs/decor-ball-6.png" alt="" />
+                <img src="assets/imgs/decor-ball-7.png" alt="" />
+              </div>
+              <div className="container benefit-section">
+                <div className="title">
+                  <p className="colorful-txt">BENIFITS OF</p>
+                  <h2>NFT Developement</h2>
+                  <div className="title-line"></div>
+                </div>
+
+                <div className="spider">
+                  <img
+                    src="assets/imgs/center-nft.png"
+                    alt=""
+                    className="spider-center"
+                  />
+
+                  <div className="benefits">
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/liquidity.png" alt="" />
+                        <p>NFT Liquidity</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/gas.png" alt="" />
+                        <p>Lowest Gas Price</p>
+                      </div>
+                    </div>
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/marketplace.png" alt="" />
+                        <p>Multi-Chain NFT Marketplace</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/smart-contract.png" alt="" />
+                        <p>
+                          Smart contract <br /> Audited NFT
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/stakling.png" alt="" />
+                        <p>NFT Staking</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/lending.png" alt="" />
+                        <p>NFT Lending</p>
+                      </div>
+                    </div>
+
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/launchpad.png" alt="" />
+                        <p>NFT Launch Pad</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/auction.png" alt="" />
+                        <p>Bidding & Auction</p>
+                      </div>
+                    </div>
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/imgs/ownership.png" alt="" />
+                        <p>Fractional Ownership</p>
+                      </div>
+                      <div className="benefit-box">
+                        <img src="assets/imgs/minting.png" alt="" />
+                        <p>Lazy Minting</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* ===============Benefits end================== */}
+        {/* =======================technologies=================
+        {/* ==================Features================== */}
+        <section>
+          <div id="inner-area">
+            <div className="features cpy-6">
+              <div className="services-decor">
+                <img src="assets/imgs/decor-ball-1.png" alt="" />
+                <img src="assets/imgs/decor-ball-2.png" alt="" />
+                <img src="assets/imgs/decor-ball-3.png" alt="" />
+                <img src="assets/imgs/decor-ball-4.png" alt="" />
+              </div>
+              <div className="container">
+                <div className="section-title">
+                  <p className="sm-title">FEATURES OF</p>
+                  <h2 className="sec-title"> NFT Development Services</h2>
+                </div>
+
+                <div className="services">
+                  <div className="services-container">
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/imgs/paper.png" alt="" />
+                        <img src="assets/imgs/paper-pu.png" alt="" />
+                      </div>
+
+                      <p>Standardization</p>
+                      <p>
+                        You can create reusable, inheritable, and common
+                        standards for all NFTs. Begin token standardization of
+                        collectibles.
+                      </p>
+                    </div>
+
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/imgs/chart-99.png" alt="" />
+                        <img src="assets/imgs/chart-99-pu.png" alt="" />
+                      </div>
+
+                      <p>Marketplace</p>
+                      <p>
+                        The various NFT marketplaces are highly productive for
+                        NFT trading & unique ownership.
+                      </p>
+                    </div>
+
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/imgs/hand.png" alt="" />
+                        <img src="assets/imgs/hand-pu.png" alt="" />
+                      </div>
+
+                      <p>Ownership</p>
+                      <p>
+                        NFT tokens are immutable ownership of antique
+                        collectibles that eliminate unauthorized changes
+                      </p>
+                    </div>
+
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/imgs/hammer.png" alt="" />
+                        <img src="assets/imgs/hammer-pu.png" alt="" />
+                      </div>
+
+                      <p>Bidding</p>
+                      <p>
+                        Trade in multiple marketplaces and bid over them to take
+                        part in the trade.
+                      </p>
+                    </div>
+
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/imgs/trace.png" alt="" />
+                        <img src="assets/imgs/trace-pu.png" alt="" />
+                      </div>
+
+                      <p>Traceability</p>
+                      <p>
+                        The various NFT marketplaces are highly productive for
+                        NFT trading & unique ownership.
+                      </p>
+                    </div>
+
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/imgs/rocket.png" alt="" />
+                        <img src="assets/imgs/rocket-pu.png" alt="" />
+                      </div>
+
+                      <p>New Project</p>
+                      <p>
+                        Wallet providers are eyeing every new project arriving
+                        in the NFT marketplace. Enjoy smooth trade.
+                      </p>
+                    </div>
+
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/imgs/circles.png" alt="" />
+                        <img src="assets/imgs/circles-pu.png" alt="" />
+                      </div>
+
+                      <p>Tracking</p>
+                      <p>
+                        You can track the owner of any asset and avoid
+                        third-party verification requirements.You can also track
+                        traffic & sales analytics.
+                      </p>
+                    </div>
+
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/imgs/goverment.png" alt="" />
+                        <img src="assets/imgs/goverment-pu.png" alt="" />
+                      </div>
+
+                      <p>Governance Attributes</p>
+                      <p>
+                        Users can vote on upgrades of the platform developed by
+                        a Governance attribute.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* ==================Features ================== */}
         {/* =====================top project===================== */}
-        <div className="projects">
+
+        <div className="projects ">
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>
@@ -797,182 +818,9 @@ function Business() {
         </div>
 
         {/* ===============top project end=============== */}
-        {/* ==============pricing==================== */}
-        <div className="container">
-          <div className="plans cpy-6">
-            <div className="section-title">
-              <p className="sm-title">pricing</p>
-              <h2 className="sec-title">Our Pricing Plan</h2>
-              <p className="sec-des">
-                Pay securely online and manage your projects by sitting in your
-                desk
-              </p>
-            </div>
-
-            <div className="plans-options">
-              <Swiper
-                // install Swiper modules
-                modules={[Navigation, A11y]}
-                spaceBetween={50}
-                slidesPerView={1}
-                navigation={{
-                  prevEl: ".prev",
-                  nextEl: ".next",
-                }}
-                loop="true"
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
-                breakpoints={{
-                  // when window width is >= 640px
-                  640: {
-                    slidesPerView: 1,
-                  },
-                  // when window width is >= 768px
-                  768: {
-                    slidesPerView: 2,
-                  },
-                  992: {
-                    slidesPerView: 3,
-                  },
-                }}
-              >
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">6$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Standard 🛵</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-none.svg" alt="Checked" />
-                        <p className="raleway-grey-16 lined">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-none.svg" alt="Checked" />
-                        <p className="raleway-grey-16 lined">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">12$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Extended 🚗</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">24$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Premium 🚛</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16 ">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-            </div>
-          </div>
-        </div>
-        {/* ===================================pricing end ===================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div className="mentioned-area cpt-6">
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Worked With</h2>
@@ -1013,23 +861,6 @@ function Business() {
           </div>
         </section>
         {/* ===================Mentioned section end ================== */}
-        {/* ===================Million Of people ================== */}
-        <section>
-          <div className="million-area cpy-6">
-            <div className="section-title">
-              <p className="sm-title">pricing</p>
-              <h2 className="sec-title">Million Of people Joining Us Daily</h2>
-              <p className="sec-des">
-                Pay securely online and manage the booking via <br /> desktop or
-                via the mobile app.
-              </p>
-            </div>
-            <div className="million-section ">
-              <img src="assets/img/inner/map.png" alt="" />
-            </div>
-          </div>
-        </section>
-        {/* ===================Million Of people end ================== */}
         {/* =====================happy clients======================= */}
         <section>
           <div className="happy-area cpy-6">
@@ -1309,8 +1140,8 @@ function Business() {
   );
 }
 
-Business.title = "Full Stack Web Development Services";
-Business.layout = AppLayout;
+Coin.title = "Full Stack Web Development Services";
+Coin.layout = AppLayout;
 
 const table = [
   {
@@ -1363,4 +1194,4 @@ const table = [
     totalSale: "95557",
   },
 ];
-export default Business;
+export default Coin;

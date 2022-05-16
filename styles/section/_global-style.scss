@@ -1258,7 +1258,6 @@
         gap: 4px;
     }
     .hero-img {
-        display: grid;
         justify-content: center;
         align-items: center;
         position: relative;
@@ -1780,16 +1779,16 @@
     }
     .decor-1 {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 0;
         top: 7%;
         width: 100%;
         display: flex;
         align-content: center;
         justify-content: center;
+        right: 0;
     }
     .decor-1 img {
-        width: 70%;
+        width: 100%;
     }
     .hero-content {
         display: grid;
@@ -4843,4 +4842,29 @@ button.back-home:hover {
 
 .benefit-img img {
     width: 135px;
+}
+
+.service:hover ul li p {
+    color: #fff;
+}
+
+ul.feature-list li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #6c54ea;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+}
+
+ul.feature-list li {
+    position: relative;
+    display: flex;
+    padding-left: 20px;
+}
+
+.service:hover ul li:before {
+    background: #fff;
 }

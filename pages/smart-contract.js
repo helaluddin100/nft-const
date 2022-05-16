@@ -40,36 +40,11 @@ function SmartContract() {
             </div>
 
             <div className="hero-img">
-              <img src="assets/imgs/hero-img.png" alt="" className="hero-bg" />
-              <div className="img-attributes">
-                <div className="double-attribute">
-                  <div className="percentage">
-                    <p className="poppins-purple-14">70% Completed</p>
-                    <div className="percent">
-                      <div></div>
-                    </div>
-                  </div>
-                  <div className="rocket">
-                    <img src="assets/imgs/rocket.png" alt="" />
-                  </div>
-                </div>
-                <div className="spinner">
-                  <img src="assets/imgs/spinner.png" alt="" />
-                </div>
-
-                <div className="experts-section">
-                  <img src="assets/imgs/heart.svg" alt="" className="heart" />
-                  <div className="experts">
-                    <p className="poppins-dark-19">Our Experts</p>
-                    <div>
-                      <img src="assets/imgs/expert-1.png" alt="" />
-                      <img src="assets/imgs/expert-2.png" alt="" />
-                      <img src="assets/imgs/expert-3.png" alt="" />
-                      <p className="poppins-dark-19">4+</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <img
+                src="assets/img/inner/smart-contract.gif"
+                alt=""
+                className="hero-bg"
+              />
             </div>
           </section>
         </div>
@@ -432,7 +407,12 @@ function SmartContract() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 2 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(2);
+                  }}
+                >
                   <p>Storage Platform</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -440,7 +420,12 @@ function SmartContract() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 3 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(3);
+                  }}
+                >
                   <p>NFT Standards</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -448,7 +433,12 @@ function SmartContract() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 4 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(4);
+                  }}
+                >
                   <p>Front End Frameworks</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -456,7 +446,12 @@ function SmartContract() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 5 ? "option active" : "option"}
+                  onClick={() => {
+                    setService(5);
+                  }}
+                >
                   <p>Programming Languages</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -464,7 +459,12 @@ function SmartContract() {
                     className="arrow-down"
                   />
                 </div>
-                <div>
+                <div
+                  className={service === 6 ? "option active " : "option"}
+                  onClick={() => {
+                    setService(6);
+                  }}
+                >
                   <p>Cloud Platforms</p>
                   <img
                     src="assets/imgs/triangle.png"
@@ -475,29 +475,151 @@ function SmartContract() {
               </div>
 
               <div className={service === 1 ? "coins active" : "coins"}>
-                <div>
+                <div className="eth">
                   <img src="assets/imgs/etherium.png" alt="Etherium" />
                   <p>Ethereum</p>
                 </div>
-                <div>
+                <div className="tezos">
                   <img src="assets/imgs/tezos.png" alt="Etherium" />
                   <p>Tezos</p>
                 </div>
-                <div>
+                <div className="wax">
                   <img src="assets/imgs/wax.png" alt="Etherium" />
                   <p>Wax</p>
                 </div>
-                <div>
+                <div className="cortana">
                   <img src="assets/imgs/cortana.png" alt="Etherium" />
                   <p>Cortana</p>
                 </div>
-                <div>
+                <div className="hyperledger">
                   <img src="assets/imgs/hyperledger.png" alt="Etherium" />
                   <p>Hyperledger</p>
                 </div>
-                <div>
+                <div className="multichain">
                   <img src="assets/imgs/multichain.png" alt="Etherium" />
                   <p>Multichain</p>
+                </div>
+              </div>
+              <div className={service === 2 ? "coins active" : "coins"}>
+                <div className="ipfs">
+                  <img src="assets/img/icon/ipfs.png" alt="Etherium" />
+                  <p>IPFS</p>
+                </div>
+                <div className="filecoin">
+                  <img src="assets/img/icon/file-coin.png" alt="Etherium" />
+                  <p>File Coin</p>
+                </div>
+                <div className="mangodb">
+                  <img src="assets/img/icon/mangodb.png" alt="Etherium" />
+                  <p>MangoDB</p>
+                </div>
+                <div className="couchbd">
+                  <img src="assets/img/icon/couchbd.png" alt="Etherium" />
+                  <p>CouchDB</p>
+                </div>
+              </div>
+              <div className={service === 3 ? "coins active" : "coins"}>
+                <div className="eth">
+                  <img src="assets/imgs/etherium.png" alt="Etherium" />
+                  <p>ERC-721A</p>
+                </div>
+                <div className="eth">
+                  <img src="assets/imgs/etherium.png" alt="Etherium" />
+                  <p>ERC-1155</p>
+                </div>
+                <div className="tezos">
+                  <img src="assets/imgs/tezos.png" alt="Etherium" />
+                  <p>Tezos</p>
+                </div>
+
+                <div className="dgoods">
+                  <img src="assets/img/icon/dgoods.png" alt="Etherium" />
+                  <p>Dgoods</p>
+                </div>
+                <div className="trc">
+                  <img src="assets/img/icon/trc.png" alt="Etherium" />
+                  <p>Trc-721</p>
+                </div>
+                <div className="dgoods">
+                  <img src="assets/img/icon/bep.png" alt="Etherium" />
+                  <p>Bep-20</p>
+                </div>
+                <div className="rust">
+                  <img src="assets/img/icon/rust.png" alt="Etherium" />
+                  <p>Rust Programing</p>
+                </div>
+              </div>
+
+              <div className={service === 4 ? "coins active" : "coins"}>
+                <div className="vue">
+                  <img src="assets/img/icon/vuejs.png" alt="Etherium" />
+                  <p>Vue Js</p>
+                </div>
+                <div className="angular">
+                  <img src="assets/img/icon/angular.png" alt="Etherium" />
+                  <p>Angular</p>
+                </div>
+                <div className="react">
+                  <img src="assets/img/icon/react.png" alt="Etherium" />
+                  <p>React</p>
+                </div>
+                <div className="kafka">
+                  <img src="assets/img/icon/cafca.png" alt="Etherium" />
+                  <p>Kafka</p>
+                </div>
+                <div className="couchdb">
+                  <img src="assets/img/icon/couchdb.png" alt="Etherium" />
+                  <p>CouchDB</p>
+                </div>
+                <div className="couchdb2">
+                  <img src="assets/img/icon/couchdb-2.png" alt="Etherium" />
+                  <p>CouchDB</p>
+                </div>
+              </div>
+
+              <div className={service === 5 ? "coins active" : "coins"}>
+                <div className="kafka">
+                  <img src="assets/img/icon/solidity.png" alt="Etherium" />
+                  <p>Solidity</p>
+                </div>
+                <div className="angular1">
+                  <img src="assets/img/icon/angular1.png" alt="Etherium" />
+                  <p>Angular</p>
+                </div>
+                <div className="react">
+                  <img src="assets/img/icon/c++.png" alt="Etherium" />
+                  <p>C++</p>
+                </div>
+                <div className="react">
+                  <img src="assets/img/icon/c.png" alt="Etherium" />
+                  <p>C</p>
+                </div>
+                <div className="couchdb">
+                  <img src="assets/img/icon/couchdb.png" alt="Etherium" />
+                  <p>CouchDB</p>
+                </div>
+                <div className="php">
+                  <img src="assets/img/icon/php.png" alt="Etherium" />
+                  <p>PHP</p>
+                </div>
+              </div>
+
+              <div className={service === 6 ? "coins active" : "coins"}>
+                <div className="aws">
+                  <img src="assets/img/icon/aws.png" alt="Etherium" />
+                  <p>aws</p>
+                </div>
+                <div className="ibm">
+                  <img src="assets/img/icon/ibm.png" alt="Etherium" />
+                  <p>IBM BLUEMIX</p>
+                </div>
+                <div className="rass">
+                  <img src="assets/img/icon/rass.png" alt="Etherium" />
+                  <p>Eth rass</p>
+                </div>
+                <div className="kaleido">
+                  <img src="assets/img/icon/kaleido.png" alt="Etherium" />
+                  <p>Kaleido Insights</p>
                 </div>
               </div>
             </div>
@@ -560,7 +682,7 @@ function SmartContract() {
         {/* ==================Features================== */}
         <section>
           <div id="inner-area">
-            <div className="features cpt-6">
+            <div className="features cpy-6">
               <div className="services-decor">
                 <img src="assets/imgs/decor-ball-1.png" alt="" />
                 <img src="assets/imgs/decor-ball-2.png" alt="" />
@@ -1024,70 +1146,10 @@ function SmartContract() {
             </div>
           </div>
         </div>
-        {/* ===================================pricing end ===================== */}
-        {/* ===================Mentioned section ================== */}
-        <section>
-          <div className="mentioned-area">
-            <div className="section-title">
-              <p className="sm-title">best service</p>
-              <h2 className="sec-title">We’ve Worked With</h2>
-            </div>
-            <div className="mentioned-section ">
-              <div className="images-slider-1">
-                <div className="images-slider-wrapper">
-                  <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
-                  </div>
-                  <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
-                  </div>
-                  <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* ===================Mentioned section end ================== */}
-        {/* ===================Million Of people ================== */}
-        <section>
-          <div className="million-area cpy-6">
-            <div className="section-title">
-              <p className="sm-title">pricing</p>
-              <h2 className="sec-title">Million Of people Joining Us Daily</h2>
-              <p className="sec-des">
-                Pay securely online and manage the booking via <br /> desktop or
-                via the mobile app.
-              </p>
-            </div>
-            <div className="million-section ">
-              <img src="assets/img/inner/map.png" alt="" />
-            </div>
-          </div>
-        </section>
-        {/* ===================Million Of people end ================== */}
+
         {/* =====================happy clients======================= */}
         <section>
-          <div className="happy-area cpy-6">
+          <div className="happy-area cpb-6">
             <div className="container">
               <div className="section-wrap">
                 <div className="chainup-title">

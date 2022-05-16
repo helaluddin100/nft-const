@@ -9,23 +9,11 @@ function Testing() {
   return (
     <>
       <div id="testing" className="cpy-5">
-        <div className="decor">
-          <div className="decor-1">
-            <img src="assets/imgs/decor-1.svg" alt="" />
-          </div>
-          <div className="decor-2"></div>
-          <div className="decor-3"></div>
-
-          <div className="decor-4">
-            <img src="assets/imgs/decor-4.svg" alt="" />
-          </div>
-        </div>
         <div className="container">
           <section className="hero">
             <div className="hero-content">
               <h1>
-                HiCoin <span>Recruiting</span> <br /> Global Business
-                <br /> Partners
+                HiCoin <span>Recruiting</span> Global Business Partners
                 <img src="assets/imgs/line.svg" alt="" />
               </h1>
 
@@ -53,22 +41,10 @@ function Testing() {
 
             <div className="hero-img-2">
               <img
-                src="assets/imgs/hero-img-1.png"
+                src="assets/img/inner/testing-hero.gif"
                 alt="Hero IMG"
                 className="hero-img-guy"
               />
-
-              <div className="hero-attributes">
-                <div className="pie-chart">
-                  <div className="pie animate">
-                    <p>70%</p>
-                  </div>
-                </div>
-
-                <div className="chart-2">
-                  <img src="assets/imgs/chart-2.png" alt="" />
-                </div>
-              </div>
             </div>
           </section>
         </div>
@@ -273,247 +249,10 @@ function Testing() {
           </div>
         </section>
         {/* ===================demo request section end ================== */}
-        {/* ===================service section ================== */}
-        <section>
-          <div className="service cpy-6">
-            <div className="container">
-              <div className="section-title">
-                <p className="sm-title">best service</p>
-                <h2 className="sec-title">Services</h2>
-                <p className="sec-des">
-                  Get more software development information about exchange
-                  software wallet software derivate products and ETC
-                </p>
-              </div>
 
-              <div className="service-tab">
-                <ul className="tab-ul">
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 1 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(1);
-                      }}
-                    >
-                      All
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 2 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(2);
-                      }}
-                    >
-                      Website
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 3 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(3);
-                      }}
-                    >
-                      Video Editing
-                    </p>
-                  </li>
-                  <li>
-                    <p
-                      className={
-                        serviceActive === 4 ? "tab-link active" : "tab-link"
-                      }
-                      onClick={() => {
-                        setServiceActive(4);
-                      }}
-                    >
-                      Smart Contract
-                    </p>
-                  </li>
-                </ul>
-              </div>
-
-              <div
-                className={
-                  serviceActive == 1 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 2 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 3 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={
-                  serviceActive == 4 ? "service-grid active" : "service-grid"
-                }
-              >
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-                <div className="service-car">
-                  <div className="service-icon">
-                    <img src="assets/img/icon/code.png" alt="" />
-                  </div>
-                  <div className="service-content">
-                    <h3>Website Design</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* ===================service section end ================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div className="mentioned-area cpt-6">
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Been Mentioned In....</h2>
@@ -774,7 +513,7 @@ function Testing() {
               </div>
 
               <img
-                src="assets/imgs/decor-1.png"
+                src="assets/img/inner/technologies.png"
                 alt="Papers"
                 className="tools-img"
               />
@@ -1041,23 +780,7 @@ function Testing() {
           </div>
         </section>
         {/* ===================Mentioned section end ================== */}
-        {/* ===================Million Of people ================== */}
-        <section>
-          <div className="million-area cpy-6">
-            <div className="section-title">
-              <p className="sm-title">pricing</p>
-              <h2 className="sec-title">Million Of people Joining Us Daily</h2>
-              <p className="sec-des">
-                Pay securely online and manage the booking via <br /> desktop or
-                via the mobile app.
-              </p>
-            </div>
-            <div className="million-section ">
-              <img src="assets/img/inner/map.png" alt="" />
-            </div>
-          </div>
-        </section>
-        {/* ===================Million Of people end ================== */}
+
         {/* =====================happy clients======================= */}
         <section>
           <div className="happy-area cpy-6">
