@@ -58,7 +58,7 @@ ul.social-ul {
     background: var(--white-color);
     border-radius: 6px;
     right: 0;
-    transform: translatey(31px);
+    transform: translateY(31px);
     transition: 0.3s;
     opacity: 0;
     visibility: hidden;

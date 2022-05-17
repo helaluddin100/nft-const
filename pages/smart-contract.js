@@ -41,10 +41,14 @@ function SmartContract() {
 
             <div className="hero-img">
               <img
-                src="assets/img/inner/smart-contract.gif"
+                src="assets/img/hero/smart-contract-dev.png"
                 alt=""
                 className="hero-bg"
               />
+              <img src="assets/img/hero/5.png" alt="" className="contract1" />
+              <img src="assets/img/hero/6.png" alt="" className="contract2" />
+              <img src="assets/img/hero/7.png" alt="" className="contract3" />
+              <img src="assets/img/hero/8.png" alt="" className="contract4" />
             </div>
           </section>
         </div>

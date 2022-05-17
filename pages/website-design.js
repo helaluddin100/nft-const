@@ -40,11 +40,10 @@ function Coin() {
             </div>
 
             <div className="hero-img">
-              <img
-                src="assets/img/inner/website-design.gif"
-                alt=""
-                className="he"
-              />
+              <img src="assets/img/hero/hero3.png" alt="" className="he" />
+
+              <img src="assets/img/hero/1.png" alt="" className="hero-1" />
+              <img src="assets/img/hero/2.png" alt="" className="hero-2" />
             </div>
           </section>
         </div>

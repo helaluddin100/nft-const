@@ -11,7 +11,6 @@ function HiCoin() {
       <div id="hiCoin" className="cpy-5">
         <div className="decor-balls">
           <img src="assets/imgs/decor-ball-1.svg" alt="" />
-          <img src="assets/imgs/decor-ball-2.svg" alt="" />
           <img src="assets/imgs/decor-ball-3.svg" alt="" />
         </div>
         <div className="container">

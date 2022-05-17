@@ -1010,6 +1010,7 @@ function Home() {
 }
 
 Home.title = "Full Stack Web Development Services";
+Home.description = "Meta Description";
 Home.layout = AppLayout;
 
 const table = [

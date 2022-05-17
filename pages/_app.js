@@ -11,11 +11,15 @@ import Head from "next/head";
 import { Fragment, useEffect } from "react";
 function MyApp({ Component, pageProps }) {
   const title = Component.title || "NFT - Full Stack Web Development Services";
+  const description =
+    Component.description ||
+    "NFT - Full Stack Web Development Services by NFT Constractor";
   const Layout = Component.layout || Fragment;
   return (
     <>
       <Head>
         <title>{title}</title>
+        <meta name="description" content={description}></meta>
       </Head>
       <Layout>
         <Component {...pageProps} />;

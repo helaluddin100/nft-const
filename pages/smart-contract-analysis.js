@@ -40,7 +40,9 @@ function Business() {
             </div>
 
             <div className="hero-img">
-              <img src="assets/imgs/hreo-img.png" alt="Hero IMG" />
+              <img src="assets/img/hero/website-analysis.png" alt="Hero IMG" />
+              <img src="assets/img/hero/9.png" alt="" className="sm-an1" />
+              <img src="assets/img/hero/10.png" alt="" className="sm-an2" />
             </div>
           </section>
         </div>

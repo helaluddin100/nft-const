@@ -19,6 +19,8 @@ function Analysis() {
           <section className="hero">
             <div className="decor-1">
               <img src="assets/imgs/decor-1.png" alt="" />
+              <img src="assets/img/hero/3.png" alt="" className="decor-2" />
+              <img src="assets/img/hero/4.png" alt="" className="decor-3" />
             </div>
             <div className="hero-content">
               <h1>
