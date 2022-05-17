@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import AppLayout from "../component/Layout/Layout";
 import { Navigation, A11y } from "swiper";
 import CountUp from "react-countup";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 function Home() {
   return (
@@ -10,7 +11,11 @@ function Home() {
         <section className="hero">
           <div className="container">
             <div className="hero-wrapper">
-              <div className="hero-content-wrapper">
+              <div
+                className="hero-content-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="hero-content">
                   <div className="title-top-img">
                     <img src="assets/img/inner/cr-1.png" alt="" />
@@ -54,7 +59,11 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="hero-img">
+              <div
+                className="hero-img"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <img src="assets/img/hero/webdevlopment.gif" alt="" />
               </div>
             </div>
@@ -74,7 +83,11 @@ function Home() {
         <div className="service-card">
           <div className="container">
             <div className="row-4">
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -88,7 +101,11 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -102,7 +119,11 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -116,7 +137,11 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -151,7 +176,11 @@ function Home() {
             </div>
 
             <div className="row cpt-7">
-              <div className="request-form">
+              <div
+                className="request-form"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <form action="">
                   <div className="form-group-2">
                     <div className="input-group">
@@ -288,10 +317,18 @@ function Home() {
           <div className="chainup-area cpy-6">
             <div className="container">
               <div className="chainup-grid">
-                <div className="chainup-img">
+                <div
+                  className="chainup-img"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <img src="assets/img/inner/chainup.png" alt="" />
                 </div>
-                <div className="chainup-content">
+                <div
+                  className="chainup-content"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="chainup-title">
                     <p>CHAINUP</p>
                     <h2>ChainUP Data Center Worldwide</h2>
@@ -384,7 +421,11 @@ function Home() {
                 </div>
               </div>
               <div className="market-report-grid">
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -399,7 +440,11 @@ function Home() {
                     <a href="">get the report</a>
                   </div>
                 </div>
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -425,7 +470,11 @@ function Home() {
         </section>
         {/* ===================MARKET REPORT section end  ================== */}
         {/* ===================Newsletter section  ================== */}
-        <div className="newsletters">
+        <div
+          className="newsletters"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="newsletter-content">
             <div className="flex-col">
               <p className="urbanist-dark-42">Newsletters</p>
@@ -468,7 +517,11 @@ function Home() {
           <div className="project-content">
             <button className="btn-purple-2">View Ranking</button>
 
-            <div className="table-responsive">
+            <div
+              className="table-responsive"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <table className="project-table">
                 <thead>
                   <tr>
@@ -509,7 +562,11 @@ function Home() {
               </p>
             </div>
 
-            <div className="plans-options">
+            <div
+              className="plans-options"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, A11y]}
@@ -724,7 +781,11 @@ function Home() {
                 via the mobile app.
               </p>
             </div>
-            <div className="million-section ">
+            <div
+              className="million-section "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <img src="assets/img/inner/map.png" alt="" />
             </div>
           </div>
@@ -745,7 +806,11 @@ function Home() {
                 </p>
               </div>
 
-              <div className="client-review">
+              <div
+                className="client-review"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <Swiper
                   // install Swiper modules
                   modules={[Navigation, A11y]}
@@ -878,7 +943,11 @@ function Home() {
             </div>
 
             <div className="content">
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question1"
@@ -903,7 +972,11 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question5"
@@ -928,7 +1001,11 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question2"
@@ -952,7 +1029,11 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question3"
@@ -976,7 +1057,11 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question4"
