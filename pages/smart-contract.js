@@ -11,7 +11,11 @@ function SmartContract() {
       <div id="home3" className="cpy-5">
         <div className="container">
           <section className="hero">
-            <div className="hero-content">
+            <div
+              className="hero-content"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <h1>
                 HiCoin Recruiting <br /> Global <span> Business</span>
                 <br /> Partners
@@ -39,7 +43,11 @@ function SmartContract() {
               </div>
             </div>
 
-            <div className="hero-img">
+            <div
+              className="hero-img"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <img
                 src="assets/img/hero/smart-contract-dev.png"
                 alt=""
@@ -58,7 +66,11 @@ function SmartContract() {
         <div className="service-card">
           <div className="container">
             <div className="row-4">
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -69,7 +81,11 @@ function SmartContract() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -80,7 +96,11 @@ function SmartContract() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -91,7 +111,11 @@ function SmartContract() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -113,12 +137,20 @@ function SmartContract() {
         <section className="about-us cpy-6">
           <div className="container">
             <div className="row-col-2">
-              <div className="col-md-6">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="about-us-img">
                   <img src="assets/img/inner/about-us.png" alt="" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="about-us-content">
                   <div className="about-content-inner">
                     <h2>description</h2>
@@ -153,7 +185,11 @@ function SmartContract() {
         </section>
         {/* ================about us section end ================== */}
         {/* ===================demo request section ================== */}
-        <section className="demo-request">
+        <section
+          className="demo-request"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="container">
             <div className="section-title">
               <p className="sm-title">best service</p>
@@ -256,7 +292,11 @@ function SmartContract() {
 
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area cpt-6">
+          <div
+            className="mentioned-area cpt-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Been Mentioned In....</h2>
@@ -302,10 +342,18 @@ function SmartContract() {
           <div className="chainup-area cpy-6">
             <div className="container">
               <div className="chainup-grid">
-                <div className="chainup-img">
+                <div
+                  className="chainup-img"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <img src="assets/img/inner/chainup.png" alt="" />
                 </div>
-                <div className="chainup-content">
+                <div
+                  className="chainup-content"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="chainup-title">
                     <p>CHAINUP</p>
                     <h2>ChainUP Data Center Worldwide</h2>
@@ -389,7 +437,11 @@ function SmartContract() {
         <section>
           <div className="development-track cpb-6" id="nft-development">
             <div className="container">
-              <div className="section-title">
+              <div
+                className="section-title"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <p className="sm-title">best services</p>
                 <h2 className="sec-title">NFT Development Tech Stack</h2>
                 <p className="sec-des">
@@ -397,7 +449,11 @@ function SmartContract() {
                   are highly innovative & work with advanced technologies.
                 </p>
               </div>
-              <div className="options">
+              <div
+                className="options"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div
                   className={service === 1 ? "option active" : "option"}
                   onClick={() => {
@@ -477,153 +533,154 @@ function SmartContract() {
                   />
                 </div>
               </div>
+              <div className="" data-aos="fade-up" data-aos-duration="1000">
+                <div className={service === 1 ? "coins active" : "coins"}>
+                  <div className="eth">
+                    <img src="assets/imgs/etherium.png" alt="Etherium" />
+                    <p>Ethereum</p>
+                  </div>
+                  <div className="tezos">
+                    <img src="assets/imgs/tezos.png" alt="Etherium" />
+                    <p>Tezos</p>
+                  </div>
+                  <div className="wax">
+                    <img src="assets/imgs/wax.png" alt="Etherium" />
+                    <p>Wax</p>
+                  </div>
+                  <div className="cortana">
+                    <img src="assets/imgs/cortana.png" alt="Etherium" />
+                    <p>Cortana</p>
+                  </div>
+                  <div className="hyperledger">
+                    <img src="assets/imgs/hyperledger.png" alt="Etherium" />
+                    <p>Hyperledger</p>
+                  </div>
+                  <div className="multichain">
+                    <img src="assets/imgs/multichain.png" alt="Etherium" />
+                    <p>Multichain</p>
+                  </div>
+                </div>
+                <div className={service === 2 ? "coins active" : "coins"}>
+                  <div className="ipfs">
+                    <img src="assets/img/icon/ipfs.png" alt="Etherium" />
+                    <p>IPFS</p>
+                  </div>
+                  <div className="filecoin">
+                    <img src="assets/img/icon/file-coin.png" alt="Etherium" />
+                    <p>File Coin</p>
+                  </div>
+                  <div className="mangodb">
+                    <img src="assets/img/icon/mangodb.png" alt="Etherium" />
+                    <p>MangoDB</p>
+                  </div>
+                  <div className="couchbd">
+                    <img src="assets/img/icon/couchbd.png" alt="Etherium" />
+                    <p>CouchDB</p>
+                  </div>
+                </div>
+                <div className={service === 3 ? "coins active" : "coins"}>
+                  <div className="eth">
+                    <img src="assets/imgs/etherium.png" alt="Etherium" />
+                    <p>ERC-721A</p>
+                  </div>
+                  <div className="eth">
+                    <img src="assets/imgs/etherium.png" alt="Etherium" />
+                    <p>ERC-1155</p>
+                  </div>
+                  <div className="tezos">
+                    <img src="assets/imgs/tezos.png" alt="Etherium" />
+                    <p>Tezos</p>
+                  </div>
 
-              <div className={service === 1 ? "coins active" : "coins"}>
-                <div className="eth">
-                  <img src="assets/imgs/etherium.png" alt="Etherium" />
-                  <p>Ethereum</p>
-                </div>
-                <div className="tezos">
-                  <img src="assets/imgs/tezos.png" alt="Etherium" />
-                  <p>Tezos</p>
-                </div>
-                <div className="wax">
-                  <img src="assets/imgs/wax.png" alt="Etherium" />
-                  <p>Wax</p>
-                </div>
-                <div className="cortana">
-                  <img src="assets/imgs/cortana.png" alt="Etherium" />
-                  <p>Cortana</p>
-                </div>
-                <div className="hyperledger">
-                  <img src="assets/imgs/hyperledger.png" alt="Etherium" />
-                  <p>Hyperledger</p>
-                </div>
-                <div className="multichain">
-                  <img src="assets/imgs/multichain.png" alt="Etherium" />
-                  <p>Multichain</p>
-                </div>
-              </div>
-              <div className={service === 2 ? "coins active" : "coins"}>
-                <div className="ipfs">
-                  <img src="assets/img/icon/ipfs.png" alt="Etherium" />
-                  <p>IPFS</p>
-                </div>
-                <div className="filecoin">
-                  <img src="assets/img/icon/file-coin.png" alt="Etherium" />
-                  <p>File Coin</p>
-                </div>
-                <div className="mangodb">
-                  <img src="assets/img/icon/mangodb.png" alt="Etherium" />
-                  <p>MangoDB</p>
-                </div>
-                <div className="couchbd">
-                  <img src="assets/img/icon/couchbd.png" alt="Etherium" />
-                  <p>CouchDB</p>
-                </div>
-              </div>
-              <div className={service === 3 ? "coins active" : "coins"}>
-                <div className="eth">
-                  <img src="assets/imgs/etherium.png" alt="Etherium" />
-                  <p>ERC-721A</p>
-                </div>
-                <div className="eth">
-                  <img src="assets/imgs/etherium.png" alt="Etherium" />
-                  <p>ERC-1155</p>
-                </div>
-                <div className="tezos">
-                  <img src="assets/imgs/tezos.png" alt="Etherium" />
-                  <p>Tezos</p>
+                  <div className="dgoods">
+                    <img src="assets/img/icon/dgoods.png" alt="Etherium" />
+                    <p>Dgoods</p>
+                  </div>
+                  <div className="trc">
+                    <img src="assets/img/icon/trc.png" alt="Etherium" />
+                    <p>Trc-721</p>
+                  </div>
+                  <div className="dgoods">
+                    <img src="assets/img/icon/bep.png" alt="Etherium" />
+                    <p>Bep-20</p>
+                  </div>
+                  <div className="rust">
+                    <img src="assets/img/icon/rust.png" alt="Etherium" />
+                    <p>Rust Programing</p>
+                  </div>
                 </div>
 
-                <div className="dgoods">
-                  <img src="assets/img/icon/dgoods.png" alt="Etherium" />
-                  <p>Dgoods</p>
+                <div className={service === 4 ? "coins active" : "coins"}>
+                  <div className="vue">
+                    <img src="assets/img/icon/vuejs.png" alt="Etherium" />
+                    <p>Vue Js</p>
+                  </div>
+                  <div className="angular">
+                    <img src="assets/img/icon/angular.png" alt="Etherium" />
+                    <p>Angular</p>
+                  </div>
+                  <div className="react">
+                    <img src="assets/img/icon/react.png" alt="Etherium" />
+                    <p>React</p>
+                  </div>
+                  <div className="kafka">
+                    <img src="assets/img/icon/cafca.png" alt="Etherium" />
+                    <p>Kafka</p>
+                  </div>
+                  <div className="couchdb">
+                    <img src="assets/img/icon/couchdb.png" alt="Etherium" />
+                    <p>CouchDB</p>
+                  </div>
+                  <div className="couchdb2">
+                    <img src="assets/img/icon/couchdb-2.png" alt="Etherium" />
+                    <p>CouchDB</p>
+                  </div>
                 </div>
-                <div className="trc">
-                  <img src="assets/img/icon/trc.png" alt="Etherium" />
-                  <p>Trc-721</p>
-                </div>
-                <div className="dgoods">
-                  <img src="assets/img/icon/bep.png" alt="Etherium" />
-                  <p>Bep-20</p>
-                </div>
-                <div className="rust">
-                  <img src="assets/img/icon/rust.png" alt="Etherium" />
-                  <p>Rust Programing</p>
-                </div>
-              </div>
 
-              <div className={service === 4 ? "coins active" : "coins"}>
-                <div className="vue">
-                  <img src="assets/img/icon/vuejs.png" alt="Etherium" />
-                  <p>Vue Js</p>
+                <div className={service === 5 ? "coins active" : "coins"}>
+                  <div className="kafka">
+                    <img src="assets/img/icon/solidity.png" alt="Etherium" />
+                    <p>Solidity</p>
+                  </div>
+                  <div className="angular1">
+                    <img src="assets/img/icon/angular1.png" alt="Etherium" />
+                    <p>Angular</p>
+                  </div>
+                  <div className="react">
+                    <img src="assets/img/icon/c++.png" alt="Etherium" />
+                    <p>C++</p>
+                  </div>
+                  <div className="react">
+                    <img src="assets/img/icon/c.png" alt="Etherium" />
+                    <p>C</p>
+                  </div>
+                  <div className="couchdb">
+                    <img src="assets/img/icon/couchdb.png" alt="Etherium" />
+                    <p>CouchDB</p>
+                  </div>
+                  <div className="php">
+                    <img src="assets/img/icon/php.png" alt="Etherium" />
+                    <p>PHP</p>
+                  </div>
                 </div>
-                <div className="angular">
-                  <img src="assets/img/icon/angular.png" alt="Etherium" />
-                  <p>Angular</p>
-                </div>
-                <div className="react">
-                  <img src="assets/img/icon/react.png" alt="Etherium" />
-                  <p>React</p>
-                </div>
-                <div className="kafka">
-                  <img src="assets/img/icon/cafca.png" alt="Etherium" />
-                  <p>Kafka</p>
-                </div>
-                <div className="couchdb">
-                  <img src="assets/img/icon/couchdb.png" alt="Etherium" />
-                  <p>CouchDB</p>
-                </div>
-                <div className="couchdb2">
-                  <img src="assets/img/icon/couchdb-2.png" alt="Etherium" />
-                  <p>CouchDB</p>
-                </div>
-              </div>
 
-              <div className={service === 5 ? "coins active" : "coins"}>
-                <div className="kafka">
-                  <img src="assets/img/icon/solidity.png" alt="Etherium" />
-                  <p>Solidity</p>
-                </div>
-                <div className="angular1">
-                  <img src="assets/img/icon/angular1.png" alt="Etherium" />
-                  <p>Angular</p>
-                </div>
-                <div className="react">
-                  <img src="assets/img/icon/c++.png" alt="Etherium" />
-                  <p>C++</p>
-                </div>
-                <div className="react">
-                  <img src="assets/img/icon/c.png" alt="Etherium" />
-                  <p>C</p>
-                </div>
-                <div className="couchdb">
-                  <img src="assets/img/icon/couchdb.png" alt="Etherium" />
-                  <p>CouchDB</p>
-                </div>
-                <div className="php">
-                  <img src="assets/img/icon/php.png" alt="Etherium" />
-                  <p>PHP</p>
-                </div>
-              </div>
-
-              <div className={service === 6 ? "coins active" : "coins"}>
-                <div className="aws">
-                  <img src="assets/img/icon/aws.png" alt="Etherium" />
-                  <p>aws</p>
-                </div>
-                <div className="ibm">
-                  <img src="assets/img/icon/ibm.png" alt="Etherium" />
-                  <p>IBM BLUEMIX</p>
-                </div>
-                <div className="rass">
-                  <img src="assets/img/icon/rass.png" alt="Etherium" />
-                  <p>Eth rass</p>
-                </div>
-                <div className="kaleido">
-                  <img src="assets/img/icon/kaleido.png" alt="Etherium" />
-                  <p>Kaleido Insights</p>
+                <div className={service === 6 ? "coins active" : "coins"}>
+                  <div className="aws">
+                    <img src="assets/img/icon/aws.png" alt="Etherium" />
+                    <p>aws</p>
+                  </div>
+                  <div className="ibm">
+                    <img src="assets/img/icon/ibm.png" alt="Etherium" />
+                    <p>IBM BLUEMIX</p>
+                  </div>
+                  <div className="rass">
+                    <img src="assets/img/icon/rass.png" alt="Etherium" />
+                    <p>Eth rass</p>
+                  </div>
+                  <div className="kaleido">
+                    <img src="assets/img/icon/kaleido.png" alt="Etherium" />
+                    <p>Kaleido Insights</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -634,7 +691,11 @@ function SmartContract() {
         <section>
           <div className="market-report-area cpy-6">
             <div className="container">
-              <div className="section-wrap">
+              <div
+                className="section-wrap"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="chainup-title">
                   <p>MARKET REPORT</p>
                   <h2>
@@ -643,7 +704,11 @@ function SmartContract() {
                 </div>
               </div>
               <div className="market-report-grid">
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -658,7 +723,11 @@ function SmartContract() {
                     <a href="">get the report</a>
                   </div>
                 </div>
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -685,7 +754,7 @@ function SmartContract() {
         {/* ===================MARKET REPORT section end  ================== */}
         {/* ==================Features================== */}
         <section>
-          <div id="inner-area">
+          <div id="inner-area" data-aos="fade-up" data-aos-duration="1000">
             <div className="features cpy-6">
               <div className="services-decor">
                 <img src="assets/imgs/decor-ball-1.png" alt="" />
@@ -750,7 +819,11 @@ function SmartContract() {
         </section>
         {/* ==================Features ================== */}
         {/* ===================Newsletter section  ================== */}
-        <div className="newsletters">
+        <div
+          className="newsletters"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="newsletter-content">
             <div className="flex-col">
               <p className="urbanist-dark-42">Newsletters</p>
@@ -780,7 +853,7 @@ function SmartContract() {
         {/* ===================Newsletter section end ================== */}
         {/* ===============Benefits================== */}
         <section>
-          <div id="inner-area">
+          <div id="inner-area" data-aos="fade-up" data-aos-duration="1000">
             <div className="benefits-area">
               <div className="benefits-decor">
                 <img src="assets/imgs/decor-ball-5.png" alt="" />
@@ -867,7 +940,11 @@ function SmartContract() {
         <section>
           <div className="bene cpy-6">
             <div className="container">
-              <div className="section-title">
+              <div
+                className="section-title"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <p className="sm-title">BENIFITS OF</p>
                 <h2 className="sec-title">Nft Developement</h2>
                 <p className="sec-des">
@@ -880,7 +957,11 @@ function SmartContract() {
 
               <div className="benefit-container cpt-7">
                 <div className="benefit-box">
-                  <div className="benefit-item">
+                  <div
+                    className="benefit-item"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
                     <div className="benefit-img">
                       <img src="assets/img/icon/4.png" alt="" />
                     </div>
@@ -893,7 +974,11 @@ function SmartContract() {
                     </div>
                   </div>
 
-                  <div className="benefit-item">
+                  <div
+                    className="benefit-item c-derection"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                  >
                     <div className="benefit-de">
                       <h2>Customized Solutions</h2>
                       <p>
@@ -905,7 +990,11 @@ function SmartContract() {
                       <img src="assets/img/icon/5.png" alt="" />
                     </div>
                   </div>
-                  <div className="benefit-item">
+                  <div
+                    className="benefit-item"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
                     <div className="benefit-img">
                       <img src="assets/img/icon/6.png" alt="" />
                     </div>
@@ -917,7 +1006,11 @@ function SmartContract() {
                       </p>
                     </div>
                   </div>
-                  <div className="benefit-item">
+                  <div
+                    className="benefit-item c-derection"
+                    data-aos="fade-up"
+                    data-aos-duration="2500"
+                  >
                     <div className="benefit-de">
                       <h2>Post-launch Support</h2>
                       <p>
@@ -936,7 +1029,7 @@ function SmartContract() {
         </section>
         {/* ==================benefit================== */}
         {/* =====================top project===================== */}
-        <div className="projects">
+        <div className="projects" data-aos="fade-up" data-aos-duration="1000">
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>
@@ -981,7 +1074,11 @@ function SmartContract() {
         {/* ==============pricing==================== */}
         <div className="container">
           <div className="plans cpy-6">
-            <div className="section-title">
+            <div
+              className="section-title"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <p className="sm-title">pricing</p>
               <h2 className="sec-title">Our Pricing Plan</h2>
               <p className="sec-des">
@@ -990,7 +1087,11 @@ function SmartContract() {
               </p>
             </div>
 
-            <div className="plans-options">
+            <div
+              className="plans-options"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, A11y]}
@@ -1155,7 +1256,11 @@ function SmartContract() {
         <section>
           <div className="happy-area cpb-6">
             <div className="container">
-              <div className="section-wrap">
+              <div
+                className="section-wrap"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="chainup-title">
                   <p>Happy clients</p>
                   <h2>What Our Client Say’s</h2>
@@ -1166,7 +1271,11 @@ function SmartContract() {
                 </p>
               </div>
 
-              <div className="client-review">
+              <div
+                className="client-review"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <Swiper
                   // install Swiper modules
                   modules={[Navigation, A11y]}
@@ -1287,7 +1396,11 @@ function SmartContract() {
         </section>
         {/* =====================happy clients end======================= */}
         {/* ==========================faq================== */}
-        <div className="faqs-section cpb-6">
+        <div
+          className="faqs-section cpb-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="container">
             <div className="section-title">
               <p className="sm-title">Question & Answer</p>

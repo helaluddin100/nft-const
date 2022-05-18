@@ -11,7 +11,11 @@ function Coin() {
       <div id="Coin" className="cpy-5">
         <div className="container">
           <section className="hero">
-            <div className="hero-content">
+            <div
+              className="hero-content"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <h1>
                 HiCoin Recruiting <br /> Global <span> Business</span>
                 <br /> Partners
@@ -39,7 +43,11 @@ function Coin() {
               </div>
             </div>
 
-            <div className="hero-img">
+            <div
+              className="hero-img"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <img src="assets/img/hero/hero3.png" alt="" className="he" />
 
               <img src="assets/img/hero/1.png" alt="" className="hero-1" />
@@ -53,7 +61,11 @@ function Coin() {
         <div className="service-card">
           <div className="container">
             <div className="row-4">
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -64,7 +76,11 @@ function Coin() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -75,7 +91,11 @@ function Coin() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -86,7 +106,11 @@ function Coin() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -108,12 +132,20 @@ function Coin() {
         <section className="about-us cpy-6">
           <div className="container">
             <div className="row-col-2">
-              <div className="col-md-6">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="about-us-img">
                   <img src="assets/img/inner/about-us.png" alt="" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="about-us-content">
                   <div className="about-content-inner">
                     <h2>description</h2>
@@ -148,7 +180,11 @@ function Coin() {
         </section>
         {/* ================about us section end ================== */}
         {/* ===================demo request section ================== */}
-        <section className="demo-request">
+        <section
+          className="demo-request"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="container">
             <div className="section-title">
               <p className="sm-title">best service</p>
@@ -251,7 +287,11 @@ function Coin() {
 
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area cpt-6">
+          <div
+            className="mentioned-area cpt-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Been Mentioned In....</h2>
@@ -297,10 +337,18 @@ function Coin() {
           <div className="chainup-area cpy-6">
             <div className="container">
               <div className="chainup-grid">
-                <div className="chainup-img">
+                <div
+                  className="chainup-img"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <img src="assets/img/inner/chainup.png" alt="" />
                 </div>
-                <div className="chainup-content">
+                <div
+                  className="chainup-content"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="chainup-title">
                     <p>CHAINUP</p>
                     <h2>ChainUP Data Center Worldwide</h2>
@@ -384,7 +432,11 @@ function Coin() {
         <section>
           <div className="market-report-area cpy-6">
             <div className="container">
-              <div className="section-wrap">
+              <div
+                className="section-wrap"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="chainup-title">
                   <p>MARKET REPORT</p>
                   <h2>
@@ -393,7 +445,11 @@ function Coin() {
                 </div>
               </div>
               <div className="market-report-grid">
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -408,7 +464,11 @@ function Coin() {
                     <a href="">get the report</a>
                   </div>
                 </div>
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -434,7 +494,11 @@ function Coin() {
         </section>
         {/* ===================MARKET REPORT section end  ================== */}
         {/* ===================Newsletter section  ================== */}
-        <div className="newsletters">
+        <div
+          className="newsletters"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="newsletter-content">
             <div className="flex-col">
               <p className="urbanist-dark-42">Newsletters</p>
@@ -466,7 +530,11 @@ function Coin() {
         <section>
           <div className="service cpy-6">
             <div className="container">
-              <div className="section-title">
+              <div
+                className="section-title"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <h2 className="sec-title">NFT Web Design Services</h2>
                 <p className="sec-des">
                   Being a top NFT token development company, our non-fungible
@@ -478,7 +546,11 @@ function Coin() {
               </div>
 
               <div className="service-grid cpt-7">
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/innovative.png" alt="" />
                   </div>
@@ -490,7 +562,11 @@ function Coin() {
                     </p>
                   </div>
                 </div>
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/effective.png" alt="" />
                   </div>
@@ -502,7 +578,11 @@ function Coin() {
                     </p>
                   </div>
                 </div>
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/time.png" alt="" />
                   </div>
@@ -514,7 +594,11 @@ function Coin() {
                     </p>
                   </div>
                 </div>
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/creativity.png" alt="" />
                   </div>
@@ -527,7 +611,11 @@ function Coin() {
                   </div>
                 </div>
 
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/flexible.png" alt="" />
                   </div>
@@ -540,7 +628,11 @@ function Coin() {
                   </div>
                 </div>
 
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/certified.png" alt="" />
                   </div>
@@ -559,7 +651,7 @@ function Coin() {
         {/* ===================service section end ================== */}
         {/* ===============Benefits================== */}
         <section>
-          <div id="inner-area">
+          <div id="inner-area" data-aos="fade-up" data-aos-duration="1000">
             <div className="benefits-area">
               <div className="benefits-decor">
                 <img src="assets/imgs/decor-ball-5.png" alt="" />
@@ -654,12 +746,20 @@ function Coin() {
                 <img src="assets/imgs/decor-ball-4.png" alt="" />
               </div>
               <div className="container">
-                <div className="section-title">
+                <div
+                  className="section-title"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <p className="sm-title">FEATURES OF</p>
                   <h2 className="sec-title"> NFT Development Services</h2>
                 </div>
 
-                <div className="services">
+                <div
+                  className="services"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="services-container">
                     <div className="service">
                       <div className="services-icon">
@@ -775,7 +875,7 @@ function Coin() {
         {/* ==================Features ================== */}
         {/* =====================top project===================== */}
 
-        <div className="projects ">
+        <div className="projects " data-aos="fade-up" data-aos-duration="1000">
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>
@@ -819,7 +919,11 @@ function Coin() {
         {/* ===============top project end=============== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area cpt-6">
+          <div
+            className="mentioned-area cpt-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Worked With</h2>
@@ -864,7 +968,11 @@ function Coin() {
         <section>
           <div className="happy-area cpy-6">
             <div className="container">
-              <div className="section-wrap">
+              <div
+                className="section-wrap"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="chainup-title">
                   <p>Happy clients</p>
                   <h2>What Our Client Say’s</h2>
@@ -875,7 +983,11 @@ function Coin() {
                 </p>
               </div>
 
-              <div className="client-review">
+              <div
+                className="client-review"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <Swiper
                   // install Swiper modules
                   modules={[Navigation, A11y]}
@@ -998,7 +1110,11 @@ function Coin() {
         {/* ==========================faq================== */}
         <div className="faqs-section cpb-6">
           <div className="container">
-            <div className="section-title">
+            <div
+              className="section-title"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <p className="sm-title">Question & Answer</p>
               <h2 className="sec-title">Frequently Asked Questions (FAQ)</h2>
               <p className="sec-des">
@@ -1008,7 +1124,11 @@ function Coin() {
             </div>
 
             <div className="content">
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question1"
@@ -1033,7 +1153,11 @@ function Coin() {
                   </p>
                 </div>
               </div>
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question5"
@@ -1058,7 +1182,11 @@ function Coin() {
                   </p>
                 </div>
               </div>
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question2"
@@ -1082,7 +1210,11 @@ function Coin() {
                   </p>
                 </div>
               </div>
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question3"
@@ -1106,7 +1238,11 @@ function Coin() {
                   </p>
                 </div>
               </div>
-              <div className="faq-div">
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <input
                   type="checkbox"
                   id="question4"

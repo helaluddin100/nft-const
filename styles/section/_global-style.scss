@@ -366,6 +366,12 @@
         bottom: -10%;
         width: auto !important;
         animation: sm-an1 1s linear 2s infinite alternate;
+        @media screen and (max-width: 768px) {
+            width: 150px !important;
+        }
+        @media screen and (max-width: 400px) {
+            width: 100px !important;
+        }
     }
     @keyframes sm-an1 {
         0% {
@@ -381,6 +387,12 @@
         right: 10%;
         top: 20%;
         animation: sm-an2 1s linear 2s infinite alternate;
+        @media screen and (max-width: 768px) {
+            width: 150px !important;
+        }
+        @media screen and (max-width: 400px) {
+            width: 100px !important;
+        }
     }
     @keyframes sm-an2 {
         0% {
@@ -491,6 +503,10 @@
         grid-template-columns: 1fr 1fr;
         padding: 69px 0 43px;
         gap: 24px;
+        @media screen and (max-width: 1020px) {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
     }
     .hero-img {
         width: 100%;
@@ -641,6 +657,10 @@
         top: 11%;
         left: 8%;
         animation: contract1 1s linear 2s infinite alternate;
+        @media screen and (max-width: 400px) {
+            width: 45px;
+            left: 0;
+        }
     }
     @keyframes contract1 {
         0% {
@@ -655,6 +675,9 @@
         top: 5%;
         left: 36%;
         animation: contract2 1s linear 2s infinite alternate;
+        @media screen and (max-width: 400px) {
+            width: 200px;
+        }
     }
     @keyframes contract2 {
         0% {
@@ -669,6 +692,9 @@
         position: absolute;
         top: 7%;
         animation: contract3 1s linear 2s infinite alternate;
+        @media screen and (max-width: 400px) {
+            width: 45px;
+        }
     }
     @keyframes contract3 {
         0% {
@@ -683,6 +709,9 @@
         top: 60%;
         left: 22%;
         animation: contract4 1s linear 2s infinite alternate;
+        @media screen and (max-width: 400px) {
+            width: 200px;
+        }
     }
     @keyframes contract4 {
         0% {
@@ -839,9 +868,10 @@
     @media only screen and (max-width: 730px) {
         .hero {
             grid-template-columns: 1fr;
+            padding-top: 0;
         }
-        .hero-img {
-            display: none;
+        .hero-content {
+            padding: 0px;
         }
     }
     @media only screen and (max-width: 500px) {
@@ -1454,6 +1484,15 @@
         .hero-checks {
             margin-top: 14px;
         }
+        img.hero-1 {
+            left: 0%;
+        }
+        img.hero-2 {
+            right: 0%;
+        }
+        section.demo-request {
+            padding-top: 30px;
+        }
     }
     @media only screen and (max-width: 440px) {
         .hero-btns {
@@ -1697,16 +1736,8 @@
         .hero-content {
             gap: 16px;
         }
-        .decor-4 {
-            margin-top: 280px;
-            margin-left: 22px;
-        }
     }
     @media only screen and (max-width: 1000px) {
-        .charts-container {
-            right: 16%;
-            margin-top: -100px;
-        }
         .chart {
             height: 80px;
         }
@@ -1720,9 +1751,6 @@
             font-size: 52px;
             line-height: 64px;
         }
-        .decor-4 {
-            margin-top: 400px;
-        }
     }
     @media only screen and (max-width: 780px) {
         .hero {
@@ -1731,13 +1759,27 @@
         .hero-btns button {
             padding: 16px 32px;
         }
-        .hero-img {
-            display: none;
-        }
     }
     @media only screen and (max-width: 730px) {
         .decor-balls img {
             width: 7%;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        .hero-img {
+            margin-top: 50px;
+        }
+        img.decor-4 {
+            width: 200px;
+            left: 10%;
+            bottom: 20%;
+        }
+        .chart {
+            height: 65px;
+        }
+        .charts-container {
+            border-radius: 10px;
+            padding: 12px 14px;
         }
     }
     @media only screen and (max-width: 500px) {
@@ -1756,6 +1798,15 @@
         .hero-btns button {
             width: 100%;
         }
+        .charts-container {
+            top: 0;
+        }
+        img.decor-4 {
+            bottom: 3%;
+        }
+        .hero-img {
+            margin-top: 90px;
+        }
     }
 }
 
@@ -1772,7 +1823,7 @@
         width: 100%;
         height: 100%;
         z-index: 1;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1300px) {
             display: none;
         }
     }
@@ -1930,9 +1981,6 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        @media screen and (max-width: 575px) {
-            margin-top: 80px;
-        }
     }
     .hero-img img {
         width: 100%;
@@ -1946,6 +1994,9 @@
         box-shadow: 0px 11px 39px rgba(0, 0, 0, 0.07);
         border-radius: 17px;
         right: 20%;
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
     }
     .chart {
         background: #eeeeee;
@@ -4303,8 +4354,8 @@ button.back-home:hover {
         gap: 8px;
         justify-items: center;
         padding: 0 27px 31px 27px;
-        transition: 0.3s;
         cursor: pointer;
+        transition: 0.3s;
     }
     .service:hover {
         background: #6c54ea;
@@ -4897,6 +4948,18 @@ button.back-home:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .benefit-box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .benefit-box {
+        grid-template-columns: 1fr;
+    }
 }
 
 .benefit-item {

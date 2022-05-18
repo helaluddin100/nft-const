@@ -11,7 +11,11 @@ function Business() {
       <div id="home2" className="cpy-5">
         <div className="container">
           <section className="hero">
-            <div className="hero-content">
+            <div
+              className="hero-content"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <h1>
                 HiCoin Recruiting <br /> Global <span> Business</span>
                 <br /> Partners
@@ -39,7 +43,11 @@ function Business() {
               </div>
             </div>
 
-            <div className="hero-img">
+            <div
+              className="hero-img"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <img src="assets/img/hero/website-analysis.png" alt="Hero IMG" />
               <img src="assets/img/hero/9.png" alt="" className="sm-an1" />
               <img src="assets/img/hero/10.png" alt="" className="sm-an2" />
@@ -52,7 +60,11 @@ function Business() {
         <div className="service-card">
           <div className="container">
             <div className="row-4">
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -63,7 +75,11 @@ function Business() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -74,7 +90,11 @@ function Business() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -85,7 +105,11 @@ function Business() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -107,12 +131,20 @@ function Business() {
         <section className="about-us cpy-6">
           <div className="container">
             <div className="row-col-2">
-              <div className="col-md-6">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="about-us-img">
                   <img src="assets/img/inner/about-us.png" alt="" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="about-us-content">
                   <div className="about-content-inner">
                     <h2>description</h2>
@@ -147,7 +179,11 @@ function Business() {
         </section>
         {/* ================about us section end ================== */}
         {/* ===================demo request section ================== */}
-        <section className="demo-request">
+        <section
+          className="demo-request"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="container">
             <div className="section-title">
               <p className="sm-title">best service</p>
@@ -251,7 +287,11 @@ function Business() {
         <section>
           <div className="service cpy-6">
             <div className="container">
-              <div className="section-title">
+              <div
+                className="section-title"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <p className="sm-title">OUR NON FUNGIBLE</p>
                 <h2 className="sec-title">Token Development Services</h2>
                 <p className="sec-des">
@@ -264,7 +304,11 @@ function Business() {
               </div>
 
               <div className="service-grid cpt-7">
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/contract.png" alt="" />
                   </div>
@@ -277,7 +321,11 @@ function Business() {
                     </p>
                   </div>
                 </div>
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/risk.png" alt="" />
                   </div>
@@ -290,7 +338,11 @@ function Business() {
                     </p>
                   </div>
                 </div>
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/spent.png" alt="" />
                   </div>
@@ -303,7 +355,11 @@ function Business() {
                   </div>
                 </div>
 
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/reg.png" alt="" />
                   </div>
@@ -323,7 +379,11 @@ function Business() {
         {/* ===================service section end ================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div
+            className="mentioned-area"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Been Mentioned In....</h2>
@@ -369,10 +429,18 @@ function Business() {
           <div className="chainup-area cpy-6">
             <div className="container">
               <div className="chainup-grid">
-                <div className="chainup-img">
+                <div
+                  className="chainup-img"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <img src="assets/img/inner/chainup.png" alt="" />
                 </div>
-                <div className="chainup-content">
+                <div
+                  className="chainup-content"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="chainup-title">
                     <p>CHAINUP</p>
                     <h2>ChainUP Data Center Worldwide</h2>
@@ -456,7 +524,11 @@ function Business() {
         <section>
           <div className="market-report-area cpy-6">
             <div className="container">
-              <div className="section-wrap">
+              <div
+                className="section-wrap"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="chainup-title">
                   <p>MARKET REPORT</p>
                   <h2>
@@ -465,7 +537,11 @@ function Business() {
                 </div>
               </div>
               <div className="market-report-grid">
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -480,7 +556,11 @@ function Business() {
                     <a href="">get the report</a>
                   </div>
                 </div>
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -506,7 +586,11 @@ function Business() {
         </section>
         {/* ===================MARKET REPORT section end  ================== */}
         {/* ===================Newsletter section  ================== */}
-        <div className="newsletters">
+        <div
+          className="newsletters"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="newsletter-content">
             <div className="flex-col">
               <p className="urbanist-dark-42">Newsletters</p>
@@ -545,14 +629,22 @@ function Business() {
                 <img src="assets/imgs/decor-ball-4.png" alt="" />
               </div>
               <div className="container">
-                <div className="section-title">
+                <div
+                  className="section-title"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <p className="sm-title">FEATURES OF</p>
                   <h2 className="sec-title"> NFT Development Services</h2>
                 </div>
 
                 <div className="services">
                   <div className="services-container">
-                    <div className="service">
+                    <div
+                      className="service"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
                       <div className="services-icon">
                         <img src="assets/img/icon/speed.png" alt="" />
                         <img src="assets/img/icon/speeda.png" alt="" />
@@ -575,7 +667,11 @@ function Business() {
                       </ul>
                     </div>
 
-                    <div className="service">
+                    <div
+                      className="service"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
                       <div className="services-icon">
                         <img src="assets/img/icon/securitya.png" alt="" />
                         <img src="assets/img/icon/security.png" alt="" />
@@ -600,7 +696,11 @@ function Business() {
                         </li>
                       </ul>
                     </div>
-                    <div className="service">
+                    <div
+                      className="service"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
                       <div className="services-icon">
                         <img src="assets/img/icon/certificat.png" alt="" />
                         <img src="assets/img/icon/3-a.png" alt="" />
@@ -631,7 +731,7 @@ function Business() {
         {/* ==================Features ================== */}
 
         {/* =====================top project===================== */}
-        <div className="projects">
+        <div className="projects" data-aos="fade-up" data-aos-duration="1000">
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>
@@ -676,7 +776,11 @@ function Business() {
         {/* ==============pricing==================== */}
         <div className="container">
           <div className="plans cpy-6">
-            <div className="section-title">
+            <div
+              className="section-title"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <p className="sm-title">pricing</p>
               <h2 className="sec-title">Our Pricing Plan</h2>
               <p className="sec-des">
@@ -685,7 +789,11 @@ function Business() {
               </p>
             </div>
 
-            <div className="plans-options">
+            <div
+              className="plans-options"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, A11y]}
@@ -848,7 +956,11 @@ function Business() {
         {/* ===================================pricing end ===================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div
+            className="mentioned-area"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Worked With</h2>
@@ -894,7 +1006,11 @@ function Business() {
         <section>
           <div className="happy-area cpy-6">
             <div className="container">
-              <div className="section-wrap">
+              <div
+                className="section-wrap"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="chainup-title">
                   <p>Happy clients</p>
                   <h2>What Our Client Say’s</h2>
@@ -905,7 +1021,11 @@ function Business() {
                 </p>
               </div>
 
-              <div className="client-review">
+              <div
+                className="client-review"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <Swiper
                   // install Swiper modules
                   modules={[Navigation, A11y]}
@@ -1026,7 +1146,11 @@ function Business() {
         </section>
         {/* =====================happy clients end======================= */}
         {/* ==========================faq================== */}
-        <div className="faqs-section cpb-6">
+        <div
+          className="faqs-section cpb-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="container">
             <div className="section-title">
               <p className="sm-title">Question & Answer</p>

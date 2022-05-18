@@ -17,12 +17,20 @@ function Analysis() {
         </div>
         <div className="container">
           <section className="hero">
-            <div className="decor-1">
+            <div
+              className="decor-1"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <img src="assets/imgs/decor-1.png" alt="" />
               <img src="assets/img/hero/3.png" alt="" className="decor-2" />
               <img src="assets/img/hero/4.png" alt="" className="decor-3" />
             </div>
-            <div className="hero-content">
+            <div
+              className="hero-content"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <h1>
                 HiCoin<span> Recruiting</span> Global <br /> Business Partners
               </h1>
@@ -38,7 +46,11 @@ function Analysis() {
               </div>
             </div>
 
-            <div className="hero-img">
+            <div
+              className="hero-img"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <img src="assets/imgs/hero-img-3.png" alt="Hero IMG" />
 
               <div className="charts-container">
@@ -67,7 +79,11 @@ function Analysis() {
         <div className="service-card">
           <div className="container">
             <div className="row-4">
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -78,7 +94,11 @@ function Analysis() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -89,7 +109,11 @@ function Analysis() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -100,7 +124,11 @@ function Analysis() {
                   <p>Start An exchange company In </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
+                data-aos-duration="2500"
+              >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
@@ -122,12 +150,20 @@ function Analysis() {
         <section className="about-us cpy-6">
           <div className="container">
             <div className="row-col-2">
-              <div className="col-md-6">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="about-us-img">
                   <img src="assets/img/inner/about-us.png" alt="" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="about-us-content">
                   <div className="about-content-inner">
                     <h2>description</h2>
@@ -162,7 +198,11 @@ function Analysis() {
         </section>
         {/* ================about us section end ================== */}
         {/* ===================demo request section ================== */}
-        <section className="demo-request">
+        <section
+          className="demo-request"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="container">
             <div className="section-title">
               <p className="sm-title">best service</p>
@@ -267,7 +307,11 @@ function Analysis() {
         <section>
           <div className="service cpy-6">
             <div className="container">
-              <div className="section-title">
+              <div
+                className="section-title"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <p className="sm-title">OUR NON FUNGIBLE</p>
                 <h2 className="sec-title">
                   What NFT Constructer does in a Website Analysis Service?
@@ -281,7 +325,11 @@ function Analysis() {
               </div>
 
               <div className="service-grid cpt-7">
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/8.png" alt="" />
                   </div>
@@ -296,7 +344,11 @@ function Analysis() {
                   </div>
                 </div>
 
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/9.png" alt="" />
                   </div>
@@ -313,7 +365,11 @@ function Analysis() {
                   </div>
                 </div>
 
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/10.png" alt="" />
                   </div>
@@ -328,7 +384,11 @@ function Analysis() {
                     </p>
                   </div>
                 </div>
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/11.png" alt="" />
                   </div>
@@ -345,7 +405,11 @@ function Analysis() {
                     </p>
                   </div>
                 </div>
-                <div className="service-car">
+                <div
+                  className="service-car"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="service-icon">
                     <img src="assets/img/icon/12.png" alt="" />
                   </div>
@@ -371,7 +435,11 @@ function Analysis() {
 
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div
+            className="mentioned-area"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Been Mentioned In....</h2>
@@ -417,10 +485,18 @@ function Analysis() {
           <div className="chainup-area cpy-6">
             <div className="container">
               <div className="chainup-grid">
-                <div className="chainup-img">
+                <div
+                  className="chainup-img"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <img src="assets/img/inner/chainup.png" alt="" />
                 </div>
-                <div className="chainup-content">
+                <div
+                  className="chainup-content"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="chainup-title">
                     <p>CHAINUP</p>
                     <h2>ChainUP Data Center Worldwide</h2>
@@ -504,7 +580,11 @@ function Analysis() {
         <section>
           <div className="market-report-area cpy-6">
             <div className="container">
-              <div className="section-wrap">
+              <div
+                className="section-wrap"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="chainup-title">
                   <p>MARKET REPORT</p>
                   <h2>
@@ -513,7 +593,11 @@ function Analysis() {
                 </div>
               </div>
               <div className="market-report-grid">
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -528,7 +612,11 @@ function Analysis() {
                     <a href="">get the report</a>
                   </div>
                 </div>
-                <div className="market-card">
+                <div
+                  className="market-card"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <div className="card-main-content">
                     <div className="market-card-img">
                       <img src="assets/img/icon/card.png" alt="" />
@@ -554,7 +642,11 @@ function Analysis() {
         </section>
         {/* ===================MARKET REPORT section end  ================== */}
         {/* ===================Newsletter section  ================== */}
-        <div className="newsletters">
+        <div
+          className="newsletters"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="newsletter-content">
             <div className="flex-col">
               <p className="urbanist-dark-42">Newsletters</p>
@@ -584,7 +676,11 @@ function Analysis() {
         {/* ===================Newsletter section end ================== */}
 
         {/* =====================top project===================== */}
-        <div className="projects cpt-6">
+        <div
+          className="projects cpt-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>
@@ -627,7 +723,7 @@ function Analysis() {
 
         {/* ===============top project end=============== */}
         {/* ==============pricing==================== */}
-        <div className="container">
+        <div className="container" data-aos="fade-up" data-aos-duration="1000">
           <div className="plans cpy-6">
             <div className="section-title">
               <p className="sm-title">pricing</p>
@@ -801,7 +897,11 @@ function Analysis() {
         {/* ===================================pricing end ===================== */}
         {/* ===================Mentioned section ================== */}
         <section>
-          <div className="mentioned-area">
+          <div
+            className="mentioned-area"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="section-title">
               <p className="sm-title">best service</p>
               <h2 className="sec-title">We’ve Worked With</h2>
@@ -845,7 +945,11 @@ function Analysis() {
 
         {/* =====================happy clients======================= */}
         <section>
-          <div className="happy-area cpy-6">
+          <div
+            className="happy-area cpy-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="container">
               <div className="section-wrap">
                 <div className="chainup-title">
@@ -979,7 +1083,11 @@ function Analysis() {
         </section>
         {/* =====================happy clients end======================= */}
         {/* ==========================faq================== */}
-        <div className="faqs-section cpb-6">
+        <div
+          className="faqs-section cpb-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="container">
             <div className="section-title">
               <p className="sm-title">Question & Answer</p>
