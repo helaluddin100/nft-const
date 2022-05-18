@@ -17,13 +17,13 @@ function Coin() {
               data-aos-duration="1000"
             >
               <h1>
-                HiCoin Recruiting <br /> Global <span> Business</span>
-                <br /> Partners
+                Next Level Design Solution For Your
+                <span> Fintech Business</span>
               </h1>
 
               <p className="raleway-black-16">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Get awesome design solutions for your latest fintech or nft
+                website with our team of multidisciplinary experts.
               </p>
 
               <div className="hero-btns">
@@ -69,11 +69,11 @@ function Coin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Quick Start 1
+                      # Reliable Platform
                     </a>
                     <img src="assets/img/inner/timer.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Most Realiable Developers </p>
                 </div>
               </div>
               <div
@@ -84,11 +84,11 @@ function Coin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Recomended Cash Back
+                      # Project &apos;s Confidentiality
                     </a>
                     <img src="assets/img/inner/doller.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>All of Your Information Is Secure</p>
                 </div>
               </div>
               <div
@@ -99,11 +99,11 @@ function Coin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Promotion
+                      # Communicative
                     </a>
                     <img src="assets/img/inner/notice.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Clients say the team feels like their employees.</p>
                 </div>
               </div>
               <div
@@ -114,11 +114,11 @@ function Coin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # VIP Customization
+                      # 24/7 Support
                     </a>
                     <img src="assets/img/inner/vip.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Our designers are there to support you 24*7</p>
                 </div>
               </div>
             </div>
@@ -150,24 +150,15 @@ function Coin() {
                   <div className="about-content-inner">
                     <h2>description</h2>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry
-                      &apos; s standard dummy text ever since the 1500s, when an
-                      unknown printer tookLorem Ipsum is simply dummy text of
-                      the printing and typesetting industry. Lorem Ipsum has
-                      been the industry &apos; s standard dummy text ever since
-                      the 1500s, when an unknown printer took Lorem Ipsum is
-                      simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took unknown printer tookLorem Ipsum is simply
-                      dummy text of the printing and typesetting industry. Lorem
-                      Ipsum has been the industry &apos; s standard dummy text
-                      ever since the 1500s, when an unknown printer took Lorem
-                      Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took
+                      We combine award-winning UI/UX design for non-fungible
+                      token platforms witinsight-led user experience strategy to
+                      create websites, apps and bespoke interfaces. Expect a
+                      look that enhances your brand, underpinned by a sharp
+                      focus on your commercial. Connect with your community and
+                      lay the foundations for a stronger business with your new
+                      fintech corporate identity. We will develop visual and
+                      verbal branding that articulates your values, aspirations
+                      and brand positioning to non-fungible token consumers.
                     </p>
                   </div>
                 </div>
@@ -188,10 +179,10 @@ function Coin() {
           <div className="container">
             <div className="section-title">
               <p className="sm-title">best service</p>
-              <h2 className="sec-title">Request A demo</h2>
+              <h2 className="sec-title">Get A Quote</h2>
               <p className="sec-des">
-                Get more software development information about exchange
-                software wallet software derivate products and ETC
+                Let’s take this growing relationship to the next level. We are
+                interested in a long-term partnership.
               </p>
             </div>
 
@@ -362,7 +353,7 @@ function Coin() {
                         <h3>
                           <CountUp end={500} duration={5} /> +
                         </h3>
-                        <p>Data Center Worldwide</p>
+                        <p>Served Clients</p>
                       </div>
                     </div>
 
@@ -372,7 +363,7 @@ function Coin() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={100} duration={5} /> +
+                          <CountUp end={60} duration={5} /> +
                         </h3>
                         <p>Financial Detervative Clients</p>
                       </div>
@@ -405,9 +396,9 @@ function Coin() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={300} duration={5} /> +
+                          <CountUp end={160} duration={5} /> +
                         </h3>
-                        <p>NFT Service Client</p>
+                        <p>Liquidity Service Client</p>
                       </div>
                     </div>
                     <div className="chainup-inner-grid-item">
@@ -475,7 +466,8 @@ function Coin() {
                     </div>
                     <div className="market-card-content">
                       <h3>
-                        Quarterly NFT Market Report <br /> 2022
+                        Quarterly NFT Market Report
+                        <br /> 2022
                       </h3>
                     </div>
                   </div>
@@ -675,21 +667,21 @@ function Coin() {
                   <div className="benefits">
                     <div className="benefits-container">
                       <div className="benefit-box">
-                        <img src="assets/imgs/liquidity.png" alt="" />
+                        <img src="assets/img/design/1.png" alt="" />
                         <p>NFT Liquidity</p>
                       </div>
                       <div className="benefit-box">
-                        <img src="assets/imgs/gas.png" alt="" />
+                        <img src="assets/img/design/2.png" alt="" />
                         <p>Lowest Gas Price</p>
                       </div>
                     </div>
                     <div className="benefits-container">
                       <div className="benefit-box">
-                        <img src="assets/imgs/marketplace.png" alt="" />
+                        <img src="assets/img/design/3.png" alt="" />
                         <p>Multi-Chain NFT Marketplace</p>
                       </div>
                       <div className="benefit-box">
-                        <img src="assets/imgs/smart-contract.png" alt="" />
+                        <img src="assets/img/design/4.png" alt="" />
                         <p>
                           Smart contract <br /> Audited NFT
                         </p>
@@ -698,32 +690,32 @@ function Coin() {
 
                     <div className="benefits-container">
                       <div className="benefit-box">
-                        <img src="assets/imgs/stakling.png" alt="" />
+                        <img src="assets/img/design/5.png" alt="" />
                         <p>NFT Staking</p>
                       </div>
                       <div className="benefit-box">
-                        <img src="assets/imgs/lending.png" alt="" />
+                        <img src="assets/img/design/6.png" alt="" />
                         <p>NFT Lending</p>
                       </div>
                     </div>
 
                     <div className="benefits-container">
                       <div className="benefit-box">
-                        <img src="assets/imgs/launchpad.png" alt="" />
+                        <img src="assets/img/design/7.png" alt="" />
                         <p>NFT Launch Pad</p>
                       </div>
                       <div className="benefit-box">
-                        <img src="assets/imgs/auction.png" alt="" />
+                        <img src="assets/img/design/8.png" alt="" />
                         <p>Bidding & Auction</p>
                       </div>
                     </div>
                     <div className="benefits-container">
                       <div className="benefit-box">
-                        <img src="assets/imgs/ownership.png" alt="" />
+                        <img src="assets/img/design/ownership.png" alt="" />
                         <p>Fractional Ownership</p>
                       </div>
                       <div className="benefit-box">
-                        <img src="assets/imgs/minting.png" alt="" />
+                        <img src="assets/img/design/minting.png" alt="" />
                         <p>Lazy Minting</p>
                       </div>
                     </div>

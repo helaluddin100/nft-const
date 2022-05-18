@@ -96,7 +96,7 @@ function HiCoin() {
                     </a>
                     <img src="assets/img/inner/timer.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Most Realiable Developers </p>
                 </div>
               </div>
               <div
@@ -111,7 +111,7 @@ function HiCoin() {
                     </a>
                     <img src="assets/img/inner/doller.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>All of Your Information Is Secure </p>
                 </div>
               </div>
               <div
@@ -122,11 +122,11 @@ function HiCoin() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Expertise in Blockchain Platforms
+                      # Communicative
                     </a>
                     <img src="assets/img/inner/notice.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Clients say the team feels like their employees.</p>
                 </div>
               </div>
               <div
@@ -173,13 +173,13 @@ function HiCoin() {
                   <div className="about-content-inner">
                     <h2>description</h2>
                     <p>
-                      We help you launch your own NFT marketplace and attract
-                      the growing community of NFT users. NFT marketplaces built
-                      by us are feature-rich, decentralized, and facilitate
-                      tokenization of all kinds of assets, including artwork,
-                      gaming cards, software licenses, digital collectibles, and
-                      real-world assets. <br />
-                      We have expertise in NFT token development services, where
+                      We help you launch your own NFT collectibles minting
+                      website & marketplace to attract the growing community of
+                      NFT users. NFT marketplaces built by us are feature-rich,
+                      decentralized, and facilitate tokenization of all kinds of
+                      assets, including artwork, gaming cards, software
+                      licenses, digital collectibles, and real-world assets. We
+                      have expertise in NFT token development services, where
                       you get to earn royalties every time a token is sold. Opt
                       your non-fungible token development with us and sell over
                       any platform worldwide without any intermediate authority.
