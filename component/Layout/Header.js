@@ -262,11 +262,6 @@ function Header() {
                             </a>
                           </li>
                           <li>
-                            <a href="/website-testing" className="dp-link">
-                              Website Testing
-                            </a>
-                          </li>
-                          <li>
                             <a href="/smart-contract" className="dp-link">
                               Smart Contract Development
                             </a>
