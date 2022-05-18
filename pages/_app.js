@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content={description}></meta>
       </Head>
       <Layout>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </Layout>
     </>
   );
