@@ -752,10 +752,6 @@ function HiCoin() {
                     <img src="assets/img/icon/file-coin.png" alt="Etherium" />
                     <p>File Coin</p>
                   </div>
-                  <div className="mangodb">
-                    <img src="assets/img/icon/mangodb.png" alt="Etherium" />
-                    <p>MangoDB</p>
-                  </div>
                   <div className="couchbd">
                     <img src="assets/img/icon/couchbd.png" alt="Etherium" />
                     <p>CouchDB</p>

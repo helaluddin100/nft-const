@@ -294,8 +294,7 @@ function Header() {
                     </li>
                     <li className="nav-list">
                       <a href="" className="nav-link login-btn">
-                        <i className="icofont-ui-user"></i>
-                        Login/Register
+                        Get Queue
                       </a>
                     </li>
                   </ul>

@@ -2370,7 +2370,8 @@ section.about-us {
     border-radius: 12px;
     padding: 40px 30px;
     text-align: center;
-    transition: 0.3s;
+    transition: 0.3s !important;
+    cursor: pointer;
 }
 
 .service-car:hover {
@@ -3974,7 +3975,7 @@ p.urbanist-white-13 {
     position: relative;
     /* background: #98c23d; */
     margin: 0;
-    padding: 10px 0;
+    padding: 15px 10px;
     display: block;
     width: 100%;
     cursor: pointer;
@@ -4000,6 +4001,7 @@ p.urbanist-white-13 {
     height: auto;
     opacity: 1;
     padding: 15px;
+    padding-top: 0;
 }
 
 .plus {
@@ -4744,12 +4746,14 @@ button.back-home:hover {
         position: relative;
         text-align: center;
         margin: 0 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .arrow-down {
         position: absolute;
         top: 97px;
         transition: 0.3s;
-        left: 100px;
         opacity: 0;
     }
     .options p {

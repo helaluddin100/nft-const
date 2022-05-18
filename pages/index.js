@@ -1100,7 +1100,7 @@ Home.layout = AppLayout;
 
 const table = [
   {
-    projectName: "1 Bored Ape Yacht Club",
+    projectName: "The meta maid",
     volume: "$ 534,226,452 ",
     sales: "435",
     allVolume: "$ 534,2426,452.19",
