@@ -668,56 +668,54 @@ function Coin() {
                     <div className="benefits-container">
                       <div className="benefit-box">
                         <img src="assets/img/design/1.png" alt="" />
-                        <p>NFT Liquidity</p>
+                        <p>Simplicity</p>
                       </div>
-                      <div className="benefit-box">
-                        <img src="assets/img/design/2.png" alt="" />
-                        <p>Lowest Gas Price</p>
-                      </div>
-                    </div>
-                    <div className="benefits-container">
-                      <div className="benefit-box">
-                        <img src="assets/img/design/3.png" alt="" />
-                        <p>Multi-Chain NFT Marketplace</p>
-                      </div>
-                      <div className="benefit-box">
-                        <img src="assets/img/design/4.png" alt="" />
-                        <p>
-                          Smart contract <br /> Audited NFT
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="benefits-container">
                       <div className="benefit-box">
                         <img src="assets/img/design/5.png" alt="" />
-                        <p>NFT Staking</p>
+                        <p>Responsivity</p>
+                      </div>
+                    </div>
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/img/design/2.png" alt="" />
+                        <p>Typefaces</p>
                       </div>
                       <div className="benefit-box">
                         <img src="assets/img/design/6.png" alt="" />
-                        <p>NFT Lending</p>
+                        <p>Accessibility</p>
                       </div>
                     </div>
 
                     <div className="benefits-container">
                       <div className="benefit-box">
+                        <img src="assets/img/design/3.png" alt="" />
+                        <p>Visual Hierarchy</p>
+                      </div>
+                      <div className="benefit-box">
                         <img src="assets/img/design/7.png" alt="" />
-                        <p>NFT Launch Pad</p>
+                        <p>User-Centricity</p>
+                      </div>
+                    </div>
+
+                    <div className="benefits-container">
+                      <div className="benefit-box">
+                        <img src="assets/img/design/4.png" alt="" />
+                        <p>Navigability</p>
                       </div>
                       <div className="benefit-box">
                         <img src="assets/img/design/8.png" alt="" />
-                        <p>Bidding & Auction</p>
+                        <p>
+                          Optimize For <br /> Mobile
+                        </p>
                       </div>
                     </div>
                     <div className="benefits-container">
-                      <div className="benefit-box">
-                        <img src="assets/img/design/ownership.png" alt="" />
-                        <p>Fractional Ownership</p>
-                      </div>
-                      <div className="benefit-box">
-                        <img src="assets/img/design/minting.png" alt="" />
-                        <p>Lazy Minting</p>
-                      </div>
+                      <a href="" className="carcel-btn">
+                        Get NFT Solution
+                      </a>
+                      <a href="" className="carcel-btn-alt">
+                        Discuss Your Project
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -755,107 +753,122 @@ function Coin() {
                   <div className="services-container">
                     <div className="service">
                       <div className="services-icon">
-                        <img src="assets/imgs/paper.png" alt="" />
-                        <img src="assets/imgs/paper-pu.png" alt="" />
+                        <img src="assets/img/design/9.png" alt="" />
+                        <img src="assets/img/design/9a.png" alt="" />
                       </div>
 
-                      <p>Standardization</p>
+                      <p>Navigation</p>
                       <p>
-                        You can create reusable, inheritable, and common
-                        standards for all NFTs. Begin token standardization of
-                        collectibles.
+                        The website design should be easy to navigate and the
+                        menu items should easily accessible from any page.
                       </p>
                     </div>
 
                     <div className="service">
                       <div className="services-icon">
-                        <img src="assets/imgs/chart-99.png" alt="" />
-                        <img src="assets/imgs/chart-99-pu.png" alt="" />
+                        <img src="assets/img/design/10.png" alt="" />
+                        <img src="assets/img/design/10a.png" alt="" />
                       </div>
 
-                      <p>Marketplace</p>
+                      <p>Visual Design</p>
                       <p>
-                        The various NFT marketplaces are highly productive for
-                        NFT trading & unique ownership.
+                        People are visually oriented creatures, and utilizing
+                        great graphics is a good way to make your website more
+                        appealing.
                       </p>
                     </div>
 
                     <div className="service">
                       <div className="services-icon">
-                        <img src="assets/imgs/hand.png" alt="" />
-                        <img src="assets/imgs/hand-pu.png" alt="" />
+                        <img src="assets/img/design/11.png" alt="" />
+                        <img src="assets/img/design/11a.png" alt="" />
                       </div>
 
-                      <p>Ownership</p>
+                      <p>Content</p>
                       <p>
-                        NFT tokens are immutable ownership of antique
-                        collectibles that eliminate unauthorized changes
+                        This is the backbone of your website. Not only does your
+                        content play a major role in your search engine
+                        placement,
                       </p>
                     </div>
 
                     <div className="service">
                       <div className="services-icon">
-                        <img src="assets/imgs/hammer.png" alt="" />
-                        <img src="assets/imgs/hammer-pu.png" alt="" />
+                        <img src="assets/img/design/12.png" alt="" />
+                        <img src="assets/img/design/12a.png" alt="" />
                       </div>
 
-                      <p>Bidding</p>
+                      <p>Web Friendly</p>
                       <p>
-                        Trade in multiple marketplaces and bid over them to take
-                        part in the trade.
+                        No matter how informative, beautiful, and easy to use
+                        your website design is, it&apos;s useless unless
+                        it&apos;s web-friendly.
                       </p>
                     </div>
 
                     <div className="service">
                       <div className="services-icon">
-                        <img src="assets/imgs/trace.png" alt="" />
-                        <img src="assets/imgs/trace-pu.png" alt="" />
+                        <img src="assets/img/design/13.png" alt="" />
+                        <img src="assets/img/design/13a.png" alt="" />
                       </div>
 
-                      <p>Traceability</p>
+                      <p>Interaction</p>
                       <p>
-                        The various NFT marketplaces are highly productive for
-                        NFT trading & unique ownership.
+                        A truly effective website design engages your visitors
+                        immediately and continues to hold their attention
+                        through EVERY page
                       </p>
                     </div>
 
                     <div className="service">
                       <div className="services-icon">
-                        <img src="assets/imgs/rocket.png" alt="" />
-                        <img src="assets/imgs/rocket-pu.png" alt="" />
+                        <img src="assets/img/design/14.png" alt="" />
+                        <img src="assets/img/design/14a.png" alt="" />
                       </div>
 
-                      <p>New Project</p>
+                      <p>Information Accessibility</p>
                       <p>
-                        Wallet providers are eyeing every new project arriving
-                        in the NFT marketplace. Enjoy smooth trade.
+                        Not all visitors to your website are interested in, or
+                        have the time to peruse the entire site.
                       </p>
                     </div>
 
                     <div className="service">
                       <div className="services-icon">
-                        <img src="assets/imgs/circles.png" alt="" />
-                        <img src="assets/imgs/circles-pu.png" alt="" />
+                        <img src="assets/img/design/15.png" alt="" />
+                        <img src="assets/img/design/15a.png" alt="" />
                       </div>
 
-                      <p>Tracking</p>
+                      <p>Intuitiveness</p>
                       <p>
-                        You can track the owner of any asset and avoid
-                        third-party verification requirements.You can also track
-                        traffic & sales analytics.
+                        A great website anticipates what your visitor is
+                        thinking and caters directly to their needs, and has
+                        elements arranged in a way that makes sense.
                       </p>
                     </div>
 
                     <div className="service">
                       <div className="services-icon">
-                        <img src="assets/imgs/goverment.png" alt="" />
-                        <img src="assets/imgs/goverment-pu.png" alt="" />
+                        <img src="assets/img/design/16.png" alt="" />
+                        <img src="assets/img/design/16a.png" alt="" />
                       </div>
 
-                      <p>Governance Attributes</p>
+                      <p>Branding</p>
                       <p>
-                        Users can vote on upgrades of the platform developed by
-                        a Governance attribute.
+                        Your website should be a direct reﬂection of your
+                        business and your brand.
+                      </p>
+                    </div>
+                    <div className="service">
+                      <div className="services-icon">
+                        <img src="assets/img/design/17.png" alt="" />
+                        <img src="assets/img/design/17a.png" alt="" />
+                      </div>
+
+                      <p>Turnaround Time</p>
+                      <p>
+                        The number one complaint of website design customers is
+                        the time it takes to get the site up and running
                       </p>
                     </div>
                   </div>
