@@ -16,14 +16,12 @@ function Business() {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <h1>
-                HiCoin Recruiting <br /> Global <span> Business</span>
-                <br /> Partners
-              </h1>
+              <h1>Decentralized Smart Contract Auditing Services</h1>
 
               <p className="raleway-black-16">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                We use cutting-edge technology and a community of skilled
+                professionals to offer our clients unparalleled security and
+                peace of mind.
               </p>
 
               <div className="hero-btns">
@@ -149,24 +147,17 @@ function Business() {
                   <div className="about-content-inner">
                     <h2>description</h2>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry
-                      &apos; s standard dummy text ever since the 1500s, when an
-                      unknown printer tookLorem Ipsum is simply dummy text of
-                      the printing and typesetting industry. Lorem Ipsum has
-                      been the industry &apos; s standard dummy text ever since
-                      the 1500s, when an unknown printer took Lorem Ipsum is
-                      simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took unknown printer tookLorem Ipsum is simply
-                      dummy text of the printing and typesetting industry. Lorem
-                      Ipsum has been the industry &apos; s standard dummy text
-                      ever since the 1500s, when an unknown printer took Lorem
-                      Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took
+                      Non-fungible tokens (NFTs) are unique digital assets that
+                      another token of the same type can&apos;t replace. They
+                      are created on blockchain platforms like Ethereum and EOS,
+                      and they can represent a wide range of things, from
+                      collectibles to securities. NFTs are held in cryptographic
+                      wallets and can be transferred between users. Because they
+                      are unique, NFTs can be used to verify an asset&apos;s
+                      ownership or track its history. As NFTs become more
+                      popular, there is increasing demand for secure ways to
+                      store and transfer them. One way to do this is through
+                      smart contract audits.
                     </p>
                   </div>
                 </div>
@@ -293,7 +284,7 @@ function Business() {
                 data-aos-duration="1000"
               >
                 <p className="sm-title">OUR NON FUNGIBLE</p>
-                <h2 className="sec-title">Token Development Services</h2>
+                <h2 className="sec-title">Smart Contract Analysis Services</h2>
                 <p className="sec-des">
                   Being a top NFT token development company, our non-fungible
                   token development services facilitate the digital assets to be
@@ -454,7 +445,7 @@ function Business() {
                         <h3>
                           <CountUp end={500} duration={5} /> +
                         </h3>
-                        <p>Data Center Worldwide</p>
+                        <p>Served Clients</p>
                       </div>
                     </div>
 
@@ -464,7 +455,7 @@ function Business() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={100} duration={5} /> +
+                          <CountUp end={60} duration={5} /> +
                         </h3>
                         <p>Financial Detervative Clients</p>
                       </div>
@@ -497,9 +488,9 @@ function Business() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={300} duration={5} /> +
+                          <CountUp end={160} duration={5} /> +
                         </h3>
-                        <p>NFT Service Client</p>
+                        <p>Liquidity Service Client</p>
                       </div>
                     </div>
                     <div className="chainup-inner-grid-item">
@@ -567,7 +558,7 @@ function Business() {
                     </div>
                     <div className="market-card-content">
                       <h3>
-                        Quarterly NFT Market Report <br /> 2022
+                        Quarterly NFT Market Report <br /> 2021
                       </h3>
                     </div>
                   </div>
@@ -729,7 +720,102 @@ function Business() {
           </div>
         </section>
         {/* ==================Features ================== */}
+        {/* ==================benefit================== */}
+        <section>
+          <div className="bene cpy-6">
+            <div className="container">
+              <div
+                className="section-title"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <p className="sm-title">Ourt</p>
+                <h2 className="sec-title">Audit Process</h2>
+                <p className="sec-des">
+                  A complete overview of our process for NFT smart contract
+                  auditing services is as follows:
+                </p>
+              </div>
 
+              <div className="benefit-container cpt-7">
+                <div className="benefit-box">
+                  <div
+                    className="benefit-item"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <div className="benefit-img">
+                      <img src="assets/img/icon/4.png" alt="" />
+                    </div>
+                    <div className="benefit-de">
+                      <h2>Project Familiarizatio</h2>
+                      <p>
+                        We first take some time to know the project, its goals,
+                        and how it works. This allows us to understand the code
+                        and auditing process better.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    className="benefit-item c-derection"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                  >
+                    <div className="benefit-de">
+                      <h2>Code Freeze</h2>
+                      <p>
+                        Once the code is ready for auditing, we freeze changes
+                        so that no new code can be introduced during the audit.
+                        This helps ensure that the audit is conducted
+                        consistently.
+                      </p>
+                    </div>
+                    <div className="benefit-img">
+                      <img src="assets/img/icon/5.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    className="benefit-item"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div className="benefit-img">
+                      <img src="assets/img/icon/6.png" alt="" />
+                    </div>
+                    <div className="benefit-de">
+                      <h2>Pen Testing</h2>
+                      <p>
+                        We also perform pen-testing on the code to help identify
+                        any potential exploits that may be present.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="benefit-item c-derection"
+                    data-aos="fade-up"
+                    data-aos-duration="2500"
+                  >
+                    <div className="benefit-de">
+                      <h2>Final Audit Report</h2>
+                      <p>
+                        After the code has been fixed, we conduct a final audit
+                        to ensure that the fixes have been implemented
+                        correctly. Once this is complete, we issue our final
+                        audit report, including our findings and
+                        recommendations.
+                      </p>
+                    </div>
+                    <div className="benefit-img">
+                      <img src="assets/img/icon/7.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* ==================benefit================== */}
         {/* =====================top project===================== */}
         <div className="projects" data-aos="fade-up" data-aos-duration="1000">
           <div className="section-title">
