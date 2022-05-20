@@ -90,7 +90,7 @@ function SmartContract() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Project's Confidentiality
+                      # Project&apos;s Confidentiality
                     </a>
                     <img src="assets/img/inner/doller.svg" alt="" />
                   </div>
