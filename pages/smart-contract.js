@@ -17,13 +17,14 @@ function SmartContract() {
               data-aos-duration="1000"
             >
               <h1>
-                HiCoin Recruiting <br /> Global <span> Business</span>
-                <br /> Partners
+                Decentralized Smart
+                <span> Contract</span>
+                <br /> Development
               </h1>
 
               <p className="raleway-black-16">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Built over $10B in on-chain value across 1000+ projects!
+                Experienced smart contract developers at your service.
               </p>
 
               <div className="hero-btns">
@@ -74,11 +75,11 @@ function SmartContract() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Quick Start 1
+                      # Reliable Platform
                     </a>
                     <img src="assets/img/inner/timer.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Most Realiable Developers</p>
                 </div>
               </div>
               <div
@@ -89,11 +90,11 @@ function SmartContract() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Recomended Cash Back
+                      # Project's Confidentiality
                     </a>
                     <img src="assets/img/inner/doller.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>All of Your Information Is Secure</p>
                 </div>
               </div>
               <div
@@ -104,11 +105,11 @@ function SmartContract() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Promotion
+                      # Communicative
                     </a>
                     <img src="assets/img/inner/notice.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Clients say the team feels like their employees. </p>
                 </div>
               </div>
               <div
@@ -119,11 +120,11 @@ function SmartContract() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # VIP Customization
+                      # 24/7 Support
                     </a>
                     <img src="assets/img/inner/vip.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Our developers are there to support you 24*7</p>
                 </div>
               </div>
             </div>
@@ -155,24 +156,16 @@ function SmartContract() {
                   <div className="about-content-inner">
                     <h2>description</h2>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry
-                      &apos; s standard dummy text ever since the 1500s, when an
-                      unknown printer tookLorem Ipsum is simply dummy text of
-                      the printing and typesetting industry. Lorem Ipsum has
-                      been the industry &apos; s standard dummy text ever since
-                      the 1500s, when an unknown printer took Lorem Ipsum is
-                      simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took unknown printer tookLorem Ipsum is simply
-                      dummy text of the printing and typesetting industry. Lorem
-                      Ipsum has been the industry &apos; s standard dummy text
-                      ever since the 1500s, when an unknown printer took Lorem
-                      Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took
+                      As a Non Funglible Token & Blockchain Smart Contract
+                      Creator,we help you to make the best NFT smart contract
+                      that would allow you to automate the complete execution of
+                      an solid agreement so that all parties are immidietly
+                      aware of the outcome which is backed by blockchain
+                      technologies.The major part of the NFT development is done
+                      when the smart contract is developed perfectly with proper
+                      testing & audit.Smart contracts are the major key in
+                      developing the NFT and many other major crypto tokenized
+                      services that are recreating WEB3 eco system effectively.
                     </p>
                   </div>
                 </div>
@@ -280,7 +273,7 @@ function SmartContract() {
                   </div>
                   <div className="form-group mt-3">
                     <button className="custom-btn" type="submit">
-                      Send
+                      Get A Demo
                     </button>
                   </div>
                 </form>
@@ -367,7 +360,7 @@ function SmartContract() {
                         <h3>
                           <CountUp end={500} duration={5} /> +
                         </h3>
-                        <p>Data Center Worldwide</p>
+                        <p>Served Clients</p>
                       </div>
                     </div>
 
@@ -377,7 +370,7 @@ function SmartContract() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={100} duration={5} /> +
+                          <CountUp end={60} duration={5} /> +
                         </h3>
                         <p>Financial Detervative Clients</p>
                       </div>
@@ -410,9 +403,9 @@ function SmartContract() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={300} duration={5} /> +
+                          <CountUp end={160} duration={5} /> +
                         </h3>
-                        <p>NFT Service Client</p>
+                        <p>Liquidity Service Client</p>
                       </div>
                     </div>
                     <div className="chainup-inner-grid-item">
@@ -734,7 +727,7 @@ function SmartContract() {
                     </div>
                     <div className="market-card-content">
                       <h3>
-                        Quarterly NFT Market Report <br /> 2022
+                        Quarterly NFT Market Report <br /> 2021
                       </h3>
                     </div>
                   </div>
@@ -765,7 +758,9 @@ function SmartContract() {
               <div className="container">
                 <div className="section-title">
                   <p className="sm-title">FEATURES OF</p>
-                  <h2 className="sec-title"> NFT Development Services</h2>
+                  <h2 className="sec-title">
+                    Smart Contract Development Services
+                  </h2>
                 </div>
 
                 <div className="services">
@@ -862,8 +857,8 @@ function SmartContract() {
               </div>
               <div className="container benefit-section">
                 <div className="title">
-                  <p className="colorful-txt">BENIFITS OF</p>
-                  <h2>NFT Development</h2>
+                  <p className="colorful-txt">Types OF</p>
+                  <h2> Smart Contract Development Services</h2>
                   <div className="title-line"></div>
                 </div>
 
@@ -946,12 +941,14 @@ function SmartContract() {
                 data-aos-duration="1000"
               >
                 <p className="sm-title">BENIFITS OF</p>
-                <h2 className="sec-title">Nft Developement</h2>
+                <h2 className="sec-title">
+                  {" "}
+                  Smart Contract Development Services
+                </h2>
                 <p className="sec-des">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry &apos
-                  s standard dummy text ever since the 1500s, when an unknown
-                  printer took
+                  Our unique approach of developing smart contrats gives
+                  businesses the confidenceof bigger investment3. in blockchain
+                  technology.
                 </p>
               </div>
 
@@ -1082,8 +1079,8 @@ function SmartContract() {
               <p className="sm-title">pricing</p>
               <h2 className="sec-title">Our Pricing Plan</h2>
               <p className="sec-des">
-                Pay securely online and manage your projects by sitting in your
-                desk
+                Pay securely online and manage the booking via desktop or via
+                the mobile app.
               </p>
             </div>
 
@@ -1266,8 +1263,8 @@ function SmartContract() {
                   <h2>What Our Client Say’s</h2>
                 </div>
                 <p>
-                  This is what clients have been saying after using the <br />
-                  great service we do for clients.
+                  This is what clients have been saying after using the great
+                  service we do for clients.
                 </p>
               </div>
 
