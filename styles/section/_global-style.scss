@@ -2185,11 +2185,12 @@ a.service-name {
     position: relative;
     display: inline-block;
     padding-bottom: 20px;
+    line-height: 130%;
 }
 
 .about-content-inner h2:before {
     content: "";
-    width: 55%;
+    width: 40%;
     position: absolute;
     height: 5px;
     background: var(--main-color);
@@ -5054,4 +5055,49 @@ ul.feature-list li {
 .carcel-btn-alt:hover {
     background: #6c54ea;
     color: #fff;
+}
+
+// ==============================about page ===================
+.row-col-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.industries-ca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 0px 49.06px rgb(0 0 0 / 5%);
+    padding: 25px 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon-area {
+    width: 100px;
+    height: 100px;
+    background: #f0ebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.industries-ca:hover {
+    background: #6e58eb;
+    color: #fff;
+}
+
+.industries-ca-inner {
+    text-align: center;
+}
+
+.industries-name {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
 }
