@@ -176,27 +176,47 @@ function Header() {
                   <div className="social">
                     <ul className="social-ul">
                       <li className="social-list">
-                        <a href="" className="social-link">
+                        <a
+                          href="https://web.facebook.com/nftconstructer?_rdc=1&_rdr"
+                          target={"_blank"}
+                          className="social-link"
+                        >
                           <i className="icofont-facebook"></i>
                         </a>
                       </li>
                       <li className="social-list">
-                        <a href="" className="social-link">
+                        <a
+                          href="https://twitter.com/NftConstructer"
+                          className="social-link"
+                          target={"_blank"}
+                        >
                           <i className="icofont-twitter"></i>
                         </a>
                       </li>
                       <li className="social-list">
-                        <a href="" className="social-link">
+                        <a
+                          href="https://www.instagram.com/nft_constructer/"
+                          className="social-link"
+                          target={"_blank"}
+                        >
                           <i className="icofont-instagram"></i>
                         </a>
                       </li>
                       <li className="social-list">
-                        <a href="" className="social-link">
+                        <a
+                          href="https://dribbble.com/Constructer"
+                          className="social-link"
+                          target={"_blank"}
+                        >
                           <i className="icofont-dribbble"></i>
                         </a>
                       </li>
                       <li className="social-list">
-                        <a href="" className="social-link">
+                        <a
+                          href="https://www.linkedin.com/company/nftconstructer"
+                          className="social-link"
+                          target={"_blank"}
+                        >
                           <i className="icofont-linkedin"></i>
                         </a>
                       </li>

@@ -12,7 +12,10 @@ function Footer() {
                   ipsa quaes
                 </p>
                 <div className="footer-links">
-                  <a href="#">
+                  <a
+                    href="https://facebook.com/nftconstructer?_rdc=1&_rdr"
+                    target={"_blank"}
+                  >
                     <div>
                       <svg
                         width="8"
@@ -28,7 +31,10 @@ function Footer() {
                       </svg>
                     </div>
                   </a>
-                  <a href="#">
+                  <a
+                    href="https://twitter.com/NftConstructer"
+                    target={"_blank"}
+                  >
                     <div>
                       <svg
                         width="13"
@@ -44,7 +50,10 @@ function Footer() {
                       </svg>
                     </div>
                   </a>
-                  <a href="#">
+                  <a
+                    href="https://www.linkedin.com/company/nftconstructer"
+                    target={"_blank"}
+                  >
                     <div>
                       <svg
                         width="12"
@@ -60,7 +69,10 @@ function Footer() {
                       </svg>
                     </div>
                   </a>
-                  <a href="#">
+                  <a
+                    href="https://www.youtube.com/channel/UCmEUtBaPpcKJwucGTECCb_w"
+                    target={"_blank"}
+                  >
                     <div>
                       <svg
                         width="15"
