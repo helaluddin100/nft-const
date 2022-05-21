@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
   const title = Component.title || "NFT - Full Stack Web Development Services";
+  const image = Component.image || "assets/img/logo/logo.svg";
   const description =
     Component.description ||
     "NFT - Full Stack Web Development Services by NFT Constractor";
@@ -29,6 +30,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>{title}</title>
         <meta name="description" content={description}></meta>
+        <meta name="og:description" content={description}></meta>
+        <meta property="og:title" content={title} />
+        <meta property="og:image" content={image} />
+        <meta property="image" content={image} />
       </Head>
       <Layout>
         <Component {...pageProps} />

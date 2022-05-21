@@ -1095,7 +1095,9 @@ function Home() {
 }
 
 Home.title = "Full Stack Web Development Services";
-Home.description = "Meta Description";
+Home.image = "assets/img/hero/webdevlopment.gif";
+Home.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
 Home.layout = AppLayout;
 
 const table = [
