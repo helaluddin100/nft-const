@@ -31,6 +31,7 @@ function MyApp({ Component, pageProps }) {
         <title>{title}</title>
         <meta name="description" content={description}></meta>
         <meta name="og:description" content={description}></meta>
+        <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
         <meta property="og:image" content={image} />
         <meta property="image" content={image} />

@@ -1094,7 +1094,7 @@ function Home() {
   );
 }
 
-Home.title = "test";
+Home.title = "Full Stack Web Development Services";
 Home.image = "assets/img/hero/webdevlopment.gif";
 Home.description =
   "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
