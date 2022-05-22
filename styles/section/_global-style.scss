@@ -1751,6 +1751,15 @@
             font-size: 52px;
             line-height: 64px;
         }
+        .hero-content {
+            text-align: center;
+        }
+        .hero-btns {
+            justify-content: center;
+        }
+        .hero-checks {
+            justify-content: center;
+        }
     }
     @media only screen and (max-width: 780px) {
         .hero {
@@ -2235,6 +2244,12 @@ img.cr6-img {
     text-align: center;
     width: 45%;
     margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .section-title {
+        width: 95%;
+    }
 }
 
 p.sm-title {
@@ -5100,4 +5115,11 @@ ul.feature-list li {
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 10px;
+}
+
+.request-form {
+    background: #fff;
+    padding: 35px;
+    box-shadow: -1px 19px 49px rgb(102 87 179 / 11%);
+    border-radius: 10px;
 }
