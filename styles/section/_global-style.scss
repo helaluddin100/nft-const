@@ -859,6 +859,15 @@
             font-size: 52px;
             line-height: 64px;
         }
+        .hero-content {
+            text-align: center;
+        }
+        .hero-btns {
+            justify-content: center;
+        }
+        .hero-checks {
+            justify-content: center;
+        }
     }
     @media only screen and (max-width: 780px) {
         .hero-btns button {
@@ -2435,7 +2444,9 @@ section.about-us {
     min-width: fit-content;
     animation: aboutImgSlider1 30s linear infinite;
     -webkit-animation: aboutImgSlider1 30s linear infinite;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 0 5px;
 }
 
 .images-slider-imgs img {
@@ -2455,7 +2466,7 @@ section.about-us {
 
 .images-slider-imgs img {
     margin: auto;
-    opacity: 0.5;
+    width: 185px;
 }
 
 .mentioned-section {
@@ -5182,4 +5193,8 @@ section.talk-to {
         font-size: 30px;
         line-height: 140%;
     }
+}
+
+.logo a img {
+    width: 215px;
 }

@@ -209,13 +209,6 @@ function Coin() {
                           placeholder="+1234567890"
                           className="form-control with-select"
                         />
-                        <select className="form-control">
-                          <option>+1</option>
-                          <option>+2</option>
-                          <option>+3</option>
-                          <option>+4</option>
-                          <option>+5</option>
-                        </select>
                       </div>
                     </div>
                   </div>
@@ -234,13 +227,6 @@ function Coin() {
                     <div className="input-group">
                       <label htmlFor="phone-number">Whatsapp :</label>
                       <div className="input-box">
-                        <select className="form-control me-3">
-                          <option>+1</option>
-                          <option>+2</option>
-                          <option>+3</option>
-                          <option>+4</option>
-                          <option>+5</option>
-                        </select>
                         <input
                           type="text"
                           name="phone-number"
@@ -291,31 +277,43 @@ function Coin() {
               <div className="images-slider-1">
                 <div className="images-slider-wrapper">
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -937,31 +935,43 @@ function Coin() {
               <div className="images-slider-1">
                 <div className="images-slider-wrapper">
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                 </div>
               </div>

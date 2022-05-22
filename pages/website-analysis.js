@@ -32,12 +32,13 @@ function Analysis() {
               data-aos-duration="1000"
             >
               <h1>
-                HiCoin<span> Recruiting</span> Global <br /> Business Partners
+                Uncover Vulnerabilities On Your Non-Fungible
+                <span> Token Platform</span>
               </h1>
 
               <p className="raleway-black-16">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Protecting your systems is a far less daunting task when you
+                have a team of cyber experts.
               </p>
 
               <div className="hero-btns">
@@ -87,11 +88,11 @@ function Analysis() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Quick Start 1
+                      # Reliable Platform
                     </a>
                     <img src="assets/img/inner/timer.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Most Realiable Developers </p>
                 </div>
               </div>
               <div
@@ -102,11 +103,11 @@ function Analysis() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Recomended Cash Back
+                      # Project &apos;s Confidentiality
                     </a>
                     <img src="assets/img/inner/doller.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>All of Your Information Is Secure</p>
                 </div>
               </div>
               <div
@@ -117,11 +118,11 @@ function Analysis() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # Promotion
+                      # Communicative
                     </a>
                     <img src="assets/img/inner/notice.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Clients say the team feels like their employees.</p>
                 </div>
               </div>
               <div
@@ -132,11 +133,11 @@ function Analysis() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # VIP Customization
+                      # 24/7 Support
                     </a>
                     <img src="assets/img/inner/vip.svg" alt="" />
                   </div>
-                  <p>Start An exchange company In </p>
+                  <p>Our developers are there to support you 24*7</p>
                 </div>
               </div>
             </div>
@@ -168,24 +169,16 @@ function Analysis() {
                   <div className="about-content-inner">
                     <h2>description</h2>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry
-                      &apos; s standard dummy text ever since the 1500s, when an
-                      unknown printer tookLorem Ipsum is simply dummy text of
-                      the printing and typesetting industry. Lorem Ipsum has
-                      been the industry &apos; s standard dummy text ever since
-                      the 1500s, when an unknown printer took Lorem Ipsum is
-                      simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took unknown printer tookLorem Ipsum is simply
-                      dummy text of the printing and typesetting industry. Lorem
-                      Ipsum has been the industry &apos; s standard dummy text
-                      ever since the 1500s, when an unknown printer took Lorem
-                      Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry &apos; s
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took
+                      Minimize false positives secure your fintech non-fungible
+                      token business & systems from cyber threats.With Latest
+                      security testing,ensure your business & systems are
+                      secure.With free re-testing that finds cyber security
+                      weaknesses in your digital infrastructure, to avoid costly
+                      data damages & breaches.It is proven that our cyber
+                      secuirity experts is your most trusted partner to
+                      reproduce vulnerabilities,exploitation probability and
+                      actionable recommendations to keep your fintech platform
+                      secure from tempting attack of hackers.
                     </p>
                   </div>
                 </div>
@@ -206,7 +199,7 @@ function Analysis() {
           <div className="container">
             <div className="section-title">
               <p className="sm-title">best service</p>
-              <h2 className="sec-title">Request A demo</h2>
+              <h2 className="sec-title">Get A Quote</h2>
               <p className="sec-des">
                 Get more software development information about exchange
                 software wallet software derivate products and ETC
@@ -236,13 +229,6 @@ function Analysis() {
                           placeholder="+1234567890"
                           className="form-control with-select"
                         />
-                        <select className="form-control">
-                          <option>+1</option>
-                          <option>+2</option>
-                          <option>+3</option>
-                          <option>+4</option>
-                          <option>+5</option>
-                        </select>
                       </div>
                     </div>
                   </div>
@@ -261,13 +247,6 @@ function Analysis() {
                     <div className="input-group">
                       <label htmlFor="phone-number">Whatsapp :</label>
                       <div className="input-box">
-                        <select className="form-control me-3">
-                          <option>+1</option>
-                          <option>+2</option>
-                          <option>+3</option>
-                          <option>+4</option>
-                          <option>+5</option>
-                        </select>
                         <input
                           type="text"
                           name="phone-number"
@@ -287,13 +266,14 @@ function Analysis() {
                           className="form-control"
                           cols="30"
                           rows="10"
+                          placeholder="What You Want To Consult........"
                         ></textarea>
                       </div>
                     </div>
                   </div>
                   <div className="form-group mt-3">
                     <button className="custom-btn" type="submit">
-                      Send
+                      Get A Demo
                     </button>
                   </div>
                 </form>
@@ -317,10 +297,11 @@ function Analysis() {
                   What NFT Constructer does in a Website Analysis Service?
                 </h2>
                 <p className="sec-des">
-                  At W3Era, we analyze the nature and behavior of each element
-                  of the Web pages and search engine’s algorithm, as well as
-                  their interactions. As being a purely intellectual process, we
-                  deal with the 5 most important areas in this section:-
+                  At NFT Constructer, we analyze the nature and behavior of each
+                  element of the Web pages and search engine’s algorithm, as
+                  well as their interactions. As being a purely intellectual
+                  process, we deal with the 5 most important areas in this
+                  section:
                 </p>
               </div>
 
@@ -448,31 +429,43 @@ function Analysis() {
               <div className="images-slider-1">
                 <div className="images-slider-wrapper">
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -510,7 +503,7 @@ function Analysis() {
                         <h3>
                           <CountUp end={500} duration={5} /> +
                         </h3>
-                        <p>Data Center Worldwide</p>
+                        <p>Served Clients</p>
                       </div>
                     </div>
 
@@ -520,7 +513,7 @@ function Analysis() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={100} duration={5} /> +
+                          <CountUp end={60} duration={5} /> +
                         </h3>
                         <p>Financial Detervative Clients</p>
                       </div>
@@ -553,9 +546,9 @@ function Analysis() {
                       </div>
                       <div className="chainup-inner-grid-item-content">
                         <h3>
-                          <CountUp end={300} duration={5} /> +
+                          <CountUp end={160} duration={5} /> +
                         </h3>
-                        <p>NFT Service Client</p>
+                        <p>Liquidity Service Client</p>
                       </div>
                     </div>
                     <div className="chainup-inner-grid-item">
@@ -604,7 +597,7 @@ function Analysis() {
                     </div>
                     <div className="market-card-content">
                       <h3>
-                        Yearly NFT Market Report <br /> 2022
+                        Yearly NFT Market Report <br /> 2021
                       </h3>
                     </div>
                   </div>
@@ -623,7 +616,7 @@ function Analysis() {
                     </div>
                     <div className="market-card-content">
                       <h3>
-                        Quarterly NFT Market Report <br /> 2022
+                        Quarterly NFT Market Report <br /> 2021
                       </h3>
                     </div>
                   </div>
@@ -910,31 +903,43 @@ function Analysis() {
               <div className="images-slider-1">
                 <div className="images-slider-wrapper">
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                   <div className="images-slider-imgs">
-                    <img src="assets/img/inner/logo/1.png" alt="" />
-                    <img src="assets/img/inner/logo/2.png" alt="" />
-                    <img src="assets/img/inner/logo/3.png" alt="" />
-                    <img src="assets/img/inner/logo/4.png" alt="" />
-                    <img src="assets/img/inner/logo/5.png" alt="" />
-                    <img src="assets/img/inner/logo/6.png" alt="" />
-                    <img src="assets/img/inner/logo/7.png" alt="" />
+                    <img src="assets/img/inner/logo/1.jpg" alt="" />
+                    <img src="assets/img/inner/logo/2.jpg" alt="" />
+                    <img src="assets/img/inner/logo/3.jpg" alt="" />
+                    <img src="assets/img/inner/logo/4.jpg" alt="" />
+                    <img src="assets/img/inner/logo/5.jpg" alt="" />
+                    <img src="assets/img/inner/logo/6.jpg" alt="" />
+                    <img src="assets/img/inner/logo/7.jpg" alt="" />
+                    <img src="assets/img/inner/logo/8.jpg" alt="" />
+                    <img src="assets/img/inner/logo/9.jpg" alt="" />
+                    <img src="assets/img/inner/logo/10.jpg" alt="" />
+                    <img src="assets/img/inner/logo/11.jpg" alt="" />
                   </div>
                 </div>
               </div>
