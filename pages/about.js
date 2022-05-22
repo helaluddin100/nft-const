@@ -9,9 +9,10 @@ function About() {
             <h2 className="sec-title">About my services</h2>
             <p className="sec-des">
               Get more software development information about exchange software
-              wallet software derivate products and ETC
+              wallet software derivate products and ETC.
             </p>
           </div>
+
 
           <div className="about-container">
             <div className="row-col-2">
