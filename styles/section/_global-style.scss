@@ -5161,3 +5161,25 @@ a.talk-link:hover {
 section.talk-to {
     background: #6e58eb1a;
 }
+
+@media screen and (max-width: 992px) {
+    .row-col-5 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .talk-4 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .row-col-5 {
+        grid-template-columns: 1fr;
+    }
+    .talk-4 {
+        grid-template-columns: 1fr;
+    }
+    .about-content-inner h2 {
+        font-size: 30px;
+        line-height: 140%;
+    }
+}
