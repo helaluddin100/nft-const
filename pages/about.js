@@ -14,15 +14,23 @@ function About() {
           </div>
 
           <div className="about-container">
-            <div class="row-col-2">
-              <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="about-us-img">
+            <div className="row-col-2">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <div className="about-us-img">
                   <img src="assets/img/inner/about-us.png" alt="" />
                 </div>
               </div>
-              <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
-                <div class="about-us-content">
-                  <div class="about-content-inner">
+              <div
+                className="col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
+                <div className="about-us-content">
+                  <div className="about-content-inner">
                     <h2>
                       Integrate innovation with technology through expertise
                       product delivery
@@ -66,7 +74,7 @@ function About() {
           </div>
 
           <div className="service-industries-container">
-            <div class="row-col-5">
+            <div className="row-col-5">
               <div className="col-md-2">
                 <div className="industries-ca">
                   <div className="industries-ca-inner">
@@ -191,6 +199,21 @@ function About() {
           </div>
         </div>
       </div>
+
+      <section>
+        <div className="contact-area">
+          <div className="container">
+            <div className="section-title cpb-7">
+              <h2 className="sec-title">CONNECT WITH US</h2>
+              <p className="sec-des">
+                We’re excited to hear about your project. Schedule a call today
+                and Connect with our experts. At Maticz, We respect your privacy
+                and Never share your details with anyone. Let's build together.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
