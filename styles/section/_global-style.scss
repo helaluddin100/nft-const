@@ -5123,3 +5123,41 @@ ul.feature-list li {
     box-shadow: -1px 19px 49px rgb(102 87 179 / 11%);
     border-radius: 10px;
 }
+
+// =======================about====================
+.talk-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 35px;
+}
+
+.talk-4-icon img {
+    width: 80px;
+}
+
+.talk-4-inner {
+    text-align: center;
+}
+
+.talk-4-text {
+    margin-top: 20px;
+}
+
+a.talk-link {
+    font-weight: 600;
+    color: var(--second-color);
+    transition: 0.3s;
+}
+
+a.talk-link:hover {
+    color: var(--main-color);
+}
+
+.talk-4-text h3 {
+    font-size: 25px;
+    color: var(--second-color);
+}
+
+section.talk-to {
+    background: #6e58eb1a;
+}

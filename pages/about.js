@@ -201,7 +201,7 @@ function About() {
       </div>
 
       <section>
-        <div className="contact-area">
+        <div className="contact-area cpb-6">
           <div className="container">
             <div className="section-title cpb-7">
               <h2 className="sec-title">CONNECT WITH US</h2>
@@ -211,6 +211,142 @@ function About() {
                 privacy and Never share your details with anyone. Let&amp; s
                 build together.
               </p>
+            </div>
+
+            <div className="row">
+              <div className="request-form">
+                <form action="">
+                  <div className="form-group-2">
+                    <div className="input-group">
+                      <label htmlFor="name">Your Name</label>
+                      <div className="input-box">
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Enter Your Name"
+                        />
+                      </div>
+                    </div>
+                    <div className="input-group">
+                      <label htmlFor="phone-number">
+                        Phone Number with (country code):
+                      </label>
+                      <div className="input-box">
+                        <input
+                          type="text"
+                          name="phone-number"
+                          placeholder="+1234567890"
+                          className="form-control with-select"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="form-group-2">
+                    <div className="input-group">
+                      <label htmlFor="name">Your E-mail :</label>
+                      <div className="input-box">
+                        <input
+                          type="email"
+                          className="form-control"
+                          placeholder="YourEmail@domain.com"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="input-group">
+                      <label htmlFor="subject">Subject :</label>
+                      <div className="input-box">
+                        <input
+                          type="text"
+                          name="subject"
+                          placeholder="Subject"
+                          className="form-control with-select"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <div className="input-group">
+                      <label htmlFor="name">Consult :</label>
+                      <div className="input-box">
+                        <textarea
+                          name=""
+                          className="form-control"
+                          cols="30"
+                          rows="10"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="form-group mt-3">
+                    <button className="custom-btn" type="submit">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ========================talk to ====================== */}
+      <section className="talk-to cpy-6">
+        <div className="container">
+          <div className="section-title cpb-7">
+            <h2 className="sec-title">TALK TO OUR EXPERTZ</h2>
+            <p className="sec-des">
+              Send us your requirements and our team will get back to you
+              shortly.
+            </p>
+          </div>
+          <div className="talk-to-row">
+            <div className="talk-4">
+              <div className="talk-4-inner">
+                <div className="talk-4-icon">
+                  <img src="assets/img/icon/telegram.svg" alt="" />
+                </div>
+                <div className="talk-4-text">
+                  <h3>TELEGRAM US</h3>
+                  <a href="" className="talk-link">
+                    @maticzofficial
+                  </a>
+                </div>
+              </div>
+              <div className="talk-4-inner">
+                <div className="talk-4-icon">
+                  <img src="assets/img/icon/whatsapp.svg" alt="" />
+                </div>
+                <div className="talk-4-text">
+                  <h3>WHATAPP US</h3>
+                  <a href="" className="talk-link">
+                    +8801792892198
+                  </a>
+                </div>
+              </div>
+              <div className="talk-4-inner">
+                <div className="talk-4-icon">
+                  <img src="assets/img/icon/skype.svg" alt="" />
+                </div>
+                <div className="talk-4-text">
+                  <h3>Skype</h3>
+                  <a href="" className="talk-link">
+                    live:d565b8b2fd5d28f7
+                  </a>
+                </div>
+              </div>
+              <div className="talk-4-inner">
+                <div className="talk-4-icon">
+                  <img src="assets/img/icon/email.svg" alt="" />
+                </div>
+                <div className="talk-4-text">
+                  <h3>Email</h3>
+                  <a href="" className="talk-link">
+                    info@nftconstractor.com
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
