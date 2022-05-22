@@ -13,7 +13,6 @@ function About() {
             </p>
           </div>
 
-
           <div className="about-container">
             <div className="row-col-2">
               <div
@@ -207,9 +206,10 @@ function About() {
             <div className="section-title cpb-7">
               <h2 className="sec-title">CONNECT WITH US</h2>
               <p className="sec-des">
-                We’re excited to hear about your project. Schedule a call today
-                and Connect with our experts. At Maticz, We respect your privacy
-                and Never share your details with anyone. Let's build together.
+                We&amp; re excited to hear about your project. Schedule a call
+                today and Connect with our experts. At Maticz, We respect your
+                privacy and Never share your details with anyone. Let&amp; s
+                build together.
               </p>
             </div>
           </div>
