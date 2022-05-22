@@ -147,30 +147,9 @@ function Header() {
                 </div>
                 <div className="lan-social">
                   <div className="language">
-                    <div className="language-select">
-                      <p>
-                        English <i className="icofont-simple-down"></i>
-                      </p>
-                      <div className="dp-menu">
-                        <ul className="dp-ul">
-                          <li className="dp-list">
-                            <a href="" className="dp-link">
-                              Bangla
-                            </a>
-                          </li>
-                          <li className="dp-list">
-                            <a href="" className="dp-link">
-                              Urdu
-                            </a>
-                          </li>
-                          <li className="dp-list">
-                            <a href="" className="dp-link">
-                              Hindi
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    <a href="" className="nav-link login-btn">
+                      Get Queue
+                    </a>
                   </div>
 
                   <div className="social">
@@ -258,7 +237,7 @@ function Header() {
                       </a>
                     </li>
                     <li className="nav-list">
-                      <a href="" className="nav-link">
+                      <a href="#" className="nav-link">
                         Services <i className="icofont-rounded-down"></i>
                       </a>
                       <div className="dp-menu">
@@ -308,13 +287,8 @@ function Header() {
                       </a>
                     </li>
                     <li className="nav-list">
-                      <a href="" className="nav-link">
+                      <a href="/about" className="nav-link">
                         About Us
-                      </a>
-                    </li>
-                    <li className="nav-list">
-                      <a href="" className="nav-link login-btn">
-                        Get Queue
                       </a>
                     </li>
                   </ul>
