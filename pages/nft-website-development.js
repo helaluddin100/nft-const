@@ -1750,6 +1750,9 @@ function HiCoin() {
 
 HiCoin.title = "Full Stack Web Development Services";
 HiCoin.layout = AppLayout;
+Home.image = "assets/imgs/hero-img-6.png";
+Home.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
 
 const table = [
   {
