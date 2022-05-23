@@ -1114,18 +1114,15 @@ function Analysis() {
 
                 <div className="qustion">
                   <label htmlFor="question1" className="question">
-                    How can I look up a transaction on the platform?
+                    How much does it cost for a complete audit of a NFT
+                    website??
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Block Explorers provide a visually appealing and intuitive
-                    way to navigate a cryptocurrency &apos; s. Our Block
-                    Explorer launched in August 2011. It began as a way for
-                    anyone to study bitcoin transactions, along with a variety
-                    of helpful charts and statistics about activity on the
-                    network.
+                    Our quotes and turnaround times vary according to the
+                    codebase’s length and complexity.
                   </p>
                 </div>
               </div>
@@ -1139,18 +1136,16 @@ function Analysis() {
 
                 <div className="qustion">
                   <label htmlFor="question5" className="question">
-                    How do I know a transaction has been successfully received
-                    or sent?
+                    Is it completely safe??
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    We provide confidential initial reports, web hosted public
+                    final certificates for easy sharing with stakeholders, and
+                    also formally written letters for compliance departments to
+                    confirm the results of a security audit.
                   </p>
                 </div>
               </div>
@@ -1164,65 +1159,16 @@ function Analysis() {
 
                 <div className="qustion">
                   <label htmlFor="question2" className="question">
-                    What is the difference between Stellar and lumens?
+                    What is your audit process?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
-                  </p>
-                </div>
-              </div>
-              <div className="faq-div">
-                <input
-                  type="checkbox"
-                  id="question3"
-                  name="q"
-                  className="questions"
-                />
-
-                <div className="qustion">
-                  <label htmlFor="question3" className="question">
-                    Can I still receive PAX into my Wallet?
-                  </label>
-                  <div className="plus">+</div>
-                </div>
-                <div className="answers">
-                  <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
-                  </p>
-                </div>
-              </div>
-              <div className="faq-div">
-                <input
-                  type="checkbox"
-                  id="question4"
-                  name="q"
-                  className="questions"
-                />
-
-                <div className="qustion">
-                  <label htmlFor="question4" className="question">
-                    Why do Stellar addresses have a minimum balance requirement?
-                  </label>
-                  <div className="plus">+</div>
-                </div>
-                <div className="answers">
-                  <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    Organize a kick-off meeting and provide a quote then we
+                    privately send your team a detailed audit report.After your
+                    team fixes the issues and best practices then we will you an
+                    updated audit report and certificate
                   </p>
                 </div>
               </div>
