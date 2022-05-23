@@ -4985,6 +4985,10 @@ button.back-home:hover {
     .benefit-box {
         grid-template-columns: 1fr 1fr;
     }
+    .benefit-item.c-derection {
+        flex-direction: column-reverse;
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 500px) {

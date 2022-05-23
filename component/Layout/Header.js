@@ -276,14 +276,10 @@ function Header() {
                         </ul>
                       </div>
                     </li>
+
                     <li className="nav-list">
-                      <a href="" className="nav-link">
-                        Solution
-                      </a>
-                    </li>
-                    <li className="nav-list">
-                      <a href="" className="nav-link">
-                        Quotation
+                      <a href="/blog" className="nav-link">
+                        Blog
                       </a>
                     </li>
                     <li className="nav-list">
