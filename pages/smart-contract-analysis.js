@@ -1268,18 +1268,22 @@ function Business() {
 
                 <div className="qustion">
                   <label htmlFor="question1" className="question">
-                    How can I look up a transaction on the platform?
+                    What are the major NFT security issues and how to identify
+                    them?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Block Explorers provide a visually appealing and intuitive
-                    way to navigate a cryptocurrency &apos; s. Our Block
-                    Explorer launched in August 2011. It began as a way for
-                    anyone to study bitcoin transactions, along with a variety
-                    of helpful charts and statistics about activity on the
-                    network.
+                    When a user purchases an NFT object, he purchases its
+                    identifier rather than an actual image. This unique
+                    identifier leads to the Interplanetary File System and this
+                    node is run by the company from which a user purchases an
+                    NFT. So, in case the company that is minting NFTs
+                    experiences a serious hack or decides to exit from the
+                    market, a user will lose access to his NFT object or there
+                    is a risk that the value of the purchased NFT may drop to
+                    zero.
                   </p>
                 </div>
               </div>
@@ -1293,18 +1297,17 @@ function Business() {
 
                 <div className="qustion">
                   <label htmlFor="question5" className="question">
-                    How do I know a transaction has been successfully received
-                    or sent?
+                    Is NFT Smart Security Audit works as NFT Hack Protection ?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    Yes, like other virtual assets, NFTs can be stolen. Smart
+                    contract vulnerabilities may enable a malicious actor to
+                    mint NFTs without the consent of a marketplace. Through
+                    social engineering techniques, malicious actors can make
+                    users transfer their NFTs to malicious addresses.
                   </p>
                 </div>
               </div>
@@ -1318,17 +1321,18 @@ function Business() {
 
                 <div className="qustion">
                   <label htmlFor="question2" className="question">
-                    What is the difference between Stellar and lumens?
+                    Whats the best solution for NFT Hacks?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    During the smart contract audit of an NFT project, auditors
+                    test the code against such flaws as denial of service
+                    attacks, gas limit issues, reentrancy attacks, insecure
+                    random number generation, overflows and underflows, etc.
+                    Each identified vulnerability is given its severity level so
+                    that a project can realize what issue to fix immediately.
                   </p>
                 </div>
               </div>
@@ -1342,41 +1346,19 @@ function Business() {
 
                 <div className="qustion">
                   <label htmlFor="question3" className="question">
-                    Can I still receive PAX into my Wallet?
+                    IS Smart Contract Audit for really important for a NFT
+                    project?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
-                  </p>
-                </div>
-              </div>
-              <div className="faq-div">
-                <input
-                  type="checkbox"
-                  id="question4"
-                  name="q"
-                  className="questions"
-                />
-
-                <div className="qustion">
-                  <label htmlFor="question4" className="question">
-                    Why do Stellar addresses have a minimum balance requirement?
-                  </label>
-                  <div className="plus">+</div>
-                </div>
-                <div className="answers">
-                  <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    Smart contract audit allows a project to identify any
+                    features in the code that may potentially enable
+                    manipulations resulting in the damaged reputation of loss of
+                    assets. A smart contract audit may allow the code to work
+                    more efficiently thereby allowing a project to demonstrate
+                    higher performance.
                   </p>
                 </div>
               </div>
