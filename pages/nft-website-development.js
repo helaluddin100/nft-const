@@ -1589,18 +1589,17 @@ function HiCoin() {
 
                 <div className="qustion">
                   <label htmlFor="question1" className="question">
-                    How can I look up a transaction on the platform?
+                    What is an NFT minting platform?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Block Explorers provide a visually appealing and intuitive
-                    way to navigate a cryptocurrency &apos; s. Our Block
-                    Explorer launched in August 2011. It began as a way for
-                    anyone to study bitcoin transactions, along with a variety
-                    of helpful charts and statistics about activity on the
-                    network.
+                    NFT Minting platform is a website where users can mint their
+                    various digital assets such as artwork,music,video,game
+                    items NFT etc digital collectibles. While minting an NFT
+                    users have to pay a gas fee based on the blockchain and
+                    platform they wish to mint their NFTs.
                   </p>
                 </div>
               </div>
@@ -1618,18 +1617,19 @@ function HiCoin() {
 
                 <div className="qustion">
                   <label htmlFor="question5" className="question">
-                    How do I know a transaction has been successfully received
-                    or sent?
+                    How to create a NFT Minting website?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    You can either create an NFT minting website with the use of
+                    ready made White label NFT minting software which can reduce
+                    the development cost and time. You just need to buy an NFT
+                    minting software, customize it based on your business niche
+                    requirements and launch it. You can also create an nft
+                    minting website from scratch which requires a lot of time
+                    and development cost.
                   </p>
                 </div>
               </div>
@@ -1647,17 +1647,16 @@ function HiCoin() {
 
                 <div className="qustion">
                   <label htmlFor="question2" className="question">
-                    What is the difference between Stellar and lumens?
+                    Which is the best NFT minting platform development company?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    With no doubt NFT Constructer is the best one step NFT
+                    minting platform development company delivering NFT Minting
+                    website development services worldwide such as India, United
+                    states, united kingdom and much more.
                   </p>
                 </div>
               </div>
@@ -1675,17 +1674,18 @@ function HiCoin() {
 
                 <div className="qustion">
                   <label htmlFor="question3" className="question">
-                    Can I still receive PAX into my Wallet?
+                    How much does it cost to create a NFT minting website?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    The cost to develop an NFT Minting platform depends on
+                    various factors such as geography, development model,
+                    resources needed, time and mainly focused on the features
+                    and functionalities required by the business owners on their
+                    platform.The cost can vary 5000 usd to 20000 usd depeding on
+                    the features and functionalities required by the business.
                   </p>
                 </div>
               </div>
@@ -1703,17 +1703,39 @@ function HiCoin() {
 
                 <div className="qustion">
                   <label htmlFor="question4" className="question">
-                    Why do Stellar addresses have a minimum balance requirement?
+                    Is it completely secure?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    Yes, its completely secure & tested before we hand over the
+                    complete project to the customers.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="faq-div"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <input
+                  type="checkbox"
+                  id="question7"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question7" className="question">
+                    Do you guys also provide after sales support?
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    Yes obviously we provide 15-30 days after sales support
+                    after the project is completely delivered
                   </p>
                 </div>
               </div>
