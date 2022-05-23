@@ -1153,18 +1153,16 @@ function Coin() {
 
                 <div className="qustion">
                   <label htmlFor="question1" className="question">
-                    How can I look up a transaction on the platform?
+                    Which is the best NFT minting platform designing company?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Block Explorers provide a visually appealing and intuitive
-                    way to navigate a cryptocurrency &apos; s. Our Block
-                    Explorer launched in August 2011. It began as a way for
-                    anyone to study bitcoin transactions, along with a variety
-                    of helpful charts and statistics about activity on the
-                    network.
+                    With no doubt NFT Constructer is the best one step NFT
+                    minting platform development & designing company delivering
+                    NFT Minting website development & design services worldwide
+                    such as India, United states, united kingdom and much more.
                   </p>
                 </div>
               </div>
@@ -1182,18 +1180,18 @@ function Coin() {
 
                 <div className="qustion">
                   <label htmlFor="question5" className="question">
-                    How do I know a transaction has been successfully received
-                    or sent?
+                    How much does it cost to design a NFT minting website?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    The cost to develop an NFT Minting platform depends on
+                    various factors such as geography, design model, resources
+                    needed, time and mainly focused on the features and
+                    functionalities required by the business owners on their
+                    platform.The cost can vary 5000 usd to 20000 usd depeding on
+                    the features and functionalities required by the business.
                   </p>
                 </div>
               </div>
@@ -1211,17 +1209,14 @@ function Coin() {
 
                 <div className="qustion">
                   <label htmlFor="question2" className="question">
-                    What is the difference between Stellar and lumens?
+                    Is it completely secure?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    Yes, it’s completely secure & tested before we hand over the
+                    complete project to the customers.
                   </p>
                 </div>
               </div>
@@ -1239,45 +1234,14 @@ function Coin() {
 
                 <div className="qustion">
                   <label htmlFor="question3" className="question">
-                    Can I still receive PAX into my Wallet?
+                    Do you guys also provide after sales support?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
-                  </p>
-                </div>
-              </div>
-              <div
-                className="faq-div"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                <input
-                  type="checkbox"
-                  id="question4"
-                  name="q"
-                  className="questions"
-                />
-
-                <div className="qustion">
-                  <label htmlFor="question4" className="question">
-                    Why do Stellar addresses have a minimum balance requirement?
-                  </label>
-                  <div className="plus">+</div>
-                </div>
-                <div className="answers">
-                  <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    Yes obviously we provide 15-30 days after sales support
+                    after the project is completely delivered
                   </p>
                 </div>
               </div>
