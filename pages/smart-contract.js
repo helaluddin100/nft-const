@@ -1560,7 +1560,7 @@ function SmartContract() {
                     development on various blockchains such as Ethereum, Binance
                     Smart Chain (BSC), Solana, Polygon, Cardano, Avalanche, etc.
                     We are recognized as a trustworthy agency in the creation of
-                    Custom NFT Smart Contracts according to the client's
+                    Custom NFT Smart Contracts according to the client&nbsp;s
                     business needs.
                   </p>
                 </div>
@@ -1636,7 +1636,7 @@ function SmartContract() {
                     NFT games make it possible to earn NFTs instead of actual
                     money. The NFT gaming marketplace has a huge following. The
                     NFT marketplace will make the cost of game assets
-                    transparent. The game's revenue will be transparent to the
+                    transparent. The game&nbsp;s revenue will be transparent to the
                     games industry. So, contribution rewards for gamers in NFTs
                     are made easier.
                   </p>
