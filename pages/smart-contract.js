@@ -940,7 +940,6 @@ function SmartContract() {
               >
                 <p className="sm-title">BENIFITS OF</p>
                 <h2 className="sec-title">
-                  {" "}
                   Smart Contract Development Services
                 </h2>
                 <p className="sec-des">
@@ -1417,18 +1416,30 @@ function SmartContract() {
 
                 <div className="qustion">
                   <label htmlFor="question1" className="question">
-                    How can I look up a transaction on the platform?
+                    What is an NFT Smart Contract?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Block Explorers provide a visually appealing and intuitive
-                    way to navigate a cryptocurrency &apos; s. Our Block
-                    Explorer launched in August 2011. It began as a way for
-                    anyone to study bitcoin transactions, along with a variety
-                    of helpful charts and statistics about activity on the
-                    network.
+                    NFT Smart contract is a trading agreement between the NFT
+                    buyer and the NFT seller that is written in coded language.
+                    Usually, these NFT smart contracts are developed on the
+                    blockchain, they are the set of programs that manage the
+                    data of the NFT owners and the transaction history of NFTs
+                    between the traders. Basically smart contracts access the
+                    entire action of transfers only when predominant conditions
+                    are met.
+                  </p>
+                  <p>
+                    NFT Smart Contracts are the most vibrant part of the NFT
+                    marketplace as the entire functioning of the platform relies
+                    on self-executing smart contracts. The NFT Smart contracts
+                    contain the codes that manage the creation and minting of
+                    NFTs. Once a user creates or mints NFTs these NFT smart
+                    contracts get triggered and automatically executed. Usually,
+                    NFT standards like ERC-721, ERC-1155, BEP-721, BEP-1155, etc
+                    are preferred for creating NFT smart contracts.
                   </p>
                 </div>
               </div>
@@ -1442,18 +1453,44 @@ function SmartContract() {
 
                 <div className="qustion">
                   <label htmlFor="question5" className="question">
-                    How do I know a transaction has been successfully received
-                    or sent?
+                    How does NFT Smart Contract Work?
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    NFT platforms are working based on smart contracts (that is
+                    self-executing contracts). Features and functionalities of
+                    the NFT platforms are stored in the form of programs that
+                    run when it meets a predetermined condition. New smart
+                    contracts are deployed for individual tokens and store the
+                    metadata of NFT tokens.&nbsp;
+                  </p>
+                  <p>
+                    Most NFTs was built on the Ethereum blockchain using the
+                    ERC721 protocol and Ethereum was preferred to develop NFT
+                    smart contract likewise smart contracts can be built on any
+                    blockchain like BSC, Solana, Tron, Polygon, Avalanche,
+                    etc.&nbsp;
+                  </p>
+                  <p>
+                    <b>Step 1:</b> While minting an NFT they execute programs
+                    stored in a smart contract that confirms different
+                    standards.
+                  </p>
+                  <p>
+                    <b>Step 2:</b> The information about NFT and NFT owner is
+                    put on in blockchain where NFT is managed. This verifies the
+                    ownership of the NFT to the creator.
+                  </p>
+                  <p>
+                    <b>Step 3:</b> You can set the minting and bidding value as
+                    your wish in the smart contract code further will execute
+                    when the conditions are held.
+                  </p>
+                  <p>
+                    <b>Step 4:</b> Smart contracts will handle the
+                    transferability when NFT is transferred from one to another.
                   </p>
                 </div>
               </div>
@@ -1467,17 +1504,26 @@ function SmartContract() {
 
                 <div className="qustion">
                   <label htmlFor="question2" className="question">
-                    What is the difference between Stellar and lumens?
+                    5 Important Benefits of NFT Smart Contract
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    We all are very well known for the hype for NFT and how it
+                    has taken NFT investors to the next financial level. Lets us
+                    know about the benefits of the NFT Smart Contract,
+                  </p>
+                  <p>1. Functions are immutable.</p>
+                  <p>2. Reduces the gas fee.</p>
+                  <p>3. Fast transactions.</p>
+                  <p>4. Fully Automated.</p>
+                  <p>5. Resist hackers.</p>
+                  <p>
+                    On the whole, smart contracts are the main blocks of the
+                    NFT. Eliminating the lack of trust which might be capable
+                    while executing with others, is by and large the thing that
+                    smart contracts do.
                   </p>
                 </div>
               </div>
@@ -1491,18 +1537,62 @@ function SmartContract() {
 
                 <div className="qustion">
                   <label htmlFor="question3" className="question">
-                    Can I still receive PAX into my Wallet?
+                    NFT Smart Contract Development
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    The NFT Smart contract development has become a massive
+                    opportunity for the NFT investors to build up their own NFT
+                    marketplace and provide a chance to higher their revenue. As
+                    the complete functioning of the NFT marketplace depends on
+                    the NFT smart contracts, NFT smart contract development
+                    becomes more vital among entrepreneurs who are actively
+                    looking to build an NFT Marketplace. If you are one among
+                    them, you are in the right place!
                   </p>
+                  <p>
+                    NFT Constructer is the leading NFT Smart Contract
+                    Development Company expert in developing NFT Smart Contracts
+                    on various blockchain networks. Our NFT Smart Contract
+                    Developers provide best-in-class NFT Smart Contract
+                    development on various blockchains such as Ethereum, Binance
+                    Smart Chain (BSC), Solana, Polygon, Cardano, Avalanche, etc.
+                    We are recognized as a trustworthy agency in the creation of
+                    Custom NFT Smart Contracts according to the client's
+                    business needs.
+                  </p>
+                </div>
+              </div>
+              <div className="faq-div">
+                <input
+                  type="checkbox"
+                  id="question14"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question14" className="question">
+                    NFT Smart Contract Development Services
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    Being the pioneer in NFT Smart Contract development
+                    services, NFT Constructer offers top-rated NFT Smart
+                    Contract development to create NFT smart contracts that
+                    support the trade of various NFT digital collectibles.&nbsp;
+                  </p>
+                  <p>1. NFT Smart Contract for Marketplace</p>
+                  <p>2. NFT Smart Contract for Minting</p>
+                  <p>3. NFT Smart Contract for Staking</p>
+                  <p>4. NFT Smart Contract for Lending</p>
+                  <p>5. NFT Smart Contract for Loan&nbsp;</p>
+                  <p>6. NFT Smart Contract for P2P Exchange</p>
+                  <p>7. NFT Smart Contract for Digital collectibles</p>
                 </div>
               </div>
               <div className="faq-div">
@@ -1515,17 +1605,266 @@ function SmartContract() {
 
                 <div className="qustion">
                   <label htmlFor="question4" className="question">
-                    Why do Stellar addresses have a minimum balance requirement?
+                    Important NFT Smart Contract Use Cases
                   </label>
                   <div className="plus">+</div>
                 </div>
                 <div className="answers">
                   <p>
-                    Our hardcover books are library bound with exposed
-                    reinforced endsheets, which means extra lasting power, use
-                    after use. They are side sewn or section sewn, and all
-                    covers are laminated with glossy film. The books are
-                    vibrant, durable, and unconditionally guaranteed.
+                    We provide top-notch NFT Smart Contract Development for
+                    various use cases such as sports, art, videos, games,
+                    sports, metaverse, music, fashion industry, etc.
+                  </p>
+                  <p>
+                    <b>
+                      <span>Art</span>
+                    </b>
+                  </p>
+                  <p>
+                    The development of the NFT Smart Contracts for Art
+                    Marketplace is the process of converting artworks into NFTs
+                    that can be traded on the NFT Marketplace. It is beneficial
+                    for the artist to get more popularity and
+                    profitability.&nbsp;
+                  </p>
+                  <p>
+                    <b>
+                      <span>Games</span>
+                    </b>
+                  </p>
+                  <p>
+                    NFT games make it possible to earn NFTs instead of actual
+                    money. The NFT gaming marketplace has a huge following. The
+                    NFT marketplace will make the cost of game assets
+                    transparent. The game's revenue will be transparent to the
+                    games industry. So, contribution rewards for gamers in NFTs
+                    are made easier.
+                  </p>
+                  <p>
+                    <span>
+                      <b>Music</b>
+                    </span>
+                  </p>
+                  <p>
+                    NFT Smart Contract development for the Music creates a
+                    marketplace platform to sell their music and audios. NFT
+                    marketplace for music provides huge profits in the music
+                    business through its amazing capabilities. Artists hold the
+                    rights to their music with the help of private keys.&nbsp;
+                  </p>
+                  <p>
+                    <b>
+                      <span>Sports</span>
+                    </b>
+                  </p>
+                  <p>
+                    NFT Marketplace for Sports gives a huge sporting future.
+                    Audiences have begun to appreciate sporting events in NFT,
+                    and sports enthusiasts will undoubtedly smile. Here, people
+                    can tokenize their sports assets with the aid of NFT smart
+                    contracts for Sports.
+                  </p>
+                  <p>
+                    <b>
+                      <span>Digital Collectibles</span>
+                    </b>
+                  </p>
+                  <p>
+                    Development of the NFT Marketplace for Digital Collectibles
+                    delivered exclusively for a platform that allows users to
+                    trade digital collectibles and goods. We can get rare
+                    digital items and crypto-collectibles from the peer-to-peer
+                    platform. Cryptopunk NFT platform is one of the most popular
+                    digital collectibles platforms. Digital collectibles include
+                    such as videos, audio, pictures, and GIFs.
+                  </p>
+                </div>
+              </div>
+              <div className="faq-div">
+                <input
+                  type="checkbox"
+                  id="question7"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question7" className="question">
+                    NFT Smart Contract Development Process
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    NFTs are created using smart contracts. Smart contracts
+                    operate on the blockchain and store the unique information
+                    of the token. It keeps track of the current owner and the
+                    previous owner.
+                  </p>
+                  <p>
+                    <b>
+                      Here are some basic Steps of NFT Smart Contract
+                      Development,
+                    </b>
+                  </p>
+                  <p>1. Setting up the project tools and environment</p>
+                  <p>2. Coding the smart contract</p>
+                  <p>3. Deploying and interacting on testnet</p>
+                  <p>4. Testing smart contract&nbsp;</p>
+                  <p>5. Deploying on mainnet</p>
+                </div>
+              </div>
+              <div className="faq-div">
+                <input
+                  type="checkbox"
+                  id="question8"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question8" className="question">
+                    Setting up the Project
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    We should have a detailed analysis with the expert
+                    professionals about the project, that the first step in
+                    setting a project is to select the desired blockchain to
+                    develop the smart contract and NFTs.
+                  </p>
+                </div>
+              </div>
+              <div className="faq-div">
+                <input
+                  type="checkbox"
+                  id="question9"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question9" className="question">
+                    Coding NFT Smart Contracts:
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    To develop the project the main key is a smart contract,
+                    these codes are written using solidity language basically
+                    but the language changes depending on the selection of the
+                    blockchain. As the project grows wider we can add additional
+                    smart contracts as per your plan.
+                  </p>
+                </div>
+              </div>
+              <div className="faq-div">
+                <input
+                  type="checkbox"
+                  id="question10"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question10" className="question">
+                    Deploying and Interacting on Testnet:
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    Once the developer code the smart contract now it is
+                    deployed locally on the test net to run various tests and
+                    audit the smart contract to ensure that there are no bugs.
+                  </p>
+                </div>
+              </div>
+              <div className="faq-div">
+                <input
+                  type="checkbox"
+                  id="question11"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question11" className="question">
+                    Testing Smart Contract:
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    This testing part is very important because a tiny mistake
+                    may lead to a loss of funds on the investor’s side to
+                    overcome the issues the experts test the smart contract with
+                    various automated tests to bring out the product without
+                    errors.
+                  </p>
+                </div>
+              </div>
+              <div className="faq-div">
+                <input
+                  type="checkbox"
+                  id="question12"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question12" className="question">
+                    Deploying on Mainnet:
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    After analyzing the complete smart contract which is
+                    bug-free, we deploy publically the smart contract on the
+                    main net which is ready to access.
+                  </p>
+                </div>
+              </div>
+              <div className="faq-div">
+                <input
+                  type="checkbox"
+                  id="question13"
+                  name="q"
+                  className="questions"
+                />
+
+                <div className="qustion">
+                  <label htmlFor="question13" className="question">
+                    Why choose NFT Constructer for NFT Smart Contract
+                    Development?
+                  </label>
+                  <div className="plus">+</div>
+                </div>
+                <div className="answers">
+                  <p>
+                    On the whole, in the event that you are anticipating
+                    developing NFT Smart Contracts, then NFT Constructer will be
+                    a perfect choice for you. NFT Constructer is the leading
+                    <a href="" target="_blank">
+                      NFT Marketplace Development Company
+                    </a>
+                    superior in providing NFT smart contracts on various
+                    blockchain networks with high security. With our
+                    well-experienced professionals, We provide high-quality
+                    solutions that add value to your business.
+                  </p>
+                  <p>
+                    Our NFT Smart Contract Developers provide NFT Smart
+                    Contracts thoroughly tested and smart contracts audited to
+                    ensure that they are free of vulnerabilities and faults. We
+                    have blockchain developers on board who will work with you
+                    throughout the project and offer the best solutions to any
+                    issues that arise and act as a flexible supporting team to
+                    manage your platform.&nbsp;&nbsp;
                   </p>
                 </div>
               </div>
