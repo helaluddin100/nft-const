@@ -858,7 +858,7 @@ function Business() {
 
         {/* ===============top project end=============== */}
         {/* ==============pricing==================== */}
-        <div className="container">
+        {/* <div className="container">
           <div className="plans cpy-6">
             <div
               className="section-title"
@@ -1036,7 +1036,7 @@ function Business() {
               </Swiper>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ===================================pricing end ===================== */}
         {/* ===================Mentioned section ================== */}
         <section>

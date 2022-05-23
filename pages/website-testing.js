@@ -563,7 +563,7 @@ function Testing() {
 
         {/* ===============top project end=============== */}
         {/* ==============pricing==================== */}
-        <div className="container">
+        {/* <div className="container">
           <div className="plans cpy-6">
             <div className="section-title">
               <p className="sm-title">pricing</p>
@@ -733,7 +733,7 @@ function Testing() {
               </Swiper>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ===================================pricing end ===================== */}
         {/* ===================Mentioned section ================== */}
         <section>

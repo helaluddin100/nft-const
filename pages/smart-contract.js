@@ -1067,7 +1067,7 @@ function SmartContract() {
 
         {/* ===============top project end=============== */}
         {/* ==============pricing==================== */}
-        <div className="container">
+        {/* <div className="container">
           <div className="plans cpy-6">
             <div
               className="section-title"
@@ -1245,7 +1245,7 @@ function SmartContract() {
               </Swiper>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* =====================happy clients======================= */}
         <section>

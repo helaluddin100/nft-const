@@ -716,7 +716,7 @@ function Analysis() {
 
         {/* ===============top project end=============== */}
         {/* ==============pricing==================== */}
-        <div className="container" data-aos="fade-up" data-aos-duration="1000">
+        {/* <div className="container" data-aos="fade-up" data-aos-duration="1000">
           <div className="plans cpy-6">
             <div className="section-title">
               <p className="sm-title">pricing</p>
@@ -886,7 +886,7 @@ function Analysis() {
               </Swiper>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ===================================pricing end ===================== */}
         {/* ===================Mentioned section ================== */}
         <section>
