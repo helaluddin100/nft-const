@@ -5220,18 +5220,13 @@ section.talk-to {
     background: #fff;
     padding: 40px;
     border-radius: 15px;
+    position: relative;
+    margin-bottom: -50px;
+    box-shadow: -1px 20px 20px 1px #0000000a;
 }
 
-.logo-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-bottom {
-    background: #fff;
-    padding: 40px;
-    border-radius: 15px;
+.portfolio-area {
+    padding-top: 100px;
 }
 
 .logo-item {
