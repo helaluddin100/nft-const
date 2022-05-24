@@ -29,6 +29,9 @@
         color: var(--second-color);
         line-height: 125%;
     }
+    .hero-title {
+        font-size: 65px;
+    }
     .description {
         font-weight: 400;
         margin: 30px 0;
@@ -5210,4 +5213,79 @@ section.talk-to {
 .answers p a {
     font-weight: 600;
     padding: 0 5px;
+}
+
+// ============================portfolio ===================
+.hero-bottom {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-bottom {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
+
+.port-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.category-and-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p.date {
+    margin-left: 100px;
+}
+
+.port-title h2 {
+    font-size: 32px;
+    color: #1e1d1d;
+}
+
+@media screen and (max-width: 768px) {
+    .port-title {
+        display: block;
+    }
+    .category-and-date {
+        padding: 20px 0;
+    }
+    p.date {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .port-title h2 {
+        font-size: 26px;
+    }
+    .category-and-date {
+        padding: 5px 0;
+    }
+    .port-title {
+        padding: 25px 0;
+    }
 }
