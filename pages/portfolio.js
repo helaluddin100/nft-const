@@ -60,7 +60,7 @@ function Portfolio() {
           </section>
         </div>
 
-        <div className="tak-logo">
+        <div className="tak-logo" data-aos="fade-up" data-aos-duration="1000">
           <div className="container">
             <div className="hero-bottom">
               <div className="row-4">
@@ -81,7 +81,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="white-bg">
+      <div className="light-bg">
         <div className="portfolio-area">
           <div className="container">
             <div className="section-title cpy-5">
@@ -93,175 +93,57 @@ function Portfolio() {
               </p>
             </div>
             <div className="portfolio-item">
-              <div className="grid-3">
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
-                  </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
+              <div className="grid-2">
+                <div className="prof-item cg-direction cpy-5">
+                  <div
+                    className="prof-des"
+                    data-aos="fade-right"
+                    data-aos-duration="1500"
+                  >
+                    <h3 className="prof-title">
+                      Content loved by thousands around the world
                     </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
+                    <p className="prof-text">
+                      200k+ views on my design, interaction and animation posts
                     </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
+                    <a href="" className="view-shot">
+                      View Item
+                      <img src="assets/img/long-arrow-right.svg" alt="" />
                     </a>
                   </div>
-                </div>
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
-                  </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
-                    </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
-                    </a>
+                  <div
+                    className="prof-img prof-right-img"
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                  >
+                    <img src="assets/img/portfolio/2.png" alt="" />
+                    <div className="prof-right"></div>
                   </div>
                 </div>
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
+
+                <div className="prof-item cpy-5">
+                  <div
+                    className="prof-img prof-left-img"
+                    data-aos="fade-right"
+                    data-aos-duration="1500"
+                  >
+                    <img src="assets/img/portfolio/2.png" alt="" />
+                    <div className="prof-left"></div>
                   </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
+                  <div
+                    className="prof-des"
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                  >
+                    <h3 className="prof-title">
+                      Content loved by thousands around the world
                     </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
+                    <p className="prof-text">
+                      200k+ views on my design, interaction and animation posts
                     </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
-                    </a>
-                  </div>
-                </div>
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
-                  </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
-                    </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
-                    </a>
-                  </div>
-                </div>
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
-                  </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
-                    </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
-                    </a>
-                  </div>
-                </div>
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
-                  </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
-                    </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
-                    </a>
-                  </div>
-                </div>
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
-                  </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
-                    </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
-                    </a>
-                  </div>
-                </div>
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
-                  </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
-                    </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
-                    </a>
-                  </div>
-                </div>
-                <div className="portfolio-item-wrapper">
-                  <div className="portfolio-item-img">
-                    <img src="assets/img/portfolio/1.png" alt="" />
-                  </div>
-                  <div className="portfolio-item-content">
-                    <h3 className="portfolio-item-title">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
-                    </h3>
-                    <p className="portfolio-item-des">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
-                    <a href="" className="nav-link login-btn">
-                      View item
+                    <a href="" className="view-shot">
+                      View Item
+                      <img src="assets/img/long-arrow-right.svg" alt="" />
                     </a>
                   </div>
                 </div>

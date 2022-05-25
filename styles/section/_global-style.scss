@@ -5279,6 +5279,7 @@ h3.portfolio-item-title {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    grid-gap: 30px;
 }
 
 a.view-shot img {
@@ -5290,6 +5291,8 @@ a.view-shot img {
     width: 100%;
     position: relative;
     z-index: 1;
+    overflow: hidden;
+    transition: 0.3s;
 }
 
 h3.prof-title {
@@ -5315,11 +5318,11 @@ a.view-shot:hover {
 }
 
 .prof-right {
-    background-image: url(/_next/static/media/bg1.989d2e9d.png);
+    background-image: url(../../public/assets/img/portfolio/bg1.png);
     position: absolute;
     left: auto;
     top: -2.5%;
-    right: -4%;
+    right: 0;
     bottom: 0;
     z-index: 0;
     border-radius: 30px;
@@ -5332,7 +5335,7 @@ a.view-shot:hover {
 
 .prof-left {
     position: absolute;
-    left: -4%;
+    left: 0%;
     right: auto;
     bottom: 0;
     z-index: 0;
@@ -5358,4 +5361,41 @@ a.view-shot:hover {
 .prof-img.prof-right-img {
     padding: 30px;
     position: relative;
+}
+
+.light-bg {
+    background: #f6f4ff;
+}
+
+.prof-img:hover img {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 992px) {
+    .prof-item {
+        grid-template-columns: 1fr;
+    }
+    .cg-direction {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h3.prof-title {
+        font-size: 35px;
+    }
+    .prof-item {
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h3.prof-title {
+        font-size: 25px;
+    }
+    .prof-img.prof-left-img,
+    .prof-img.prof-right-img {
+        padding: 10px;
+    }
 }
