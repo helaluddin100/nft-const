@@ -5273,3 +5273,89 @@ h3.portfolio-item-title {
 .portfolio-item-wrapper:hover .portfolio-item-img img {
     transform: scale(1.1);
 }
+
+// ====================port 2====================
+.prof-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+a.view-shot img {
+    width: 22px;
+    margin-left: 10px;
+}
+
+.prof-img img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+h3.prof-title {
+    font-size: 50px;
+    line-height: 115%;
+    color: var(--second-color);
+}
+
+p.prof-text {
+    padding: 10px 0;
+}
+
+a.view-shot {
+    color: var(--main-color);
+    font-weight: 600;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+a.view-shot:hover {
+    color: var(--main-color);
+    opacity: 0.8;
+}
+
+.prof-right {
+    background-image: url(/_next/static/media/bg1.989d2e9d.png);
+    position: absolute;
+    left: auto;
+    top: -2.5%;
+    right: -4%;
+    bottom: 0;
+    z-index: 0;
+    border-radius: 30px;
+    background-color: #fff7ea;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+}
+
+.prof-left {
+    position: absolute;
+    left: -4%;
+    right: auto;
+    bottom: 0;
+    z-index: 0;
+    width: 70%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #ece7ff;
+    background-image: url(../../public/assets/img/portfolio/bg2.png);
+    background-position: 50% 50%;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.prof-img.prof-left-img {
+    padding: 30px;
+}
+
+.prof-img.prof-left-img {
+    position: relative;
+}
+
+.prof-img.prof-right-img {
+    padding: 30px;
+    position: relative;
+}
