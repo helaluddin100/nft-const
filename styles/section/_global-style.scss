@@ -5235,52 +5235,41 @@ section.talk-to {
     align-items: center;
 }
 
-.portfolio-img img {
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.portfolio-item-img img {
     width: 100%;
+    transition: 0.3s;
 }
 
-.port-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 0;
+.portfolio-item-wrapper {
+    background: #fff;
+    box-shadow: 0px 12px 36px 1px #0000000f;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.category-and-date {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.portfolio-item-content {
+    padding: 10px 20px 20px 20px;
 }
 
-p.date {
-    margin-left: 100px;
+p.portfolio-item-des {
+    padding: 10px 0;
 }
 
-.port-title h2 {
-    font-size: 32px;
-    color: #1e1d1d;
+h3.portfolio-item-title {
+    color: var(--second-color);
+    cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .port-title {
-        display: block;
-    }
-    .category-and-date {
-        padding: 20px 0;
-    }
-    p.date {
-        margin-left: 0;
-    }
+.portfolio-item-img {
+    overflow: hidden;
 }
 
-@media screen and (max-width: 450px) {
-    .port-title h2 {
-        font-size: 26px;
-    }
-    .category-and-date {
-        padding: 5px 0;
-    }
-    .port-title {
-        padding: 25px 0;
-    }
+.portfolio-item-wrapper:hover .portfolio-item-img img {
+    transform: scale(1.1);
 }
