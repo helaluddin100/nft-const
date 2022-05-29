@@ -24,6 +24,9 @@ function MyApp({ Component, pageProps }) {
   const description =
     Component.description ||
     "NFT - Full Stack Web Development Services by NFT Constractor";
+  const keywords =
+    Component.keywords ||
+    "nft, full stack, web development, website, website design , website development,development, nft constracter, minting website";
   const Layout = Component.layout || Fragment;
   return (
     <>
@@ -35,6 +38,8 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content={title} />
         <meta property="og:image" content={image} />
         <meta property="image" content={image} />
+        <meta name="keywords" content={keywords}></meta>
+        <link rel="icon" type="image" href="/favicon.png"></link>
       </Head>
       <Layout>
         <Component {...pageProps} />
