@@ -301,6 +301,12 @@ function Portfolio() {
 }
 
 Portfolio.title = "Full Stack Web Development Services";
+Portfolio.image = "assets/img/hero/webdevlopment.gif";
+Portfolio.keywords =
+  "nft, full stack, web development, website, website design , website development,development, nft constracter, minting website";
+Portfolio.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
+
 Portfolio.layout = AppLayout;
 
 export default Portfolio;

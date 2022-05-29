@@ -1255,6 +1255,12 @@ function Coin() {
 }
 
 Coin.title = "Full Stack Web Development Services";
+Coin.image = "assets/img/hero/webdevlopment.gif";
+Coin.keywords =
+  "nft, full stack, web development, website, website design , website development,development, nft constracter, minting website";
+Coin.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
+
 Coin.layout = AppLayout;
 
 const table = [

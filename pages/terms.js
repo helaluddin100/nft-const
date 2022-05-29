@@ -165,6 +165,12 @@ function BlogDetails() {
 }
 
 BlogDetails.title = "Full Stack Web Development Services";
+BlogDetails.image = "assets/img/hero/webdevlopment.gif";
+BlogDetails.keywords =
+  "nft, full stack, web development, website, website design , website development,development, nft constracter, minting website";
+BlogDetails.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
+
 BlogDetails.layout = AppLayout;
 
 export default BlogDetails;

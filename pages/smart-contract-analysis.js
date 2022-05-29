@@ -1372,6 +1372,12 @@ function Business() {
 }
 
 Business.title = "Full Stack Web Development Services";
+Business.image = "assets/img/hero/webdevlopment.gif";
+Business.keywords =
+  "nft, full stack, web development, website, website design , website development,development, nft constracter, minting website";
+Business.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
+
 Business.layout = AppLayout;
 
 const table = [

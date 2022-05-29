@@ -1636,9 +1636,9 @@ function SmartContract() {
                     NFT games make it possible to earn NFTs instead of actual
                     money. The NFT gaming marketplace has a huge following. The
                     NFT marketplace will make the cost of game assets
-                    transparent. The game&nbsp;s revenue will be transparent to the
-                    games industry. So, contribution rewards for gamers in NFTs
-                    are made easier.
+                    transparent. The game&nbsp;s revenue will be transparent to
+                    the games industry. So, contribution rewards for gamers in
+                    NFTs are made easier.
                   </p>
                   <p>
                     <span>
@@ -1878,6 +1878,12 @@ function SmartContract() {
 }
 
 SmartContract.title = "Full Stack Web Development Services";
+SmartContract.image = "assets/img/hero/webdevlopment.gif";
+SmartContract.keywords =
+  "nft, full stack, web development, website, website design , website development,development, nft constracter, minting website";
+SmartContract.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
+
 SmartContract.layout = AppLayout;
 
 const table = [

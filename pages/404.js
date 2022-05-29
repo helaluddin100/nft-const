@@ -19,7 +19,13 @@ function Error() {
   );
 }
 
-Error.title = "Page not found";
+Error.title = "Full Stack Web Development Services";
+Error.image = "assets/img/hero/webdevlopment.gif";
+Error.keywords =
+  "nft, full stack, web development, website, website design , website development,development, nft constracter, minting website";
+Error.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
+
 Error.layout = AppLayout;
 
 export default Error;

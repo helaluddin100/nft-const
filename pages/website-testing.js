@@ -562,179 +562,7 @@ function Testing() {
         </div>
 
         {/* ===============top project end=============== */}
-        {/* ==============pricing==================== */}
-        {/* <div className="container">
-          <div className="plans cpy-6">
-            <div className="section-title">
-              <p className="sm-title">pricing</p>
-              <h2 className="sec-title">Our Pricing Plan</h2>
-              <p className="sec-des">
-                Pay securely online and manage your projects by sitting in your
-                desk
-              </p>
-            </div>
 
-            <div className="plans-options">
-              <Swiper
-                // install Swiper modules
-                modules={[Navigation, A11y]}
-                spaceBetween={50}
-                slidesPerView={1}
-                navigation={{
-                  prevEl: ".prev",
-                  nextEl: ".next",
-                }}
-                loop="true"
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
-                breakpoints={{
-                  // when window width is >= 640px
-                  640: {
-                    slidesPerView: 1,
-                  },
-                  // when window width is >= 768px
-                  768: {
-                    slidesPerView: 2,
-                  },
-                  992: {
-                    slidesPerView: 3,
-                  },
-                }}
-              >
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">6$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Standard 🛵</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-none.svg" alt="Checked" />
-                        <p className="raleway-grey-16 lined">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-none.svg" alt="Checked" />
-                        <p className="raleway-grey-16 lined">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">12$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Extended 🚗</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="plan">
-                    <div className="price">
-                      <p className="urbanist-dark-48">24$</p>
-                      <p className="urbanist-grey-15">/ month</p>
-                    </div>
-
-                    <div className="plan-category">
-                      <p className="urbanist-black-32">Premium 🚛</p>
-                    </div>
-
-                    <p className="raleway-grey-16">
-                      The national average cost of buying coin easy.
-                    </p>
-
-                    <ul className="plan-list">
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Group Consulting</p>
-                      </li>
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">Free Bitcoin</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">New Relations</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16">House Meeting</p>
-                      </li>
-
-                      <li>
-                        <img src="assets/imgs/checked-s.svg" alt="Checked" />
-                        <p className="raleway-grey-16 ">Anti-Bankrupt</p>
-                      </li>
-                    </ul>
-                    <button className="btn-plan">Book now</button>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-            </div>
-          </div>
-        </div> */}
-        {/* ===================================pricing end ===================== */}
         {/* ===================Mentioned section ================== */}
         <section>
           <div className="mentioned-area">
@@ -1071,6 +899,12 @@ function Testing() {
 }
 
 Testing.title = "Full Stack Web Development Services";
+Testing.image = "assets/img/hero/webdevlopment.gif";
+Testing.keywords =
+  "nft, full stack, web development, website, website design , website development,development, nft constracter, minting website";
+Testing.description =
+  "We provide Non-Fungible Development Services that can help you create NFTs for artworks, digital collectibles, gaming, sports, music, video, content Subscription, etc";
+
 Testing.layout = AppLayout;
 
 const table = [
