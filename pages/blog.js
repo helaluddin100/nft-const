@@ -16,213 +16,117 @@ function Blog() {
 
             <div className="blog-container">
               <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
+                <div className="blog-img">
+                  <img src="assets/imgs/blog-img.png" alt="Blog" />
+                </div>
                 <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
+                  <a href="" className="cat-name">
+                    Announcement
+                  </a>
                   <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
+                    Updating the OpenSea Experience
                   </p>
-
-                  <button className="blog-btn">Read More</button>
+                  <p className="raleway-grey-16">May 26, 2022</p>
+                  <p className="sm-des">
+                    Starting today, we’re excited to reveal the first steps in a
+                    design refresh aimed at improving everyone’s OpenSea
+                    experience. Our first step...
+                  </p>
                 </div>
               </div>
               <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
+                <div className="blog-img">
+                  <img src="assets/imgs/blog-img.png" alt="Blog" />
+                </div>
                 <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
+                  <a href="" className="cat-name">
+                    Announcement
+                  </a>
                   <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
+                    Updating the OpenSea Experience
                   </p>
-
-                  <button className="blog-btn">Read More</button>
+                  <p className="raleway-grey-16">May 26, 2022</p>
+                  <p className="sm-des">
+                    Starting today, we’re excited to reveal the first steps in a
+                    design refresh aimed at improving everyone’s OpenSea
+                    experience. Our first step...
+                  </p>
                 </div>
               </div>
               <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
+                <div className="blog-img">
+                  <img src="assets/imgs/blog-img.png" alt="Blog" />
+                </div>
                 <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
+                  <a href="" className="cat-name">
+                    Announcement
+                  </a>
                   <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
+                    Updating the OpenSea Experience
                   </p>
-
-                  <button className="blog-btn">Read More</button>
+                  <p className="raleway-grey-16">May 26, 2022</p>
+                  <p className="sm-des">
+                    Starting today, we’re excited to reveal the first steps in a
+                    design refresh aimed at improving everyone’s OpenSea
+                    experience. Our first step...
+                  </p>
                 </div>
               </div>
               <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
+                <div className="blog-img">
+                  <img src="assets/imgs/blog-img.png" alt="Blog" />
+                </div>
                 <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
+                  <a href="" className="cat-name">
+                    Announcement
+                  </a>
                   <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
+                    Updating the OpenSea Experience
                   </p>
-
-                  <button className="blog-btn">Read More</button>
+                  <p className="raleway-grey-16">May 26, 2022</p>
+                  <p className="sm-des">
+                    Starting today, we’re excited to reveal the first steps in a
+                    design refresh aimed at improving everyone’s OpenSea
+                    experience. Our first step...
+                  </p>
                 </div>
               </div>
               <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
+                <div className="blog-img">
+                  <img src="assets/imgs/blog-img.png" alt="Blog" />
+                </div>
                 <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
+                  <a href="" className="cat-name">
+                    Announcement
+                  </a>
                   <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
+                    Updating the OpenSea Experience
                   </p>
-
-                  <button className="blog-btn">Read More</button>
+                  <p className="raleway-grey-16">May 26, 2022</p>
+                  <p className="sm-des">
+                    Starting today, we’re excited to reveal the first steps in a
+                    design refresh aimed at improving everyone’s OpenSea
+                    experience. Our first step...
+                  </p>
                 </div>
               </div>
               <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
+                <div className="blog-img">
+                  <img src="assets/imgs/blog-img.png" alt="Blog" />
                 </div>
-              </div>
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
                 <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
+                  <a href="" className="cat-name">
+                    Announcement
+                  </a>
                   <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
+                    Updating the OpenSea Experience
                   </p>
-
-                  <button className="blog-btn">Read More</button>
-                </div>
-              </div>
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
+                  <p className="raleway-grey-16">May 26, 2022</p>
+                  <p className="sm-des">
+                    Starting today, we’re excited to reveal the first steps in a
+                    design refresh aimed at improving everyone’s OpenSea
+                    experience. Our first step...
                   </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
-                </div>
-              </div>
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
-                </div>
-              </div>
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
-                </div>
-              </div>
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
-                </div>
-              </div>
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
-                </div>
-              </div>{" "}
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
-                </div>
-              </div>
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
-                </div>
-              </div>
-              <div className="blog-post">
-                <img src="assets/imgs/blog-img.png" alt="Blog" />
-                <div className="about-blog">
-                  <p className="raleway-grey-16">
-                    Senrew A. Sisson 25 JAN 2022
-                  </p>
-
-                  <p className="urbanist-black-18">
-                    An Overview Of Most Common UX Design Deliverables
-                  </p>
-
-                  <button className="blog-btn">Read More</button>
                 </div>
               </div>
             </div>

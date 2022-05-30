@@ -2702,15 +2702,24 @@ button {
 .blog-post {
     display: flex;
     flex-direction: column;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #dfdfdf;
     box-sizing: border-box;
     box-shadow: 0px 27.11px 49.06px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
 }
 
+.blog-img {
+    overflow: hidden;
+}
+
 .blog-post img:nth-child(1) {
     border-radius: 7px 7px 0 0;
     width: 100%;
+    transition: 0.3s;
+}
+
+.blog-post:hover img {
+    transform: scale(1.1);
 }
 
 .about-blog {
@@ -3592,9 +3601,20 @@ h6 {
 
 .urbanist-black-18 {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 150%;
     color: #14161b;
+}
+
+p.raleway-grey-16 {
+    font-weight: 700;
+}
+
+a.cat-name {
+    background: var(--main-color);
+    padding: 2px 14px;
+    color: var(--white-color);
+    border-radius: 5px;
 }
 
 .urbanist-black-20 {
