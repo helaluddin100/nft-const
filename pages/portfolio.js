@@ -127,7 +127,7 @@ function Portfolio() {
                     data-aos="fade-right"
                     data-aos-duration="1500"
                   >
-                    <img src="assets/img/portfolio/2.png" alt="" />
+                    <img src="assets/img/portfolio/4.png" alt="" />
                     <div className="prof-left"></div>
                   </div>
                   <div
@@ -145,6 +145,32 @@ function Portfolio() {
                       View Item
                       <img src="assets/img/long-arrow-right.svg" alt="" />
                     </a>
+                  </div>
+                </div>
+                <div className="prof-item cg-direction cpy-5">
+                  <div
+                    className="prof-des"
+                    data-aos="fade-right"
+                    data-aos-duration="1500"
+                  >
+                    <h3 className="prof-title">
+                      Content loved by thousands around the world
+                    </h3>
+                    <p className="prof-text">
+                      200k+ views on my design, interaction and animation posts
+                    </p>
+                    <a href="" className="view-shot">
+                      View Item
+                      <img src="assets/img/long-arrow-right.svg" alt="" />
+                    </a>
+                  </div>
+                  <div
+                    className="prof-img prof-right-img"
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                  >
+                    <img src="assets/img/portfolio/3.png" alt="" />
+                    <div className="prof-right"></div>
                   </div>
                 </div>
               </div>
