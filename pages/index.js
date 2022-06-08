@@ -86,19 +86,31 @@ function Home() {
               <div
                 className="col-md-3"
                 data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <div className="service-show-card">
+                  <div className="service-name-img">
+                    <a href="" className="service-name">
+                      # Reliable Platform
+                    </a>
+                    <img src="assets/img/inner/timer.svg" alt="" />
+                  </div>
+                  <p>Most Realiable Developers </p>
+                </div>
+              </div>
+              <div
+                className="col-md-3"
+                data-aos="fade-up"
                 data-aos-duration="1500"
               >
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # FOCUSED ON DELIVERABLES
+                      # Project&apos;s Confidentiality
                     </a>
-                    <img src="assets/img/inner/timer.svg" alt="" />
+                    <img src="assets/img/inner/doller.svg" alt="" />
                   </div>
-                  <p>
-                    Our developers know you need results, which you&apos;ll see
-                    in the first two sprints of the Agile process.
-                  </p>
+                  <p>All of Your Information Is Secure </p>
                 </div>
               </div>
               <div
@@ -109,14 +121,11 @@ function Home() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # COMMUNICATIVE
+                      # Communicative
                     </a>
-                    <img src="assets/img/inner/doller.svg" alt="" />
+                    <img src="assets/img/inner/notice.svg" alt="" />
                   </div>
-                  <p>
-                    Clients say the team feels like their employees, because our
-                    English-speaking developers respect their processes.
-                  </p>
+                  <p>Clients say the team feels like their employees.</p>
                 </div>
               </div>
               <div
@@ -127,32 +136,11 @@ function Home() {
                 <div className="service-show-card">
                   <div className="service-name-img">
                     <a href="" className="service-name">
-                      # DESIGN STRATEGY
-                    </a>
-                    <img src="assets/img/inner/notice.svg" alt="" />
-                  </div>
-                  <p>
-                    We help you formulate a strategy specifically around the
-                    design and vision of your digital artworks and services.
-                  </p>
-                </div>
-              </div>
-              <div
-                className="col-md-3"
-                data-aos="fade-up"
-                data-aos-duration="3000"
-              >
-                <div className="service-show-card">
-                  <div className="service-name-img">
-                    <a href="" className="service-name">
-                      # WELL MANAGED
+                      # 24/7 Support
                     </a>
                     <img src="assets/img/inner/vip.svg" alt="" />
                   </div>
-                  <p>
-                    Our Certified Project Managers have been leading development
-                    for years.
-                  </p>
+                  <p>Our developers are there to support you 24*7</p>
                 </div>
               </div>
             </div>
@@ -502,7 +490,7 @@ function Home() {
         {/* ===================Newsletter section end ================== */}
 
         {/* =====================top project===================== */}
-        <div className="projects cpt-6">
+        <div className="projects cpy-6">
           <div className="section-title">
             <p className="sm-title">best service</p>
             <h2 className="sec-title">Top 5 Projects</h2>
